@@ -19,7 +19,3 @@
   - if backwash isn't thorough (but it should be), will water zoom over the top and back in?
 6. At the speeds we are at will it be apparent where the water is going?
   - DYE!
-
-  ```python
-  area
-  ```
