@@ -1,3 +1,7 @@
+```python
+from aide_design.play import*
+```
+
 ### Timeline Spring  2018
 1.  Sloped Bottom
   - What bottom geometry will be necessary to make sure all the sand fluidize during backwash?
@@ -19,3 +23,15 @@
   - if backwash isn't thorough (but it should be), will water zoom over the top and back in?
 6. At the speeds we are at will it be apparent where the water is going?
   - DYE!
+<<<<<<< HEAD
+=======
+
+```python
+V_filter = 1.8*(u.mm/u.s)
+Q_plant = 1*u.L/u.s
+area_flow = Q_plant/V_filter
+print(area_flow.to(u.m**2))
+side_length = area_flow**(1/2)
+print(side_length.to(u.m))
+S```
+>>>>>>> 3e3058a3e82ff6e1d7251874e1cd70bd498c6b3a
