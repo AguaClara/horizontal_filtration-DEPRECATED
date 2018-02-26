@@ -8,6 +8,7 @@ The team must first calculate the dimensions of the sand filter space which will
 
 Since the backwash velocity (V_backwash) is greater than the filter velocity (V_filter), it is the design constraint. With some math, the area of backwash (A_backwash) and area of flow (A_flow) may be calculated.
 
+
 ```python
 V_filter = 1.8*(u.mm/u.s)
 V_backwash = 9*(u.mm/u.s)  #the constraining velocity
@@ -32,25 +33,60 @@ print(V_filterbox.to(u.gallon))
 
 Based on these calculations, the team needs to order a fish tank that is at least 26 cm tall and can hold a little over 3/4 gallon of volume in addition to the volume necessary for inlet and outlet water for pre and post treatment.
 
+Another aspect of design that the team will need to  determine is the dimensions of the filter shelves that will prevent sand from leaving the filter. Determining these dimensions involves the settling velocity of sand, distance between shelves (S), number of holes, and the forces that will be acting on the shelves during normal operation and during backwash.
+
+A safety factor of 2 will be used for the capture velocity of the sand to further ensure sand will not escape.
+
+Below is the equation for terminal settling velocity where d is diameter, $\nu$ is kinematic viscocity
+$$ Vt = \frac{d^2g}{18\nu}(\frac{\rho_{particle}-\rho_{H2O}}{\rho_{H2O}}) $$
+
+```python
+rho_sand = 1602*u.kg/u.m**3
+rho_water = 1000*u.kg/u.m**3
+nu_water = 1*10**-6 *u.m**2/u.s
+d_sand = .5*u.mm
+
+V_settling=(d_sand**2)*pc.gravity/(18*nu_water)*((rho_sand-rho_water)/rho_water)
+V_settling.to(u.mm/u.s)
+V_capture = V_settling/SF
+angle_settling = 60*u.degrees
+#V_alpha =
+SF = 2 #safety factor
+
+diam_hole = 1*u.inch
+num_holes = 1
+
+flow_max_tank = (V_filter * 18*u.inch *(24/PiFiBw)*u.inch).to(u.l/u.s)
+flow_max_tank
+l_max = flow_max_tank/(V_backwash*18*u.inch)
+
+l_max.to(u.inch)
+###number of holes in the wall!
+#while num_holes < 100:
+
+  #diam_hole = diam_hole- .01*u.inch
+  #area_hole = pc.area_circle(diam_hole)
+  #num_holes = (flow_max_tank/(V_filter*area_hole)).magnitude
+
+#print(diam_hole)
+
+num_holes
+
+
+
+n_holes = 100
+
+#prelim calc for filter length with full box
+
+```
+
+
+
+
 The next challenge for the team is determining the bottom geometry of the filtration box. The geometry is essential for proper backwash of the filter. With an angled bottom, all the sand within the filter should be backwashed, whereas with a flat bottom there could be dead zones of sand on the lower downstream side of the filter.
 
 ```python
 angle_repose_min = 15*u.degree
 angle_repose_max = 30*u.degree
 #starting with the shallowest angle should work? We can also check with our sand
-```
-
-Another aspect of design that the team will need to  determine is the dimensions of the filter shelves that will prevent sand from leaving the filter. Determining these dimensions involves the settling velocity of sand as well as the forces that will be acting on the shelves during normal operation and during backwash. A safety factor of 2 will be used for the capture velocity of the sand to further ensure sand will not escape.
-
-[sand source](http://www3.kau.se/kurstorg/files/t/82F314521618f25B28NvM1BAA55E/TutorialFallingSandgrain.pdf_)
-The capture velocity of the shelves (V<sub>capture</sub>) must be less than or equal to the terminal settling velocity of the average sand particle. According to the source above, this value is .291 m/s.
-
-$$ Vt = \sqrt{\frac{4gd(\rho_{particle}-\rho_{H2O})}{3C_{D}\rho_{H2O}}} $$
-
-```python
-diam_avg =
-V_capture =
-angle_settling = 60*u.degrees
-
-
 ```
