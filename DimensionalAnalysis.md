@@ -79,10 +79,17 @@ V_max_holes
 
 V_alpha=1.8*u.mm/u.second #upflow filter speed!
 S=(1.8*u.inch).to(u.mm) #distance between shelves
-alpha=np.pi/3 #angle of shelves
+alpha=60*u.degrees #angle of shelves
 
 L=(((V_max_holes*S/V_capture)-S)/(np.cos(alpha)*np.sin(alpha)))
 L.to(u.inch)
+
+num_shelves = 20
+V_sand_total = filter_width*filter_length*filter_height+(num_shelves*((L**2)/2)*np.sin(alpha)*np.cos(alpha)*filter_width)
+V_sand_total.to(u.inch**3)
+V_sand_rect = filter_width*filter_length*filter_height
+V_sand_rect.to(u.inch**3)
+
 ```
 
 
