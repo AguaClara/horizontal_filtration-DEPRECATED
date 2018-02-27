@@ -12,7 +12,7 @@ Since the backwash velocity (V_backwash) is greater than the filter velocity (V_
 ```python
 V_filter = 1.8*(u.mm/u.s)
 V_backwash = 9*(u.mm/u.s)  #the constraining velocity
-Q_plant = .1*(u.L/u.s)  #the scale we are working with for our first iteration of the filter
+Q_plant = .37*(u.L/u.s)  #the scale we are working with for our first iteration of the filter, manipulated to achieve desired width
 A_backwash = Q_plant/V_backwash #plan view area of sand (x,y axis)
 A_flow = Q_plant/V_filter  #cross sectional area of sand (x,z axis)
 ```
@@ -22,16 +22,15 @@ The team decides that with the scale model in mind, 4 cm of sand in the flow dir
 
 ```python
 PiFiBw = 1.3
-filter_length = 4*u.cm  #pre-determined
+filter_length = 3.65*u.inch  #manipulated to achieve desired height
 filter_width = A_backwash/filter_length #the filter width is the width for BOTH areas
 filter_height = A_flow/filter_width #height of sand
 box_height = filter_height*PiFiBw #the height the expanded sand bed
-V_filterbox = filter_width*filter_length*box_height
-print('The height of the tank should be at least',box_height,'with a cross-sectional width of',filter_width.to(u.cm),'.')
-print(V_filterbox.to(u.gallon))
+#the box we ordered is 18 inch by 18 inch by 24 inch with wall thickness of 0.25 inches
+print(box_height.to(u.inch)) #must be 0.25 less than actual because of thickness of the box floor ordered
+print(filter_width.to(u.inch)) #must be 0.25*2 less than actual because of thickness of walls on either side
+print('The height of the tank should be at least',box_height.to(u.inch),'with a cross-sectional width of',filter_width.to(u.inch),'(thicknesses omitted).')
 ```
-
-Based on these calculations, the team needs to order a fish tank that is at least 26 cm tall and can hold a little over 3/4 gallon of volume in addition to the volume necessary for inlet and outlet water for pre and post treatment.
 
 Another aspect of design that the team will need to  determine is the dimensions of the filter shelves that will prevent sand from leaving the filter. Determining these dimensions involves the settling velocity of sand, distance between shelves (S), number of holes, and the forces that will be acting on the shelves during normal operation and during backwash.
 
@@ -57,9 +56,6 @@ V_capture.to(u.mm/u.s)
 diam_hole = 1*u.inch
 num_holes = 1
 
-flow_max_tank = (V_filter * 18*u.inch *(24/PiFiBw)*u.inch).to(u.l/u.s)
-flow_max_tank
-l_max = flow_max_tank/(V_backwash*18*u.inch)
 
 l_max.to(u.inch)
 ###number of holes in the wall!
@@ -70,10 +66,14 @@ l_max.to(u.inch)
   #num_holes = (flow_max_tank/(V_filter*area_hole)).magnitude
 
 #print(diam_hole)
-a_holes = 3166*u.mm**2
-V_max_holes = (flow_max_tank/a_holes).to(u.mm/u.s)
 
+a_hole = pc.area_circle(.25*u.inch)
 n_holes = 100
+a_holes = a_hole*n_holes
+V_max_holes = (Q_plant/a_holes).to(u.mm/u.s)
+V_max_holes
+
+
 
 #prelim calc for filter length with full box
 
