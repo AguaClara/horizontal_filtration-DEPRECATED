@@ -45,13 +45,14 @@ rho_sand = 1602*u.kg/u.m**3
 rho_water = 1000*u.kg/u.m**3
 nu_water = 1*10**-6 *u.m**2/u.s
 d_sand = .5*u.mm
+SF = 2 #safety factor
 
 V_settling=(d_sand**2)*pc.gravity/(18*nu_water)*((rho_sand-rho_water)/rho_water)
 V_settling.to(u.mm/u.s)
 V_capture = V_settling/SF
 angle_settling = 60*u.degrees
-#V_alpha =
-SF = 2 #safety factor
+V_capture.to(u.mm/u.s)
+
 
 diam_hole = 1*u.inch
 num_holes = 1
@@ -69,15 +70,19 @@ l_max.to(u.inch)
   #num_holes = (flow_max_tank/(V_filter*area_hole)).magnitude
 
 #print(diam_hole)
-
-num_holes
-
-
+a_holes = 3166*u.mm**2
+V_max_holes = (flow_max_tank/a_holes).to(u.mm/u.s)
 
 n_holes = 100
 
 #prelim calc for filter length with full box
 
+V_alpha=1.8*u.mm/u.second #upflow filter speed!
+S=(1.8*u.inch).to(u.mm) #distance between shelves
+alpha=np.pi/3 #angle of shelves
+
+L=(((V_max_holes*S/V_capture)-S)/(np.cos(alpha)*np.sin(alpha)))
+L.to(u.inch)
 ```
 
 
@@ -89,4 +94,6 @@ The next challenge for the team is determining the bottom geometry of the filtra
 angle_repose_min = 15*u.degree
 angle_repose_max = 30*u.degree
 #starting with the shallowest angle should work? We can also check with our sand
+
+
 ```
