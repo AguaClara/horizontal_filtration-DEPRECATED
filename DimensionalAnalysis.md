@@ -30,7 +30,7 @@ box_height = filter_height*PiFiBw #the height the expanded sand bed
 print(box_height.to(u.inch)) #must be 0.25 less than actual because of thickness of the box floor ordered
 print(filter_width.to(u.inch)) #must be 0.25*2 less than actual because of thickness of walls on either side
 print('The height of the tank should be at least',box_height.to(u.inch),'with a cross-sectional width of',filter_width.to(u.inch),'(thicknesses omitted).')
->>> height is 23.73, criss sectional witdh at least 4.71
+>>> height is 23.72 inches, cross sectional width of 17.46 inches
 ```
 
 Another aspect of design that the team will need to  determine is the dimensions of the filter shelves that will prevent sand from leaving the filter. Determining these dimensions involves the settling velocity of sand, distance between shelves (S), number of holes, and the forces that will be acting on the shelves during normal operation and during backwash.
@@ -74,7 +74,7 @@ n_holes = 100
 a_holes = a_hole*n_holes
 V_max_holes = (Q_plant/a_holes).to(u.mm/u.s)
 V_max_holes
->>> 31.6 mm/s
+>>> 116.83269 mm/s
 
 
 #prelim calc for filter length with full box
@@ -85,16 +85,16 @@ alpha=60*u.degrees #angle of shelves
 
 L=(((V_max_holes*S/V_capture)-S)/(np.cos(alpha)*np.sin(alpha)))
 L.to(u.inch)
->>> -.95 inch
+>>> 7.6893 inch
 #a negativ length makes no sense
 
 num_shelves = 20
 V_sand_total = filter_width*filter_length*filter_height+(num_shelves*((L**2)/2)*np.sin(alpha)*np.cos(alpha)*filter_width)
 V_sand_total.to(u.inch**3)
->>> 3321.43in^3
+>>> 5632.63 in^3
 V_sand_rect = filter_width*filter_length*filter_height
 V_sand_rect.to(u.inch**3)
->>> 314 in^3
+>>> 1162.933 in^3
 
 ```
 
