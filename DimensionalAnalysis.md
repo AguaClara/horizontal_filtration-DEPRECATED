@@ -1,9 +1,9 @@
 ```python
 from aide_design.play import*
 ```
-#Preliminary Calculations
+# Preliminary Calculations
 
-##Filter Dimensions
+## Filter Dimensions
 The team must first calculate the dimensions of the sand filter space which will make up a section of the overall apparatus. To do this, HorFi takes into account the velocity at which water moves through a sand filter and the desired flow rate of the system. Since creating a 1 L/s apparatus would take all semester, the team begins with a scale model at 0.1 L/s.
 
 Since the backwash velocity (V_backwash) is greater than the filter velocity (V_filter), it is the design constraint. With some math, the area of backwash (A_backwash) and area of flow (A_flow) may be calculated.
