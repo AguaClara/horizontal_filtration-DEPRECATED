@@ -30,13 +30,14 @@ box_height = filter_height*PiFiBw #the height the expanded sand bed
 print(box_height.to(u.inch)) #must be 0.25 less than actual because of thickness of the box floor ordered
 print(filter_width.to(u.inch)) #must be 0.25*2 less than actual because of thickness of walls on either side
 print('The height of the tank should be at least',box_height.to(u.inch),'with a cross-sectional width of',filter_width.to(u.inch),'(thicknesses omitted).')
+>>> height is 23.73, criss sectional witdh at least 4.71
 ```
 
 Another aspect of design that the team will need to  determine is the dimensions of the filter shelves that will prevent sand from leaving the filter. Determining these dimensions involves the settling velocity of sand, distance between shelves (S), number of holes, and the forces that will be acting on the shelves during normal operation and during backwash.
 
 A safety factor of 2 will be used for the capture velocity of the sand to further ensure sand will not escape.
 
-Below is the equation for terminal settling velocity where d is diameter, $\nu$ is kinematic viscocity
+Below is the equation for terminal settling velocity where d is diameter, $\nu$ is kinematic viscosity
 $$ Vt = \frac{d^2g}{18\nu}(\frac{\rho_{particle}-\rho_{H2O}}{\rho_{H2O}}) $$
 
 ```python
@@ -45,20 +46,20 @@ rho_water = 1000*u.kg/u.m**3
 nu_water = 1*10**-6 *u.m**2/u.s
 d_sand = .5*u.mm
 SF = 2 #safety factor
+angle_settling = 60*u.degrees
 
 V_settling=(d_sand**2)*pc.gravity/(18*nu_water)*((rho_sand-rho_water)/rho_water)
 V_settling.to(u.mm/u.s)
+>>>82 mm/s
 V_capture = V_settling/SF
-angle_settling = 60*u.degrees
 V_capture.to(u.mm/u.s)
-
+>>>41 mm/s
 
 diam_hole = 1*u.inch
 num_holes = 1
 
 
-l_max.to(u.inch)
-###number of holes in the wall!
+###number of holes in the wall! what saize based on how many seems reasonable
 #while num_holes < 100:
 
   #diam_hole = diam_hole- .01*u.inch
@@ -67,12 +68,13 @@ l_max.to(u.inch)
 
 #print(diam_hole)
 
+#Let's say we have 100 .25" holes, 10x10 so spacing is 1.8"
 a_hole = pc.area_circle(.25*u.inch)
 n_holes = 100
 a_holes = a_hole*n_holes
 V_max_holes = (Q_plant/a_holes).to(u.mm/u.s)
 V_max_holes
-
+>>> 31.6 mm/s
 
 
 #prelim calc for filter length with full box
@@ -83,12 +85,16 @@ alpha=60*u.degrees #angle of shelves
 
 L=(((V_max_holes*S/V_capture)-S)/(np.cos(alpha)*np.sin(alpha)))
 L.to(u.inch)
+>>> -.95 inch
+#a negativ length makes no sense
 
 num_shelves = 20
 V_sand_total = filter_width*filter_length*filter_height+(num_shelves*((L**2)/2)*np.sin(alpha)*np.cos(alpha)*filter_width)
 V_sand_total.to(u.inch**3)
+>>> 3321.43in^3
 V_sand_rect = filter_width*filter_length*filter_height
 V_sand_rect.to(u.inch**3)
+>>> 314 in^3
 
 ```
 
