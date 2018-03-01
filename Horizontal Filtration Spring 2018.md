@@ -13,7 +13,9 @@ The concept of an easy to implement, versatile water treatment plant correlates 
 
 With this idea in mind, one of the most difficult features to construct in an efficient, mass-producible way is the filter. Currently, the plantita’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and unfriendly to ship in addition to its complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
 
-To combat these difficulties, a horizontal filter design has been proposed. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. These design innovations will simplify the current design and facilitate scaleup and mass production of AguaClara technologies.
+To combat these difficulties, a horizontal filter design has been proposed. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent.
+
+The goal is that these design innovations will simplify the current design and facilitate scaleup and mass production of AguaClara technologies.
 
 
 
@@ -23,7 +25,10 @@ Plan:
 
 1) Previous work with horizontal systems are roughing filters
       - Particle Removal by Horizontal-Flow Roughing filtration
-        - Wegelin et. al.
+
+        <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Horizontal%20roughing%20filter.gif?raw=true">
+
+        -[(Wegelin et. al. 1987)](https://www.researchgate.net/publication/279891070_Particle_Removal_by_Horizontal-Flow_Roughing_Filtration)
 2) Uses filter shelves for sand sedimentation from sedimentation subteam concept
 3) Backwash system used previously for filtration systems like STARS
 
@@ -32,6 +37,14 @@ Discuss what is already known about your research area based on both external wo
 
 
 ## Methods
+
+Plan:
+
+1) incorporate our dimensional analysis file in some way
+2) can't really do much here until we start doing fabrication
+
+
+
 Explain the techniques you have used to acquire additional data and insights. Reserve fine detail for the Manual at the end of the report, but use this section to give an overview with enough detail for the reader to understand your Results and Analysis. Describe your apparatus, and have a justification for every decision you made and every parameter you chose in the design of the apparatus. Be especially careful to detail the conditions your experiments were conducted under, as this information is especially important for interpreting your results
 
 Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
