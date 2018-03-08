@@ -13,7 +13,7 @@ The concept of an easy to implement, versatile water treatment plant correlates 
 
 With this idea in mind, one of the most difficult features to construct in an efficient, mass-producible way is the filter. Currently, the plantita’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and unfriendly to ship in addition to its complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
 
-To combat these difficulties, a horizontal filter design has been proposed. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent.
+To combat these difficulties, a horizontal filter design has been proposed. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. This technology might then also  be adapted to replace the slotted pipes in the current Stack Rapid Sand Filters in the full-sized plants.
 
 The goal is that these design innovations will simplify the current design and facilitate scaleup and mass production of AguaClara technologies.
 
@@ -42,6 +42,24 @@ Plan:
 
 1) incorporate our dimensional analysis file in some way
 2) can't really do much here until we start doing fabrication
+
+
+To estimate the length of the filter shelves, several experiments were run.
+  -Using an angle of 45 degrees (because most efficient use of space)
+  1. 1" and .25"
+    a. with 1" vertical tube and .25" outlet tube, dry sand was poured into the top of the apparatus, so that it lined up with the bottom edge of the outlet hole.
+    b. An additional 500g of sand were poured in increments of 100g, this corresponded with an additional height of about 2 ft. At no point did dry sand enter into the outlet tube
+    c. water slowly added into original amount of sand plus and additional ~150g, during this process water carried sand into the first inch of the outlet tube.
+    d. pumps checked for proper flow rate to get proper water velocity in the outlet tube as corresponding to the outlet diameter and speed required for **backwash/operation?** .
+    e. water pumped through the now, very wet sand. Sand was moved 3 inches up the length of the outlet tube. Preferential flow paths were observed as the apparatus was tilted. 
+  2. 1" and .75"
+    a. originally, the plan had been to use 1" and 1" but fabrication of the experimental apparatus was extraordinarily challenging, so the outlet tube dimension was changed to reflect what was possible to construct.
+    b. welded a .75" inched clear PVC tube to a new 1" diameter tube. ...
+    c. add dry sand.
+    d. fill with water.
+    e. pump water though outlet at new relevant speed
+
+
 
 
 

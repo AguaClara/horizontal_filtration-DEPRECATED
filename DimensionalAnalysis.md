@@ -97,9 +97,17 @@ V_sand_rect.to(u.inch**3)
 >>> 1162.933 in^3
 
 ```
+2.52mm/s
+
+```python
+D_tube = .80*u.inch
+Q_floc = .82*u.ml/u.s
+V_floc = Q_floc/((D_tube**2)*np.pi/4)
+V_floc.to(u.mm/u.s)
+Q_floc.to(u.mL/u.min)
 
 
-
+```
 
 The next challenge for the team is determining the bottom geometry of the filtration box. The geometry is essential for proper backwash of the filter. With an angled bottom, all the sand within the filter should be backwashed, whereas with a flat bottom there could be dead zones of sand on the lower downstream side of the filter.
 
