@@ -5,6 +5,8 @@
 ## Abstract
 Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
 
+Horizontal filtration is a completely new innovation for the AguaClara team, arising from a desire to make the 1 L/s plants easier to make and ship by eliminating the Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the sedimentation tanks and current filter design will be used, such as the relationship between backwash and operational speed, as well as the design of the plate settlers. Initial experimentation with the settling of sand during upflow is promising for when construction of the filter prototype begins.
+
 ## Introduction
 
 The plantita (1 L/s plant) is a difficult apparatus to construct and implement. Finding a way to make fabrication, assembly, and installation simpler, as well as downsize components, will greatly decrease the cost and make the technology more accessible for global communities.
@@ -13,28 +15,9 @@ The concept of an easy to implement, versatile water treatment plant correlates 
 
 With this idea in mind, one of the most difficult features to construct in an efficient, mass-producible way is the filter. Currently, the plantita’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and unfriendly to ship in addition to its complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
 
-To combat these difficulties, a horizontal filter design has been proposed. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. This technology might then also  be adapted to replace the slotted pipes in the current Stack Rapid Sand Filters in the full-sized plants.
+To combat these difficulties, a horizontal filter design has been proposed. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. Both current filtration techniques and technologies from the plate settle design in the sedimentation tanks are used in the design of the horizontal filter. This technology might then also  be adapted to replace the slotted pipes in the current Stacked Rapid Sand Filters in the full-sized plants.
 
 The goal is that these design innovations will simplify the current design and facilitate scaleup and mass production of AguaClara technologies.
-
-
-
-
-## Literature Review and Previous Work
-Plan:
-
-1) Previous work with horizontal systems are roughing filters
-      - Particle Removal by Horizontal-Flow Roughing filtration
-
-        <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Horizontal%20roughing%20filter.gif?raw=true">
-
-        -[(Wegelin et. al. 1987)](https://www.researchgate.net/publication/279891070_Particle_Removal_by_Horizontal-Flow_Roughing_Filtration)
-2) Uses filter shelves for sand sedimentation from sedimentation subteam concept
-3) Backwash system used previously for filtration systems like STARS
-
-
-Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
-
 
 ## Methods
 
@@ -51,7 +34,7 @@ To estimate the length of the filter shelves, several experiments were run.
     b. An additional 500g of sand were poured in increments of 100g, this corresponded with an additional height of about 2 ft. At no point did dry sand enter into the outlet tube
     c. water slowly added into original amount of sand plus and additional ~150g, during this process water carried sand into the first inch of the outlet tube.
     d. pumps checked for proper flow rate to get proper water velocity in the outlet tube as corresponding to the outlet diameter and speed required for **backwash/operation?** .
-    e. water pumped through the now, very wet sand. Sand was moved 3 inches up the length of the outlet tube. Preferential flow paths were observed as the apparatus was tilted. 
+    e. water pumped through the now, very wet sand. Sand was moved 3 inches up the length of the outlet tube. Preferential flow paths were observed as the apparatus was tilted.
   2. 1" and .75"
     a. originally, the plan had been to use 1" and 1" but fabrication of the experimental apparatus was extraordinarily challenging, so the outlet tube dimension was changed to reflect what was possible to construct.
     b. welded a .75" inched clear PVC tube to a new 1" diameter tube. ...
@@ -117,8 +100,7 @@ Make sure that you defend your conclusions with facts and results.
 ## Future Work
 Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
-## Bibliography
-Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
+Once the acrylic box for the team comes in, construction of the full filter will begin. This will include construction the filter shelves, sloped bottom, EPDM sealed doors, and the siphon to start backwash.
 
 # Manual
 The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
@@ -126,8 +108,15 @@ The goal of this section is to provide all of the guidance that would be necessa
 ## Fabrication Details
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
 
+-for experiment  with sand settling: welded tubes at angles by cutting angles hole
+
 ## Special Components
 If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+
+-tank
+-EPDM
+-leather punch?
+-EPDM adhesive
 
 ## Experimental Methods
 ### Set-up
