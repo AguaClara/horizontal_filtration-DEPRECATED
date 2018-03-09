@@ -70,6 +70,7 @@ In other words, there should not be two distinct paragraphs, but instead one par
 When describing your results, present your data, using the guidelines below:
 * What happened? What did you find?
 * Show your experimental data in a professional way.
+*
 ```python
 from aide_design.play import*
 x = np.array([1,2,3,4,5])
@@ -146,7 +147,7 @@ Acrylic Box, [Shop Pop Displays](http://www.shoppopdisplays.com/P_PED-ACRYLIC-CL
 |73|23|4|
 |73|11.4|1.1|
 
-From this data is apparent that changing the speed water is being pulled out effects the height of sand in the filter shelf, but changing the overall flow does not, which makes sense as any water not pulled from the outlet just increases the flow through the unregulated outlet. With the proper pump speeds of 73 RPM influent, and 11.4 pulled out the angled outlet, the length the sand travels into the outlet, 1.1", is a small enough distance to make the actual construction feasible. The python code below explains the significance of these values and how they were determined. 
+From this data is apparent that changing the speed water is being pulled out effects the height of sand in the filter shelf, but changing the overall flow does not, which makes sense as any water not pulled from the outlet just increases the flow through the unregulated outlet. With the proper pump speeds of 73 RPM influent, and 11.4 pulled out the angled outlet, the length the sand travels into the outlet, 1.1", is a small enough distance to make the actual construction feasible. The python code below explains the significance of these values and how they were determined.
 
 
 ### Sand Movement in Flat Filter shelves
@@ -158,7 +159,7 @@ This is an upcoming event, which has been included to assist in developing the o
 ## Experimental Checklist
 Another potential section could include a list of things that you need to check before running an experiment.
 
-## Python Code
+## Python Code and Fusion
 
 ### Variables
 
@@ -181,7 +182,7 @@ $u$, $w$: x-velocity, z-velocity components
 # Comment
 ```
 
-## Fusion Drawings
+### Fusion Drawings
 
 The purpose of this filter assembly is for simplicity and easy fabrication. The filter exists within an acrylic box with an inflow and an outflow. The sand column itself exists in the middle with a filter shelf insert that can be added or removed.
 
@@ -220,13 +221,45 @@ With these dimensions calculated, the filter box can then be rendered as seen be
 
 Notice the blue line on the filter box floor. Depending on the sand filter length determined and length needed for the filter shelves, this will be the location for the entrance and exit plates with the filter shelf insert the appropriate width to ensure a snug fit.
 
-![filter_box](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box_plates.JPG)
+![filter_box_plates](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box_plates.JPG)
 
 **Note:** We still need to determine the hole diameter for the entrance and exit plates so for now the Fusion rendition has a solid plate.
 
-Between these plates will be the filter shelf insert, a series of angled shelves that serve to both shelter the holes during routine filtration and also return sand during backwash. Below is a filter shelf unit. T
+Between these plates will be the filter shelf insert, a series of angled shelves that serve to both shelter the holes during routine filtration and also return sand during backwash. Below is the center plate, a component of the filter shelf insert.
+
+![filter_center_plate](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_center_plate.JPG)
+
+The current plan is to have 3 of the plates perpendicularly oriented with respect to the entrance and exit plates to provide support for the long filter shelf pieces. The number of filter shelves to add will be determined by the distance between respective shelves. This will be optimized by investigating how far sand will travel before settling on the plates due to the velocities of this system.
+
+Below is the equation for terminal settling velocity where d is diameter, $\nu$ is kinematic viscosity
+
+$$ Vt = \frac{d^2g}{18\nu}(\frac{\rho_{particle}-\rho_{H2O}}{\rho_{H2O}}) $$
+
+**Note:** we need to change this formula to the appropriate one that incorporates drag
 
 ```python
+SF =2
+rho_sand = 1602*u.kg/u.m**3
+rho_water = 1000*u.kg/u.m**3
+nu_water = 1*10**-6 *u.m**2/u.s
+d_sand = .5*u.mm
+angle_settling = 45*u.degrees
+V_settling=(d_sand**2)*pc.gravity/(18*nu_water)*((rho_sand-rho_water)/rho_water)
+V_settling.to(u.mm/u.s)
+>>>82 mm/s
+V_capture = V_settling/SF
+V_capture.to(u.mm/u.s)
+>>>41 mm/s
+V_alpha=1.8*u.mm/u.second #filter speed!
+alpha=45*u.degrees #angle of shelves
+V_actual = V_alpha/np.cos(alpha)
+S=(1*u.inch).to(u.mm) #distance between shelves
+L=(((V_actual*S/V_capture)-S)/(np.cos(alpha)*np.sin(alpha)))
+L.to(u.inch)
+```
+With this length calculated and confirmed through experimental procedure, the overall insert may be produced.
+
+![filter_shelf_assembly](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_shelf_assembly.JPG)
 
 # To convert the document from markdown to pdf
 pandoc Name_of_this_file.md -o TeamName_Research_Report.pdf
