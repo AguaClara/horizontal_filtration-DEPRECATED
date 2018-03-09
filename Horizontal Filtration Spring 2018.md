@@ -24,24 +24,40 @@ The goal is that these design innovations will simplify the current design and f
 
 As the team is still waiting for materials, as of the first report, much of our work has been calculation, learning Fusion360, and some minor experiments when calculations didn't yield conclusive answers. These experiments focused on determining the length of the filter shelves (the adapted plate settles) which would allow sand to settle before climbing into the outlet and flowing out of the filter. To do this two tests were run.
 
+Two similar apparatuses were constructed to determine the length of the fitler shelves based on how sand settled in angled tubes of different diameters. The first setup included a 1" diameter pipe as the filter body and 1/8" tube and an angled outlet(Figure 1). Sand, then water were poured in to see if sand would travel into the outlet during startup conditions. It did. From there the pumps were turned on to mimic water flow during filtration and backwash. The speed in the filter body was set to be the speed required for backwash, 9mm/s, and the speed in the angled outlet was set to the speed during operation 1.8mm/s as that is the maximum water velocity that should be experienced within the filter shelves. Upon completion of this test, a new apparatus was constructed.
+
+| ![apparatus for testing length of filter shelves](images/small_diameter_outler.jpg) |
+|:--:|
+| *Figure 1. First experimental apparatus with 1" diameter filter and 1/8" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
+
+The original idea for the new apparatus was to have a 1" angled tube stemming from the 1" filter. This proved nearly impossible to fabricate, so as in Figure 2, a 3/4" angled outlet pipe was used instead. In this test, the same steps were taken, dry sand was poured to determine how sand would travel. Then water was added, which caused sand to move several inches up into the outlet tube. However, the level of sand retreated once the pumps were turned on and operating at backwash and operational speeds.
+
+| ![apparatus for testing length of filter shelves](images/one_inch_outlet.jpg) |
+|:--:|
+| *Figure 2. Second experimental apparatus with 1" diameter filter and 3/4" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
+
+
+
 ### 1" diameter "filter" and 1/8" outlet.
   -Using an angle of 45 degrees (because most efficient use of space)
-1. First a mock filter was constructed using a 1" clear PVC pipe; in this pipe an angle hole was drilled at 45 degrees from the vertical around 5 inches from the top of the pipe. Into this hole, a small length of 1/8" tubing cut on one end to an angle of 45 degrees was inserted and glued. 
-    1. with 1" vertical tube and .25" outlet tube, dry sand was poured into the top of the apparatus, so that it lined up with the bottom edge of the outlet hole.
-    2. An additional 500g of sand were poured in increments of 100g, this corresponded with an additional height of about 2 ft. At no point did dry sand enter into the outlet tube
-    3. water slowly added into original amount of sand plus and additional ~150g, during this process water carried sand into the first inch of the outlet tube.
-    4. pumps checked for proper flow rate to get proper water velocity in the outlet tube as corresponding to the outlet diameter and speed required for **backwash/operation?** .
-    5. water pumped through the now, very wet sand. Sand was moved 3 inches up the length of the outlet tube. Preferential flow paths were observed as the apparatus was tilted.
+1. First a mock filter was constructed using a 1" clear PVC pipe; in this pipe an angle hole was drilled at 45 degrees from the vertical around 5 inches from the top of the pipe. Into this hole, a small length of 1/8" tubing cut on one end to an angle of 45 degrees was inserted and glued. See Figure 1 for an image of the apparatus.
+
+
+
+
+2. Dry sand was poured from the top into the apparatus to if dry sand would move up the outlet tube when the sand level was two inches above the angled outlet. It did not.
+3. An additional 500g of sand were poured in increments of 100g, this corresponded with an additional height of about 1.5ft in the 1" pipe. At no point did dry sand enter into the outlet tube.
+4. Water was then slowly added into original amount of sand, during this process water carried sand into the first inch of the outlet tube.
+5. Pumps were checked for proper flow rate to get proper water velocity in the outlet tube as corresponding to the outlet diameter and speed required for backwash and operation speed. The body of the filter was moving at a speed required for backwash and the outlet pull was at the speed required during operation as that should be the maximum velocity experienced in the filter shelves.
+6. water pumped through the now, very wet sand. Sand was moved 3 inches up the length of the outlet tube. Preferential flow paths were observed as the apparatus was tilted.
 ###  1" "filter" and .75" outlet
-    a. originally, the plan had been to use 1" and 1" but fabrication of the experimental apparatus was extraordinarily challenging, so the outlet tube dimension was changed to reflect what was possible to construct.
+1. originally, the plan had been to use 1" and 1" but fabrication of the experimental apparatus was extraordinarily challenging, so the outlet tube dimension was changed to reflect what was possible to construct.
     b. welded a .75" inched clear PVC tube to a new 1" diameter tube. ...
     c. add dry sand.
     d. fill with water.
     e. pump water though outlet at new relevant speed
 
 
-    1) incorporate our dimensional analysis file in some way
-    2) can't really do much here until we start doing fabrication
 
 
 
@@ -108,7 +124,7 @@ The goal of this section is to provide all of the guidance that would be necessa
 ## Fabrication Details
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
 
--for experiment  with sand settling: welded tubes at angles by cutting angles hole
+-for experiment  with sand settling: welded tubes at angles by cutting angled hole
 
 ## Special Components
 If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
@@ -119,32 +135,28 @@ If your subteam uses a particular part that is unique and you could foresee a fu
 -EPDM adhesive
 
 ## Experimental Methods
-### Set-up
+
+### Filter Shelf Length Tests
+#### Set-up
 Step 1.
 * Put tasks in a sequential order.
 * It is okay to have sub-lists.
   - Like this.
 
-### Experiment
+#### Experiment: 1" and 1/8"
+Step 1.
+#### Experiment: 1" and 3/4"
 Step 1.
 
-### Cleaning Procedure
-Step 1.
+
+### Sand Movement in Flat Filter shelves
+
+This is an upcoming event, which has been included to assist in developing the organization structure of this sections.
+#### Set-up
+#### Experiment
 
 ## Experimental Checklist
 Another potential section could include a list of things that you need to check before running an experiment.
-
-## ProCoDA Method File
-Use this section to explain your method file. This could be broken up into several components as shown below:
-
-### States
-Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
-\begin{itemize}
-\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
-\end{itemize}
-
-### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
 
 ## Python Code
 
