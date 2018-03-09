@@ -184,12 +184,11 @@ $u$, $w$: x-velocity, z-velocity components
 
 ### Fusion Drawings
 
-The purpose of this filter assembly is for simplicity and easy fabrication. The filter exists within an acrylic box with an inflow and an outflow. The sand column itself exists in the middle with a filter shelf insert that can be added or removed.
+The purpose of this filter assembly is for simplicity and easy fabrication. The filter exists within an acrylic box with an inflow and an outflow as the empty cavities that don't contain the sand filtering section. The sand column section itself exists in the middle of the filter box with a filter shelf insert that can be added or removed.
 
 The team must first calculate the dimensions of the sand filter space which will make up a section of the overall apparatus. To do this, HorFi takes into account the velocity at which water moves through a sand filter and the desired flow rate of the system. Since creating a 1 L/s apparatus would take all semester, the team begins with a scale model at 0.1 L/s.
 
 Since the backwash velocity (V_backwash) is greater than the filter velocity (V_filter), it is the design constraint. With some math, the area of backwash (A_backwash) and area of flow (A_flow) may be calculated.
-
 
 ```python
 V_filter = 1.8*(u.mm/u.s)
@@ -200,7 +199,7 @@ A_flow = Q_plant/V_filter  #cross sectional area of sand (x,z axis)
 ```
 From here, the team must incorporate some knowledge on the depth in which water travels through a traditional AguaClara OStaRS filter. The filter backwash ratio is the ratio between settled sand height during filtration and expanded sand height during backwash. Because the filter backwash ratio is 1.3 (PiFiBw), which has been empirically determined, the team must determine a settled sand height first.
 
-The team decides that with the scale model in mind, 4 cm of sand in the flow direction (filter_length) is a fair parameter to start with. With this one measurement, and the ratio between filter velocity and backwash velocity, all other parameters fall into place.
+The team decides that with the scale model in mind, 3.65 inches of sand in the flow direction (filter_length) is a fair parameter to start with. With this one measurement, and the ratio between filter velocity and backwash velocity, all other parameters fall into place.
 
 ```python
 PiFiBw = 1.3
@@ -225,7 +224,7 @@ Notice the blue line on the filter box floor. Depending on the sand filter lengt
 
 **Note:** We still need to determine the hole diameter for the entrance and exit plates so for now the Fusion rendition has a solid plate.
 
-Between these plates will be the filter shelf insert, a series of angled shelves that serve to both shelter the holes during routine filtration and also return sand during backwash. Below is the center plate, a component of the filter shelf insert.
+Between these plates will be the filter shelf insert, a series of suspended, angled shelves that serve to both shelter the holes during routine filtration and also return sand during backwash. Below is the center plate, a component of the filter shelf insert.
 
 ![filter_center_plate](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_center_plate.JPG)
 
