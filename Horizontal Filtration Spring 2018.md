@@ -218,7 +218,13 @@ With these dimensions calculated, the filter box can then be rendered as seen be
 
 ![filter_box](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box.JPG)
 
-Notice the blue line on the filter box floor. Depending on the sand filter length determined, this
+Notice the blue line on the filter box floor. Depending on the sand filter length determined and length needed for the filter shelves, this will be the location for the entrance and exit plates with the filter shelf insert the appropriate width to ensure a snug fit.
+
+![filter_box](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box_plates.JPG)
+
+**Note:** We still need to determine the hole diameter for the entrance and exit plates so for now the Fusion rendition has a solid plate.
+
+Between these plates will be the filter shelf insert, a series of angled shelves that serve to both shelter the holes during routine filtration and also return sand during backwash. Below is a filter shelf unit. T
 
 ```python
 
