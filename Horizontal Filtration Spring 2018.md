@@ -179,12 +179,45 @@ $u$, $w$: x-velocity, z-velocity components
 
 ## Fusion Drawings
 
-Chris! you can put stuff here relating to fusion and probably format the code a bit too!
+The purpose of this filter assembly is for simplicity and easy fabrication. The filter exists within an acrylic box with an inflow and an outflow. The sand column itself exists in the middle with a filter shelf insert that can be added or removed.
 
-# Add/Delete/Change this Template as you see Fit
-When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
+The team must first calculate the dimensions of the sand filter space which will make up a section of the overall apparatus. To do this, HorFi takes into account the velocity at which water moves through a sand filter and the desired flow rate of the system. Since creating a 1 L/s apparatus would take all semester, the team begins with a scale model at 0.1 L/s.
+
+Since the backwash velocity (V_backwash) is greater than the filter velocity (V_filter), it is the design constraint. With some math, the area of backwash (A_backwash) and area of flow (A_flow) may be calculated.
+
 
 ```python
+V_filter = 1.8*(u.mm/u.s)
+V_backwash = 9*(u.mm/u.s)  #the constraining velocity
+Q_plant = .37*(u.L/u.s)  #the scale we are working with for our first iteration of the filter, manipulated to achieve desired width
+A_backwash = Q_plant/V_backwash #plan view area of sand (x,y axis)
+A_flow = Q_plant/V_filter  #cross sectional area of sand (x,z axis)
+```
+From here, the team must incorporate some knowledge on the depth in which water travels through a traditional AguaClara OStaRS filter. The filter backwash ratio is the ratio between settled sand height during filtration and expanded sand height during backwash. Because the filter backwash ratio is 1.3 (PiFiBw), which has been empirically determined, the team must determine a settled sand height first.
+
+The team decides that with the scale model in mind, 4 cm of sand in the flow direction (filter_length) is a fair parameter to start with. With this one measurement, and the ratio between filter velocity and backwash velocity, all other parameters fall into place.
+
+```python
+PiFiBw = 1.3
+filter_length = 3.65*u.inch  #manipulated to achieve desired height
+filter_width = A_backwash/filter_length #the filter width is the width for BOTH areas
+filter_height = A_flow/filter_width #height of sand
+box_height = filter_height*PiFiBw #the height the expanded sand bed
+#the box we ordered is 18 inch by 18 inch by 24 inch with wall thickness of 0.25 inches
+print(box_height.to(u.inch)) #must be 0.25 less than actual because of thickness of the box floor ordered
+print(filter_width.to(u.inch)) #must be 0.25*2 less than actual because of thickness of walls on either side
+print('The height of the tank should be at least',box_height.to(u.inch),'with a cross-sectional width of',filter_width.to(u.inch),'(thicknesses omitted).')
+>>> height is 23.72 inches, cross sectional width of 17.46 inches
+```
+
+With these dimensions calculated, the filter box can then be rendered as seen below in Figure X. (don't have figure numbers figured out yet)
+
+![filter_box](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box.JPG)
+
+Notice the blue line on the filter box floor. Depending on the sand filter length determined, this
+
+```python
+
 # To convert the document from markdown to pdf
 pandoc Name_of_this_file.md -o TeamName_Research_Report.pdf
 ```
