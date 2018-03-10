@@ -163,24 +163,35 @@ Another potential section could include a list of things that you need to check 
 
 ### Variables
 
-Corson! You can bring the variables from the dimensional analysis code to here and then copy the code in a way that makes sense to you!
+#####Calculation of Backwash and Flow Area
+- $V_{filter}$=***V_filter***=Velocity of filtration
+- $V_{backwash}$=***V_backwash***=Velocity of water during backwash
+- $Q_{plant}$=***Q_plant***=Water flow through plant
+- $A_{backwash}$=***A_backwash***=Area of backwash
+- $A_{flow}$=***A_flow***=Cross sectional area of sand/area of flow 
 
-$g$: gravity
-$\sigma$: dispersion
-$a$: amplitude
-$h$: water depth
-$H$: distance from wave crest to trough (2$a$)
-$T$: wave period
-$\lambda$: wavelength
-$k$: wavenumber
-$c_p$: celerity (wave phase speed)
-$P$: pressure
-$F$: force
-$u$, $w$: x-velocity, z-velocity components
+#####Calculation of Filter Box Dimensions
+- $\pi_{FiBw}$=***PiFiBw***=Volume increase ratio due to sand bed fluidization
+- $l_{filter}$=***filter_length***=Length of filter
+- $w_{filter}$=***filter_width***=Width of filter
+- $h_{filter}$=***filter_height***=Height of entire filter
+- $h_{box}$=***box_height***=Height of utilized box model
 
-```python
-# Comment
-```
+#####Filter Shelf Optimization
+- $\nu$=Kinematic viscosity
+- $\rho_{sand}$=***rho_sand***=Density of particle
+- $\rho_{water}$=***rho_water***=Density of water
+- $\nu_{water}$=***nu_water***=kinematic viscosity of Water
+- $d_{sand}$=***d_sand***=Diameter of sand particles
+- $SF$=***SF***=Safety factor
+- $\theta_{settling}$=***angle_settling***= Angle of filter shelves
+- $V_{setting}$=***V_settling***=Velocity until the sand settles
+- $V_{capture}$=***V_capture***=Safe estimate of velocity needed to capture the sand
+- $V_{\alpha}$=***V_alpha***=Filter speed
+- $V_{actual}$=***V_actual***=Filter speed after filter shelf
+- $S_{shelf}$=***S***=Distance between filter shelves
+- $\alpha$=***alpha***=angle of shelves
+- $l_{shelf}$=***L***=Length of filter shelf
 
 ### Fusion Drawings
 
