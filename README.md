@@ -12,3 +12,5 @@ Our goals for the semester are to begin design and fabrication of a horizontal f
 [Design Calculations](https://github.com/AguaClara/horizontal_filtration/blob/master/DimensionalAnalysis.md)
 
 [Research Report](https://github.com/AguaClara/horizontal_filtration/blob/master/Horizontal%20Filtration%20Spring%202018.md)
+
+[Symposium Presentation](https://docs.google.com/presentation/d/1B9jeUxj_URgCusryeDDZGmVc9bsAd1W1RHVjx0p9nFQ/edit#slide=id.g34e219705f_0_67)
