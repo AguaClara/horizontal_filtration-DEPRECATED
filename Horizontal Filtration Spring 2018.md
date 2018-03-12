@@ -22,7 +22,7 @@ The goal is that these design innovations will simplify the current design and f
 ## Methods
 
 
-As the team is still waiting for materials as of the first report, much of our work has been calculation, learning Fusion360, and some minor experiments when calculations didn't yield conclusive answers. These experiments focused on determining the length of the filter shelves (the adapted plate settles) which would allow sand to settle before climbing into the outlet and flowing out of the filter. To do this two tests were run.
+As the team is still waiting for materials as of the first report, much of our work has been calculation, learning Fusion360, and some minor experiments when calculations didn't yield conclusive answers. These experiments focused on determining the length of the filter shelves (the adapted plate settlers) which would allow sand to settle before climbing into the outlet and flowing out of the filter. To do this two tests were run.
 
 Two similar apparatuses were constructed to determine the length of the fitler shelves based on how sand settled in angled tubes of different diameters. The first setup included a 1" diameter pipe as the filter body and 1/8" tube as an angled outlet(Figure 1) Forty-five degrees was chosen as the angle to allow the most sand to fall while not changing the flow too much. Sand, then water were poured in to see if sand would travel into the outlet during startup conditions. It did. From there the pumps were turned on to mimic water flow during filtration and backwash. The speed in the filter body was set to be the speed required for backwash, 9mm/s, and the speed in the angled outlet was set to the speed during operation 1.8mm/s as that is the maximum water velocity that should be experienced within the filter shelves. Upon completion of this test, a new apparatus was constructed.
 
@@ -168,7 +168,7 @@ Another potential section could include a list of things that you need to check 
 - $V_{backwash}$=***V_backwash***=Velocity of water during backwash
 - $Q_{plant}$=***Q_plant***=Water flow through plant
 - $A_{backwash}$=***A_backwash***=Area of backwash
-- $A_{flow}$=***A_flow***=Cross sectional area of sand/area of flow 
+- $A_{flow}$=***A_flow***=Cross sectional area of sand/area of flow
 
 #####Calculation of Filter Box Dimensions
 - $\pi_{FiBw}$=***PiFiBw***=Volume increase ratio due to sand bed fluidization
