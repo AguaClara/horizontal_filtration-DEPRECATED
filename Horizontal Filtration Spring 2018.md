@@ -22,7 +22,7 @@ The goal is that these design innovations will simplify the current design and f
 ## Methods
 
 
-As the team is still waiting for materials as of the first report, much of our work has been calculation, learning Fusion360, and some minor experiments when calculations didn't yield conclusive answers. These experiments focused on determining the length of the filter shelves (the adapted plate settlers) which would allow sand to settle before climbing into the outlet and flowing out of the filter. To do this two tests were run.
+As the team is still waiting for materials as of the first report, much of our work has been calculation, learning Fusion360, and some minor experiments when calculations didn't yield conclusive answers. These experiments focused on determining the length of the filter shelves (the adapted plate settles) which would allow sand to settle before climbing into the outlet and flowing out of the filter. To do this two tests were run.
 
 Two similar apparatuses were constructed to determine the length of the fitler shelves based on how sand settled in angled tubes of different diameters. The first setup included a 1" diameter pipe as the filter body and 1/8" tube as an angled outlet(Figure 1) Forty-five degrees was chosen as the angle to allow the most sand to fall while not changing the flow too much. Sand, then water were poured in to see if sand would travel into the outlet during startup conditions. It did. From there the pumps were turned on to mimic water flow during filtration and backwash. The speed in the filter body was set to be the speed required for backwash, 9mm/s, and the speed in the angled outlet was set to the speed during operation 1.8mm/s as that is the maximum water velocity that should be experienced within the filter shelves. Upon completion of this test, a new apparatus was constructed.
 
@@ -159,7 +159,6 @@ This is an upcoming event, which has been included to assist in developing the o
 ## Experimental Checklist
 Another potential section could include a list of things that you need to check before running an experiment.
 
-## Python Code and Fusion
 
 ### Variables
 
@@ -193,7 +192,7 @@ Another potential section could include a list of things that you need to check 
 - $\alpha$=***alpha***=angle of shelves
 - $l_{shelf}$=***L***=Length of filter shelf
 
-### Fusion Drawings
+## Python Code, Fusion, and Calculations
 
 The purpose of this filter assembly is for simplicity and easy fabrication. The filter exists within an acrylic box with an inflow and an outflow as the empty cavities that don't contain the sand filtering section. The sand column section itself exists in the middle of the filter box with a filter shelf insert that can be added or removed.
 
@@ -207,6 +206,7 @@ V_backwash = 9*(u.mm/u.s)  #the constraining velocity
 Q_plant = .37*(u.L/u.s)  #the scale we are working with for our first iteration of the filter, manipulated to achieve desired width
 A_backwash = Q_plant/V_backwash #plan view area of sand (x,y axis)
 A_flow = Q_plant/V_filter  #cross sectional area of sand (x,z axis)
+
 ```
 From here, the team must incorporate some knowledge on the depth in which water travels through a traditional AguaClara OStaRS filter. The filter backwash ratio is the ratio between settled sand height during filtration and expanded sand height during backwash. Because the filter backwash ratio is 1.3 (PiFiBw), which has been empirically determined, the team must determine a settled sand height first.
 
@@ -216,7 +216,8 @@ The team decides that with the scale model in mind, 3.65 inches of sand in the f
 PiFiBw = 1.3
 filter_length = 3.65*u.inch  #manipulated to achieve desired height
 filter_width = A_backwash/filter_length #the filter width is the width for BOTH areas
-filter_height = A_flow/filter_width #height of sand
+filter_height = A_flow/filter_width
+filter_height #height of sand
 box_height = filter_height*PiFiBw #the height the expanded sand bed
 #the box we ordered is 18 inch by 18 inch by 24 inch with wall thickness of 0.25 inches
 print(box_height.to(u.inch)) #must be 0.25 less than actual because of thickness of the box floor ordered
@@ -248,26 +249,45 @@ $$ Vt = \frac{d^2g}{18\nu}(\frac{\rho_{particle}-\rho_{H2O}}{\rho_{H2O}}) $$
 **Note:** we need to change this formula to the appropriate one that incorporates drag
 
 ```python
-SF =2
-rho_sand = 1602*u.kg/u.m**3
-rho_water = 1000*u.kg/u.m**3
-nu_water = 1*10**-6 *u.m**2/u.s
-d_sand = .5*u.mm
-angle_settling = 45*u.degrees
-V_settling=(d_sand**2)*pc.gravity/(18*nu_water)*((rho_sand-rho_water)/rho_water)
-V_settling.to(u.mm/u.s)
->>>82 mm/s
-V_capture = V_settling/SF
-V_capture.to(u.mm/u.s)
->>>41 mm/s
+SF =2 #safety factor
+
+rho_sand = 1602*u.kg/u.m**3 #density of sand
+rho_water = 1000*u.kg/u.m**3 #density of water at 20 C
+nu_water = (pc.viscosity_kinematic(293*u.K)) #kinematic viscosity of water at 20 C
+d_sand = 0.5*u.mm #diameter of sand particle
+alpha = 45*u.degrees #angle of filter shelves
 V_alpha=1.8*u.mm/u.second #filter speed!
-alpha=45*u.degrees #angle of shelves
-V_actual = V_alpha/np.cos(alpha)
-S=(1*u.inch).to(u.mm) #distance between shelves
-L=(((V_actual*S/V_capture)-S)/(np.cos(alpha)*np.sin(alpha)))
-L.to(u.inch)
+V_actual = V_alpha/np.cos(alpha) #speed within the angled shelf
+S=(1*u.inch).to(u.mm) #distance between shelves (above or below)
+
+V_settling1=((d_sand**2)*pc.gravity/(18*nu_water))*((rho_sand-rho_water)/rho_water)
+V_settling1.to(u.mm/u.s)  #settling velocity without drag and turbulence
+>>>82 mm/s
+V_capture1 = V_settling1/SF #Capture velocity with safety factor incorporated
+V_capture1.to(u.mm/u.s) #initial capture velocity
+>>>41 mm/s
+
+Re = (V_backwash)*(1*u.inch)/(nu_water)
+Re.magnitude #Reynold's number for drag coefficient calc
+Cd = 0.2 #drag coefficient corresponding with ~10^7
+V_settling2 = np.sqrt(((4*pc.gravity*d_sand)/(3*Cd))*((rho_sand-rho_water)/rho_water))
+V_settling2.to(u.mm/u.s)
+>>> 140 mm/s #this velocity uses the drag coefficient based of the Reynolds number
+V_capture2 = V_settling/2
+>>> 70 mm/s #alternative capture velocity
+
+L1=((V_actual*S/V_capture1-S)/(np.cos(alpha)*np.sin(alpha)))
+L2 = (S/np.cos(alpha))*((V_actual/V_capture2)-(1/np.sin(alpha)))
+L1.to(u.inch)
+L2.to(u.inch)
 ```
 With this length calculated and confirmed through experimental procedure, the overall insert may be produced.
+
+```python
+exp_length = 1.1*u.inch
+height_opening = np.sin(alpha)/.75
+
+```
 
 ![filter_shelf_assembly](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_shelf_assembly.JPG)
 
