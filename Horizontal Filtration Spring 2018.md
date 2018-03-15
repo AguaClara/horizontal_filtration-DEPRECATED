@@ -314,7 +314,7 @@ rho_sand = 1602*u.kg/u.m**3 #density of sand
 rho_water = 1000*u.kg/u.m**3 #density of water at 20 C
 nu_water = (pc.viscosity_kinematic(293*u.K)) #kinematic viscosity of water at 20 C
 d_sand = 0.5*u.mm #diameter of sand particle
-alpha = 45*u.degrees #angle of filter shelves
+alpha = 60*u.degrees #angle of filter shelves
 V_alpha=1.8*u.mm/u.second #filter speed!
 V_actual = V_alpha/np.cos(alpha) #speed within the angled shelf
 S=(1*u.inch).to(u.mm) #distance between shelves (above or below)
@@ -343,20 +343,30 @@ L2.to(u.inch)
 These lengths make the team believe that the length of the filter shelf is arbitrary. This seemed to correlate with the experiments as well.
 
 ```python
-#we decided that the diameter of a hole should be 0.25 inches and we worked from there. Space_sandlift was guessed
+#we decided that the diameter of a hole should be 0.25 inches and we worked from there. space_sandlift was a guessed value of a safety for how high the sand would climb in between adjacent plate shelves
 space_shelf = 0.25*filter_length
 diam_holes = 0.25*u.inch
+
+#how many holes will we need?
+num_holes = filter_height.to(u.cm)/space_shelf.to(u.cm)
+>>> num_holes = 20
+
+#what is the headloss? (due to wall in middle of insert, there will be twice as many holes)
+pi_orifice = 0.62
+headloss_hole= pc.head_orifice(diam_holes,pi_orifice,Q_plant/(2*num_holes))
+>>>headloss_hole = 1.13 cm
+
+#length of plate and therefore length of insert?
 thickness_shelf = 0.125*u.inch
 space_sandlift = 1*u.cm
 space_above_hole = space_shelf-diam_holes-thickness_shelf-space_sandlift
-space_above_hole.to(u.cm)
 >>> space_above_hole = .36525 cm #space above hole
 L = (diam_holes+thickness_shelf+space_sandlift+space_above_hole)/(np.sin(alpha))
->>> L = 3.2778 cm #length of filter shelf
+>>> L = 2.6763 cm #length of filter shelf
 L_horizontal = L*np.cos(alpha)
+>>> L_horizontal = 1.338 cm
 insert_length = 2*L_horizontal+filter_length
-insert_length.to(u.cm)
->>> length_insert = 13.9065 cm
+>>> length_insert = 11.9473 cm
 ```
 With this length calculated and confirmed through experimental procedure, the overall insert may be produced.
 
