@@ -332,13 +332,31 @@ Cd = 0.2 #drag coefficient corresponding with ~10^7
 V_settling2 = np.sqrt(((4*pc.gravity*d_sand)/(3*Cd))*((rho_sand-rho_water)/rho_water))
 V_settling2.to(u.mm/u.s)
 >>> 140 mm/s #this velocity uses the drag coefficient based of the Reynolds number
-V_capture2 = V_settling/2
+V_capture2 = V_settling2/2
 >>> 70 mm/s #alternative capture velocity
 
 L1=((V_actual*S/V_capture1-S)/(np.cos(alpha)*np.sin(alpha)))
 L2 = (S/np.cos(alpha))*((V_actual/V_capture2)-(1/np.sin(alpha)))
 L1.to(u.inch)
 L2.to(u.inch)
+```
+These lengths make the team believe that the length of the filter shelf is arbitrary. This seemed to correlate with the experiments as well.
+
+```python
+#we decided that the diameter of a hole should be 0.25 inches and we worked from there. Space_sandlift was guessed
+space_shelf = 0.25*filter_length
+diam_holes = 0.25*u.inch
+thickness_shelf = 0.125*u.inch
+space_sandlift = 1*u.cm
+space_above_hole = space_shelf-diam_holes-thickness_shelf-space_sandlift
+space_above_hole.to(u.cm)
+>>> space_above_hole = .36525 cm #space above hole
+L = (diam_holes+thickness_shelf+space_sandlift+space_above_hole)/(np.sin(alpha))
+>>> L = 3.2778 cm #length of filter shelf
+L_horizontal = L*np.cos(alpha)
+insert_length = 2*L_horizontal+filter_length
+insert_length.to(u.cm)
+>>> length_insert = 13.9065 cm
 ```
 With this length calculated and confirmed through experimental procedure, the overall insert may be produced.
 
