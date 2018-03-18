@@ -118,3 +118,14 @@ angle_repose_max = 30*u.degree
 
 
 ```
+
+To move forward, one aspect of the design that will  take some practice is getting the gaskets just right. As see in Figure X below, the gasket system is comprised of eight parts: the acrylic sheet, two layers of EPDM rubber, two aluminum angle iron pieces, a conical head machine screw, a lock washer, and a nut.
+
+
+| ![apparatus for the gasket to keep everytihng water tight](images/gasket.jpg) |
+|:--:|
+| *Figure X: Schematic of gasket design.*|
+
+| ![apparatus for testing length of filter shelves](images/small_diameter_outler.jpg) |
+|:--:|
+| *Figure 1. First experimental apparatus with 1" diameter filter and 1/8" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
