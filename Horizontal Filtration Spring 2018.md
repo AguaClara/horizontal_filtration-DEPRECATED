@@ -269,6 +269,7 @@ filter_width = A_backwash/filter_length #the filter width is the width for BOTH 
 filter_height = A_flow/filter_width
 filter_height #height of sand
 box_height = filter_height*PiFiBw #the height the expanded sand bed
+box_height
 #the box we ordered is 18 inch by 18 inch by 24 inch with wall thickness of 0.25 inches
 print(box_height.to(u.inch)) #must be 0.25 less than actual because of thickness of the box floor ordered
 print(filter_width.to(u.inch)) #must be 0.25*2 less than actual because of thickness of walls on either side
@@ -314,7 +315,9 @@ rho_water = 1000*u.kg/u.m**3 #density of water at 20 C
 nu_water = (pc.viscosity_kinematic(293*u.K)) #kinematic viscosity of water at 20 C
 d_sand = 0.5*u.mm #diameter of sand particle
 alpha = 60*u.degrees #angle of filter shelves
-V_alpha=1.8*u.mm/u.second #filter speed!
+V_alpha=1.8*u.mm/u.second
+ #filter speed!
+
 V_actual = V_alpha/np.cos(alpha) #speed within the angled shelf
 S=(1*u.inch).to(u.mm) #distance between shelves (above or below)
 
@@ -360,7 +363,11 @@ thickness_shelf = 0.125*u.inch
 space_sandlift = 1*u.cm
 space_above_hole = space_shelf-diam_holes-thickness_shelf-space_sandlift
 >>> space_above_hole = .36525 cm #space above hole
-L = (diam_holes+thickness_shelf+space_sandlift+space_above_hole)/(np.sin(alpha))
+L_vert = (diam_holes+thickness_shelf+space_sandlift+space_above_hole)
+L_vert.to(u.cm)
+>>>L_vert
+L = L_vert/(np.sin(alpha))
+
 >>> L = 2.6763 cm #length of filter shelf
 L_horizontal = L*np.cos(alpha)
 >>> L_horizontal = 1.338 cm
