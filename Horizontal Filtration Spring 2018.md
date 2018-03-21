@@ -369,10 +369,14 @@ L_vert.to(u.cm)
 L = L_vert/(np.sin(alpha))
 
 >>> L = 2.6763 cm #length of filter shelf
+L_notch = L/2
+>>> L_notch = 1.33815 cm
 L_horizontal = L*np.cos(alpha)
 >>> L_horizontal = 1.338 cm
 insert_length = 2*L_horizontal+filter_length
 >>> length_insert = 11.9473 cm
+#cut the insert width as accurately as possible. Within 0.5% error so we should be good
+>>> Actual length_insert = 12.0015 cm
 ```
 With this length calculated and confirmed through experimental procedure, the overall insert may be produced.
 
