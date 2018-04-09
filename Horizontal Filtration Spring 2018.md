@@ -314,7 +314,7 @@ rho_sand = 1602*u.kg/u.m**3 #density of sand
 rho_water = 1000*u.kg/u.m**3 #density of water at 20 C
 nu_water = (pc.viscosity_kinematic(293*u.K)) #kinematic viscosity of water at 20 C
 d_sand = 0.5*u.mm #diameter of sand particle
-alpha = 60*u.degrees #angle of filter shelves
+alpha = 55*u.degrees #angle of filter shelves
 V_alpha=1.8*u.mm/u.second
  #filter speed!
 
@@ -362,15 +362,17 @@ headloss_hole= pc.head_orifice(diam_holes,pi_orifice,Q_plant/(2*num_holes))
 thickness_shelf = 0.125*u.inch
 space_sandlift = 1*u.cm
 space_above_hole = space_shelf-diam_holes-thickness_shelf-space_sandlift
+space_above_hole.to(u.cm)
 >>> space_above_hole = .36525 cm #space above hole
 L_vert = (diam_holes+thickness_shelf+space_sandlift+space_above_hole)
 L_vert.to(u.cm)
 >>>L_vert
 L = L_vert/(np.sin(alpha))
-
->>> L = 2.6763 cm #length of filter shelf
-L_notch = L/2
->>> L_notch = 1.33815 cm
+L.to(u.cm)
+>>> L = 2.829 cm #length of filter shelf
+L_notch_shelf = L/4
+L_notch_shelf.to(u.cm)
+>>> L_notch_shelf = .707 cm
 L_horizontal = L*np.cos(alpha)
 >>> L_horizontal = 1.338 cm
 insert_length = 2*L_horizontal+filter_length
