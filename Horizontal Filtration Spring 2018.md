@@ -348,6 +348,7 @@ These lengths make the team believe that the length of the filter shelf is arbit
 ```python
 #we decided that the diameter of a hole should be 0.25 inches and we worked from there. space_sandlift was a guessed value of a safety for how high the sand would climb in between adjacent plate shelves
 space_shelf = 0.25*filter_length
+space_shelf
 diam_holes = 0.25*u.inch
 
 #how many holes will we need?
@@ -363,8 +364,9 @@ headloss_hole= pc.head_orifice(diam_holes,pi_orifice,Q_plant/(2*num_holes))
 thickness_shelf = 0.125*u.inch
 space_sandlift = 1*u.cm
 space_above_hole = space_shelf-diam_holes-thickness_shelf-space_sandlift
+space_above_hole.to(u.cm)
 >>> space_above_hole = .36525 cm #space above hole
-L_vert = (diam_holes+thickness_shelf+space_sandlift+space_above_hole)
+L_vert = (diam_holes+thickness_shelf/np.sin(alpha)+space_sandlift+space_above_hole)
 L_vert.to(u.cm)
 >>>L_vert = 2.3177 cm
 L = L_vert/(np.sin(alpha))
