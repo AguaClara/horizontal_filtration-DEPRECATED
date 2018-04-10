@@ -251,6 +251,7 @@ The team must first calculate the dimensions of the sand filter space which will
 Since the backwash velocity (V_backwash) is greater than the filter velocity (V_filter), it is the design constraint. With some math, the area of backwash (A_backwash) and area of flow (A_flow) may be calculated.
 
 ```python
+from aide_design.play import*
 V_filter = 1.8*(u.mm/u.s)
 V_backwash = 9*(u.mm/u.s)  #the constraining velocity
 Q_plant = .37*(u.L/u.s)  #the scale we are working with for our first iteration of the filter, manipulated to achieve desired width
@@ -362,23 +363,24 @@ headloss_hole= pc.head_orifice(diam_holes,pi_orifice,Q_plant/(2*num_holes))
 thickness_shelf = 0.125*u.inch
 space_sandlift = 1*u.cm
 space_above_hole = space_shelf-diam_holes-thickness_shelf-space_sandlift
-space_above_hole.to(u.cm)
 >>> space_above_hole = .36525 cm #space above hole
 L_vert = (diam_holes+thickness_shelf+space_sandlift+space_above_hole)
 L_vert.to(u.cm)
->>>L_vert
+>>>L_vert = 2.3177 cm
 L = L_vert/(np.sin(alpha))
 L.to(u.cm)
->>> L = 2.829 cm #length of filter shelf
-L_notch_shelf = L/4
-L_notch_shelf.to(u.cm)
->>> L_notch_shelf = .707 cm
+>>> L = 2.82945 cm #length of filter shelf
+L_notch = L/4
+L_notch.to(u.cm)
+>>> L_notch = .70736 cm
 L_horizontal = L*np.cos(alpha)
->>> L_horizontal = 1.338 cm
+L_horizontal.to(u.cm)
+>>> L_horizontal = 1.62291 cm
 insert_length = 2*L_horizontal+filter_length
->>> length_insert = 11.9473 cm
+insert_length.to(u.cm)
+>>> length_insert = 12.517 cm
 #cut the insert width as accurately as possible. Within 0.5% error so we should be good
->>> Actual length_insert = 12.0015 cm
+>>> Actual length_insert =
 ```
 With this length calculated and confirmed through experimental procedure, the overall insert may be produced.
 
