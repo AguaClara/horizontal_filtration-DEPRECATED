@@ -359,13 +359,12 @@ num_holes = filter_height.to(u.cm)/space_shelf.to(u.cm)
 pi_orifice = 0.62
 headloss_hole= pc.head_orifice(diam_holes,pi_orifice,Q_plant/(2*num_holes))
 >>>headloss_hole = 1.13 cm
-
 #length of plate and therefore length of insert?
 thickness_shelf = 0.125*u.inch
 space_sandlift = 1*u.cm
-space_above_hole = space_shelf-diam_holes-thickness_shelf-space_sandlift
+space_above_hole = space_shelf-diam_holes-thickness_shelf/np.sin(alpha)-space_sandlift
 space_above_hole.to(u.cm)
->>> space_above_hole = .36525 cm #space above hole
+>>> space_above_hole = .2952 cm #space above hole
 L_vert = (diam_holes+thickness_shelf/np.sin(alpha)+space_sandlift+space_above_hole)
 L_vert.to(u.cm)
 >>>L_vert = 2.3177 cm
