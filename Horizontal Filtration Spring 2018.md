@@ -13,18 +13,18 @@ Horizontal filtration is a completely new innovation for the AguaClara team, ari
 
 The plantita (1 L/s plant) is a difficult apparatus to construct and implement. Finding a way to make fabrication, assembly, and installation simpler, as well as downsize components, will greatly decrease the cost and make the technology more accessible for global communities.
 
-The concept of an easy to implement, versatile water treatment plant correlates nicely with the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429). Essentially, ingenious engineering is found in simplicity and resiliency. Fabricating a plant that transitions from flat into 3D is a innovative area of study that may become more possible with increased exploration.
+The concept of an easy to implement, versatile water treatment plant correlates nicely with the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429). OrigamiWaterLab is the concept of creating a easily producible filtration system, built up from easily transportable flat parts. Similar in concept to the creation of origami. Essentially, ingenious engineering is found in simplicity and resiliency. Fabricating a plant that transitions from flat into 3D is a innovative area of study that may become more possible with increased exploration.
 
 <div class="alert alert-block alert-danger">
-Explain what OrigamiWaterLab is.
+~Explain what OrigamiWaterLab is.
 </div>
 
-With this idea in mind, one of the most difficult features to construct in an efficient, mass-producible way is the filter. Currently, the 1L/s plant’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and cumbersome to ship in addition to having a complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
+With this idea in mind, one of the most difficult features to construct efficiently is the filter, which is both time and labor intensive to create. Currently, the 1L/s plant’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and cumbersome to ship in addition to having a complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
 
 <div class="alert alert-block alert-danger">
 ~Is plantita the technical term?(slang)
 
-Consider different word choice than "mass-producible" and "unfriendly"
+~Consider different word choice than "mass-producible" and "unfriendly"
 </div>
 
 To combat these difficulties, we have proposed a horizontal filter design. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. We will design the ratio of the horizontal flow area to the vertical flow area so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. The designing of the horizontal filter will utilize both current filtration techniques and technologies from the plate settle design in the sedimentation tanks. This developed technology might then also be adapted to replace the slotted pipes in the current Stacked Rapid Sand Filters in the full-sized plants.
@@ -53,7 +53,7 @@ Two similar apparatuses were constructed to determine the length of the fitler s
 |:--:|
 | *Figure 1. First experimental apparatus with 1" diameter filter and 1/8" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
 
-The original idea for the new apparatus was to have a 1" angled tube stemming from the 1" filter. This proved nearly impossible to fabricate, so as in Figure 2, a 3/4" angled outlet pipe was used instead. In this test, the same steps were taken, dry sand was poured to determine how sand would travel. Then water was added, which caused sand to move several inches up into the outlet tube. However, the level of sand retreated once the pumps were turned on and operating at backwash and operational speeds.
+The original idea for the new apparatus was to have a 1" angled tube stemming from the 1" filter. This proved nearly impossible to fabricate, so as in Figure 2, a 3/4" angled outlet pipe was used instead. In this test, the same steps were taken, dry sand was poured to determine how sand would travel. Then water was added, which caused sand to move several inches up into the outlet tube. However, the level of sand retreated once the pumps were turned on and operating at backwash and operational speeds. More elaboration on these filter experiments are below in experimental procedures.
 
 | ![apparatus for testing length of filter shelves](images/one_inch_outlet.jpg) |
 |:--:|
@@ -145,7 +145,7 @@ Acrylic Box: An acrylic container of specifications 18x18x24" bought from [Shop 
 ## Experimental Methods
 
 ### Filter Shelf Length Tests
-
+  These tests were ran in order to test the upflow reach of sand during backwash. A tube was used to simulate the channel sand would go up a filter shelf so we could test our hypothesis of required shelf length to prevent sand from going out of the filter holes. For this experiment, a larger side tube diameter was preferable to better simulate the channel size between filter shelves.
 #### Experiment: 1" and 1/8"
 1. First a mock filter was constructed using a 1" clear PVC pipe; in this pipe an angle hole was drilled at 45 degrees from the vertical around 5 inches from the top of the pipe. Into this hole, a small length of 1/8" tubing cut on one end to an angle of 45 degrees was inserted and glued. See Figure 1 above for an image of the apparatus.
 2. Dry sand was poured from the top into the apparatus to see if dry sand would move up the outlet tube when the sand level was two inches above the angled outlet. It did not.
@@ -169,7 +169,7 @@ Check formatting
 5. The pumps speeds were altered away from what would be useful during operation to develop a sense for what effect that could have on the effectiveness of the filter shelves. Below is a table of the values obtained.
 
 <div class="alert alert-block alert-danger">
-Unclear what the purpose of a bigger angled part is? What is the modeling - this should probably be put higher or maybe a new section of design considerations should be written
+~Unclear what the purpose of a bigger angled part is? What is the modeling - this should probably be put higher or maybe a new section of design considerations should be written
 </div>
 
 #### **Table of  pump speed and sand length in outlet tube**
@@ -184,7 +184,7 @@ Unclear what the purpose of a bigger angled part is? What is the modeling - this
 |73|23|4|
 |73|11.4|1.1|
 
-From this data it is apparent that changing the speed that the water is being pulled out affects the height of sand in the filter shelf, but changing the overall flow does not, which makes sense as any water not pulled from the outlet just increases the flow through the unregulated outlet. With the proper pump speeds of 73 RPM influent, and 11.4 RPM pulled out the angled outlet, the length the sand travels into the outlet, 1.1", is a small enough distance to make the actual construction feasible. The influent and effluent speeds differ due to the actual model having mutiple holes to create outflow but in this one hole model, the amount that would be measured going into the other holes was just left as waste outflow rather than along with the effluent. The python code below explains the significance of these values and how they were determined.
+From this data it is apparent that changing the speed that the water is being pulled out affects the height of sand in the filter shelf, but changing the overall flow does not, which makes sense as any water not pulled from the outlet just increases the flow through the unregulated outlet. With the proper pump speeds of 73 RPM influent, and 11.4 RPM pulled out the angled outlet, the length the sand travels into the outlet, 1.1", is a small enough distance to make the actual construction feasible. The influent and effluent speeds differ due to the actual model having multiple holes to create outflow but in this one hole model, the amount that would be measured going into the other holes was just left as waste outflow rather than along with the effluent. The python code below explains the significance of these values and how they were determined.
 
 <div class="alert alert-block alert-danger">
 ~First sentence/most of the paragraph is not understandable at this time.
@@ -237,6 +237,8 @@ Another potential section could include a list of things that you need to check 
 ## Python Code, Fusion, and Calculations
 
 The purpose of this filter assembly is for simplicity and easy fabrication. The filter exists within an acrylic box with an inflow and an outflow as the empty cavities that don't contain the sand filtering section. The sand column section itself exists in the middle of the filter box with a filter shelf insert that can be added or removed.
+
+![filter_assembly](https://github.com/AguaClara/horizontal_filtration/blob/master/images/filter.jpg?raw=true)
 
 <div class="alert alert-block alert-danger">
 Reference drawing because the description is confusing and hard to imagine
@@ -383,7 +385,7 @@ insert_length.to(u.cm)
 #cut the insert width as accurately as possible. Within 0.5% error so we should be good
 >>> Actual length_insert =
 ```
-With this length calculated and confirmed through experimental procedure, the overall insert may be produced.
+With this length, L, of the filter shelf calculated as 2.829 cm, and confirmed through experimental procedure, the overall insert will be length 12.517 cm and may be produced.
 
 <div class="alert alert-block alert-danger">
 What is this length?
