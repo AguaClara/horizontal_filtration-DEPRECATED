@@ -89,8 +89,12 @@ Stainless Steel Phillips Screw, Washer, Split Lock Washer, Hex Nut- These compon
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
 
 #### - Initial Filter design
-1. Filter plate-Plate was cut to shape using the band saw with the slits cut by making 1/8" holes using the drill press
+1. Filter plate-Plate was cut to shape using the band saw with the slits cut by making 1/8" holes using the drill press. Drilling the holes made it possible to keep a fairly straight cut to the proper depth while avoiding the problem of having two cuts and no way to get the middle out. The location of the holes and the angle of the cut was pre-drawn onto the PVC. In future iterations it is recommended that a stencil be cut out, and then the plates be cut using a CNC Router as following the stencil. This will likely provide more control and uniformity between cuts.
+2. Filter shelf - The filter shelves were cut from a sheet of 1/8" PVC. To cut in the notches into the shelves the same techniques as with the filter plates was used, but varied for the different thickness. First a 1/4" hole was drilled at a predetermined location on the shelf with the drill press, then the notch was cut using the band saw. To get the angled edge of the shelf, a jig was constructed, first by the team and later by Tim Brock, of the machine shop. The jig provided an angled surface to attach the shelf through as it was led through the band saw at an angle. This process required much precision and care. While it works, potential other methods of shelf fabrication should be explored.
+3. Entrance/Exit Plates - At this phase the entrance and exit plates are only fabricated so they fit into the acrylic box. They were cut in the machine shop using the larger bandsaw and sanded so they would sit flush in the box. No holes have been drilled yet.
 
+##### Preliminary Gasket work
+  Some work was starting on designing the gasket system for the filter. Aluminim Angle Iron was cut and drilled, as was EPDM rubber. This process proved unreliable as a fabrication method for several reasons including: inexperience with the materials, incomplete Fusion360 design, and imprecision with the methods, once of which involved freehanding a cut in the EPDM while it was held down by several clamps. More exploration in this area will be done.
 <div class="alert alert-block alert-danger">
 ~Please write this up nicely, but as it is not the major focus, keep it brief.
 </div>
