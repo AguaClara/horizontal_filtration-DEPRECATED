@@ -94,7 +94,7 @@ Include any information related to the fabrication of equipment, experimental ap
 3. Entrance/Exit Plates - At this phase the entrance and exit plates are only fabricated so they fit into the acrylic box. They were cut in the machine shop using the larger bandsaw and sanded so they would sit flush in the box. No holes have been drilled yet.
 
 ##### Preliminary Gasket work
-  Some work was starting on designing the gasket system for the filter. Aluminim Angle Iron was cut and drilled, as was EPDM rubber. This process proved unreliable as a fabrication method for several reasons including: inexperience with the materials, incomplete Fusion360 design, and imprecision with the methods, once of which involved freehanding a cut in the EPDM while it was held down by several clamps. More exploration in this area will be done.
+  Some work was started on designing the gasket system for the filter. Aluminim Angle Iron was cut and drilled, as was EPDM rubber. This process proved unreliable as a fabrication method for several reasons including: inexperience with the materials, incomplete Fusion360 design, and imprecision with the methods, once of which involved freehanding a cut in the EPDM while it was held down by several clamps. More exploration in this area will be done.
 <div class="alert alert-block alert-danger">
 ~Please write this up nicely, but as it is not the major focus, keep it brief.
 </div>
@@ -173,7 +173,7 @@ Between these plates will be the filter shelf insert, a series of suspended, ang
 Add link to the actual fusion drawing so I can check scale in the future.
 </div>
 
-The notches are where the shelves and the bottom plate are placed. The bottom plate serves as a recirculator. During backwash, there is the possibility that dead zones in the far side of the filter will occur. To remedy this, the angled bottom plate provides an upward path for incoming water to ensure all sand is cleaned. Below is a filter shelf followed by the bottom plate.
+The notches are where the shelves and the bottom plate are placed. The bottom plate serves as a recirculator. During backwash, there is the possibility that dead zones in the far side of the filter will occur. To remedy this, the angled bottom plate provides an upward path for incoming water to ensure all sand is cleaned. Below is a filter shelf followed by the bottom plate. The angle was set at a minimum of 15 degrees.
 
 ![filter_shelf](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_shelf.JPG?raw=true)
 
