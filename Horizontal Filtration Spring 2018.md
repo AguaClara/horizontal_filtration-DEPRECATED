@@ -1,4 +1,4 @@
-deterrents# Horizontal Filtration, Spring 2018
+### Horizontal Filtration, Spring 2018
 #### Clare O'Connor, Corson Chao, and Christopher Galantino
 #### 4/20/2018
 
@@ -9,61 +9,85 @@ Please do not delete my comments. On the next submission I will use them to see 
 ## Abstract
 Horizontal filtration is a completely new innovation for the AguaClara team, arising from a desire to make the 1 L/s plants easier to make and ship by eliminating the Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the sedimentation tanks and current filter design will be used, such as the relationship between backwash and operational speed, as well as the design of the plate settlers. Initial experimentation with the settling of sand during upflow is promising for when construction of the filter prototype begins.
 
+<div class="alert alert-block alert-danger">
+Focus on concise writing. Use as few words as possible to get your point across.
+
+Consider explicitly stating that your goals are to design and build a horizontal filter.
+</div>
+
 ## Introduction
 
   The plantita (1 L/s plant) is a difficult apparatus to construct and implement. Finding a way to make fabrication, assembly, and installation simpler, as well as downsize components, will greatly decrease the cost and make the technology more accessible for global communities.
 
   The concept of an easy to implement, versatile water treatment plant correlates nicely with the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429). OrigamiWaterLab is the concept of creating a easily producible filtration system, built up from easily transportable flat parts. Similar in concept to the creation of origami. Essentially, ingenious engineering is found in simplicity and resiliency. Fabricating a plant that transitions from flat into 3D is a innovative area of study that may become more possible with increased exploration. With more work, this concept could become a new direction for AguaClara plants.
 
-<div class="alert alert-block alert-danger">
-~Explain what OrigamiWaterLab is.
-</div>
-
   With this idea in mind, one of the most difficult features to construct efficiently is the filter, which is both time and labor intensive to create. Currently, the 1L/s plant’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and cumbersome to ship in addition to having a complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
 
 <div class="alert alert-block alert-danger">
-~Is plantita the technical term?(slang)
-
-~Consider different word choice than "mass-producible" and "unfriendly"
+great improvement. For next submission focus on continuing to revise for concise and crisp writing.
 </div>
 
   To combat these difficulties, the team has proposed a horizontal filter design. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. This design for the horizontal filter will utilize both current filtration techniques and technologies from the plate settle design in the sedimentation tanks. This developed technology could then be adapted to replace the slotted pipes in the current Stacked Rapid Sand Filters in the full-sized plants.
 
-<div class="alert alert-block alert-danger">
-~Aim for active voice
-
-Good explanation of context and important design considerations
-</div>
-
 The goal is that these design innovations will simplify the current design and facilitate scaleup and mass production of AguaClara technologies.
-
-
 
 ## Apparatus
 
   The follow description describes the first iteration of the horizontal filter. Upon it's construction, the team determined it would not be feasible as a final design due to inconsistencies in the fabrication and instability of the filter shelves. To remedy this, the team designed a full Fusion360 model of the filter assembly, on which the next iteration will be based. In this section the explanation of the apparatus will focus on the challenges with this design, so that in the future those mistakes can be avoided, with the updated Fusion360 plan in the Manual of this report.
+
+<div class="alert alert-block alert-danger">
+Minor spelling/grammar issues
+</div>
+
 * Design
   - As an overview, the horizontal filter consists of 4 main parts: the acrylic box, the entrance/exits plates, filter shelves, and the center plates. In Figure X below, each of those parts are labeled.
   ![fesf]()
   <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/labeled_real_box.PNG?raw=true" >
 
+<div class="alert alert-block alert-danger">
+fesf?
+
+Figure X?
+</div>
+
   -   Acrylic Box: The bow was bought premade from a website (See list of parts below) It has a thickness of 1/4" and it's size is the overarching constraint of the design.
+
+  <div class="alert alert-block alert-danger">
+bow?
+
+No period at the end of a sentence
+  </div>
+
   - Entrance and Exit plates: In the side-view image, the entrance and exit plates are only minimally seen. Though not constructed in reality, a thickness of 1/4" will be sufficient for those walls.
   - Filter Shelves: In the built filter there are 36 filter shelves which act as deterrents from sand exiting the filter, by providing a surface for the sand to settle on to. In the built design they are angles at 60 degrees from the horizontal with an angle cut underneath on the outside edge to help the shelves fit more snugly against the inside walls of the entrance and exit plates. At angles steeper than 60, this additional cut proved impossible to fabricate.  In the updated design the shelf angle was changed to 55 degrees so the additional outside angling would be possible. In addition the space constraint of the shelves changed slightly with the change in angle, so that in total there will be 34 shelves instead of 36. Below is an image of the filter shelves being inserted in to the assembly. Note the acrylic shelves; these will be 1/8" PVC in the next iteration.
 
+  <div class="alert alert-block alert-danger">
+revise for spelling/verb use
+
+center all figures and label them all. Refer to them by their figure #.
+  </div>
+
   <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/inserting_shelves4.jpeg?raw=true" >
 
-  - Center plates: The center plates support the filter shelves. In the built design two center plates are used separating the filter into three sections. In the new model there will be three center plates, one in the center and two  that are one inch from the edge of the box. Using three plates instead of two will prevent the shelves from warping and developing an uneven spacing as seen in the image. In addition, notches will be cut out to allow water to run between the sections in the filter, in the channels under each shelf. This can be seen with more description in the Manual section.  
+  - Center plates: The center plates support the filter shelves. In the built design two center plates are used separating the filter into three sections. In the new model there will be three center plates, one in the center and two  that are one inch from the edge of the box. Using three plates instead of two will prevent the shelves from warping and developing an uneven spacing as seen in the image. In addition, notches will be cut out to allow water to run between the sections in the filter, in the channels under each shelf. This can be seen with more description in the Manual section.
 
 ## Future Work
   Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
   The team is currently working on creating a Fusion360 model of the entire assembly. Each component has been created separately and are currently being put together. After the model has been created and approved, stencils of the design will be fabricated using a CNC machine. The stencils will then be used to create a more accurate PVC model for testing. This scaled PVC model will be tested for flow and filtration. While the stencils for the center plates are being made, siphon design will be worked on as well as gasket configuration.
 
+  <div class="alert alert-block alert-danger">
+  Delete the prompt
+
+  Consider explaining what the siphone and gasket are in the apparatus section.
+  </div>
+
 # Manual
   The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
 
-
+  <div class="alert alert-block alert-danger">
+  Delete te prompt
+  </div>
 
 ## Special Components
 
@@ -82,25 +106,63 @@ CNC Machine: The machine will be used to create stencils to assist in the fabric
 Stainless Steel Phillips Screw, Washer, Split Lock Washer, Hex Nut- These components will be used to fasten the gasket securely to the tank.
 
 <div class="alert alert-block alert-danger">
-~Formatting?
+Include where to get these from?
+
+What is EPDM
+
+Last entry is formatted differently from the rest.
 </div>
 
 ## Fabrication Details
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
 
 #### - Initial Filter design
+
+<div class="alert alert-block alert-danger">
+Remove hyphen from the header.
+</div>
+
 1. Filter plate-Plate was cut to shape using the band saw with the slits cut by making 1/8" holes using the drill press. Drilling the holes made it possible to keep a fairly straight cut to the proper depth while avoiding the problem of having two cuts and no way to get the middle out. The location of the holes and the angle of the cut was pre-drawn onto the PVC. In future iterations it is recommended that a stencil be cut out, and then the plates be cut using a CNC Router as following the stencil. This will likely provide more control and uniformity between cuts.
+
+<div class="alert alert-block alert-danger">
+PHotos for these steps? It is hard for me to picture.
+</div>
+
 2. Filter shelf - The filter shelves were cut from a sheet of 1/8" PVC. To cut in the notches into the shelves the same techniques as with the filter plates was used, but varied for the different thickness. First a 1/4" hole was drilled at a predetermined location on the shelf with the drill press, then the notch was cut using the band saw. To get the angled edge of the shelf, a jig was constructed, first by the team and later by Tim Brock, of the machine shop. The jig provided an angled surface to attach the shelf through as it was led through the band saw at an angle. This process required much precision and care. While it works, potential other methods of shelf fabrication should be explored.
+
+<div class="alert alert-block alert-danger">
+How did you predetermine the location for the 1/4" hole?
+
+Revise the sentence "This process required much precious and care"
+
+Why should other options be explored? What were the problems?
+</div>
+
 3. Entrance/Exit Plates - At this phase the entrance and exit plates are only fabricated so they fit into the acrylic box. They were cut in the machine shop using the larger bandsaw and sanded so they would sit flush in the box. No holes have been drilled yet.
+
+<div class="alert alert-block alert-danger">
+Again - be consistent with formatting
+
+Please use full sentences
+</div>
 
 ##### Preliminary Gasket work
   Some work was started on designing the gasket system for the filter. Aluminim Angle Iron was cut and drilled, as was EPDM rubber. This process proved unreliable as a fabrication method for several reasons including: inexperience with the materials, incomplete Fusion360 design, and imprecision with the methods, once of which involved freehanding a cut in the EPDM while it was held down by several clamps. More exploration in this area will be done.
+
 <div class="alert alert-block alert-danger">
-~Please write this up nicely, but as it is not the major focus, keep it brief.
+Revise for spelling.
+
+Rethink the first sentence, it is a filler.
+
+Remember to mention the gasket in the apparatus section above so that we know what it is used for.
 </div>
 
 
 ## Python Code, Fusion, and Calculations
+
+<div class="alert alert-block alert-danger">
+Consider calling this section Design with python code, fusion as subheaders.
+</div>
 
 The following will be a combination of calculations and [Fusion](https://cornell47.autodesk360.com/g/projects/20180202115885156/data/?tryNew=true) drawings to serve as a guide in how the filter was designed and to provide a visual representation for each measurement.
 
@@ -109,13 +171,21 @@ The purpose of this filter assembly is for simplicity and easy fabrication. The 
 ![filter_assembly](https://github.com/AguaClara/horizontal_filtration/blob/master/images/filter.jpg?raw=true)
 
 <div class="alert alert-block alert-danger">
-Reference drawing because the description is confusing and hard to imagine
+This section really confused me and I still don't fully understand the apparatus? What part is the sand? Can you add labels to the drawing with the major aspects.
+
+Also please label all figures with numbers and captions!
+
+Also thoroughly revise the paragraph description for clarity and understanding.
 </div>
 
 The team must first calculate the dimensions of the sand filter space which will make up a section of the overall apparatus. To do this, HorFi (Horizontal Filtration Team) takes into account the velocity at which water moves through a sand filter and the desired flow rate of the system. Since creating a 1 L/s apparatus would take all semester, the team begins with a scale model at 0.1 L/s.
 
 <div class="alert alert-block alert-danger">
-~Define HorFi
+Change of verb tense.
+
+Be consistent throughout
+
+Also before you referred to yourself as "the team" now you are "HorFi" (Pick one or the other)
 </div>
 
 Since the backwash velocity (V_backwash) is greater than the filter velocity (V_filter), it is the design constraint. With some math, the area of backwash (A_backwash) and area of flow (A_flow) may be calculated.
@@ -130,7 +200,15 @@ A_flow = Q_plant/V_filter  #cross sectional area of sand (x,z axis)
 ```
 From here, the team must incorporate some knowledge on the depth in which water travels through a traditional AguaClara OStaRS filter. The filter backwash ratio is the ratio between settled sand height during filtration and expanded sand height during backwash. Because the filter backwash ratio is 1.3 (PiFiBw), which has been empirically determined, the team must determine a settled sand height first.
 
+<div class="alert alert-block alert-danger">
+I thought you were mostly comparing it to the EStaRS figure. Why the change to OStaRS? (Also I don't think you've defined what the O in OStaRS means)
+</div>
+
 The team decides that with the scale model in mind, 3.65 inches of sand in the flow direction (filter_length) is a fair parameter to start with. With this one measurement, and the ratio between filter velocity and backwash velocity, all other parameters fall into place.
+
+<div class="alert alert-block alert-danger">
+Why is it s fair parameter to start with?
+</div>
 
 ```python
 PiFiBw = 1.3
@@ -153,15 +231,33 @@ With these dimensions calculated, the filter box can then be rendered as seen be
 
 Notice the blue line on the filter box floor. Depending on the sand filter length determined and length needed between filter shelves, this will be the location for the entrance and exit plates with the filter shelf insert the appropriate width to ensure a snug fit.
 
+<div class="alert alert-block alert-danger">
+Technical writing errors.
+
+I'm confused by the blue lines? Will they be placed across the middle one? Inconsistent with later figures.
+</div>
+
 The entrance and exit plates are what separate the inflow and outflow from the body of the sand filter as well as confien the filter shelf assembly. They are perforated to allow the flow of water.
+
+<div class="alert alert-block alert-danger">
+fix "confien"
+
+How big are the perforations?
+</div>
 
 ![entrance_exit_plates](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_entrance_exit_plates.JPG?raw=true)
 
 <div class="alert alert-block alert-danger">
-Unclear what the entrance and exit plates are and how they will insert. It is all the way around like stacked dolls?
+How did you decide how many holes and where to put them?
 </div>
 
 These plates may then be placed within the filter box, as seen below. Depending on the width of the filter insert assembly, the spacing of the plates will be adjusted accordingly.
+
+<div class="alert alert-block alert-danger">
+How does the width of the filter insert assembly affect the spacing of the plates?
+
+What is the filter insert assembly?
+</div>
 
 ![filter_box_plates](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box_plates.JPG)
 
@@ -171,6 +267,8 @@ Between these plates will be the filter shelf insert, a series of suspended, ang
 
 <div class="alert alert-block alert-danger">
 Add link to the actual fusion drawing so I can check scale in the future.
+
+^^Unresolved
 </div>
 
 The notches are where the shelves and the bottom plate are placed. The bottom plate serves as a recirculator. During backwash, there is the possibility that dead zones in the far side of the filter will occur. To remedy this, the angled bottom plate provides an upward path for incoming water to ensure all sand is cleaned. Below is a filter shelf followed by the bottom plate. The angle was set at a minimum of 15 degrees.
@@ -181,9 +279,21 @@ The notches are where the shelves and the bottom plate are placed. The bottom pl
 
 The current plan is to have 3 of the plates perpendicularly oriented with respect to the entrance and exit plates to provide support for the long filter shelf pieces. This following image depicts this concept.
 
+<div class="alert alert-block alert-danger">
+I don't see perpendicular plates?
+
+How would that add to the stability?
+</div>
+
 ![filter_assembly](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Insert_assembly_front_plate_removed.JPG?raw=true)
 
 The number of filter shelves to add is determined by the distance between respective shelves. This will be optimized by investigating how far sand will travel before settling on the plates due to the velocities of this system. This was performed experimentally (see earlier in the report) as well as theoretically below. The team considered both laminar and turbulent settling velocity situations.
+
+<div class="alert alert-block alert-danger">
+It was briefly mentioned in the abstract, but where are the actual results of this section.
+
+Do not refer to anything as "above" or "below". There are many things above and below. Give it a label and refer to that label.
+</div>
 
 Below is the equation for terminal settling velocity where d is diameter, $\nu$ is kinematic viscosity. This is used for laminar flow.
 
@@ -232,6 +342,12 @@ L2.to(u.inch)
 ```
 These lengths make the team believe that the length of the filter shelf is arbitrary due to their negative value. This seemed to correlate with the experiments as well.
 
+<div class="alert alert-block alert-danger">
+Is it physically possible to have negative values? Could there be an error here?
+
+Please more thoroughly explain this reasoning.
+</div>
+
 From here, the team worked to calculate and parametrize the filter shelf insert. The following calculations are the steps used in calculating the filter shelf length. That is, how far into the filter they must protrude.
 
 ```python
@@ -271,7 +387,9 @@ insert_length = 2*L_horizontal+filter_length
 From these calculations and the given constraints, the length of the filter shelves is 2.829 cm and the length of the insert is 12.517 cm. With these values, the overall apparatus could be fabricated in Fusion.
 
 <div class="alert alert-block alert-danger">
-What is this length?
+explain what length of insert is
+
+Is this length perpendicular to the wall or the length of the actually fabricated piece that is then put at an angle?
 </div>
 
 ![filter_shelf_assembly_both_plates](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_assembly1.JPG?raw=true)
@@ -282,13 +400,37 @@ What is this length?
 
 With the main apparatus parametrized and constructed, it is important to revisit an omitted detail. On the filter plate design, some changes needed to be made so filtration can occur evenly and smoothly. Since the filter plates are not evenly distributed in order to provide support to the filter shelves on the far end, a channel system needed to be designed in order for water to freely move along the entrance and exit plates.
 
+<div class="alert alert-block alert-danger">
+reconsider use of "constructed" in the first sentence.
+
+Somewhere along the line I confused filter plates and filter shelves.
+
+Try not to interrupt thoughts with images. As I read this, I am noticing that I am struggling with comprehensive due to the organization of the report. The text is so fragmented.
+</div>
+
 ![Horfi_top_view](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_top_view.JPG?raw=true)
 
 To do this, notches were incorporated below the shelves. The height of the channel was arbitrarily determined to be slightly bigger than the space above a hole (0.295 cm) but also not take up too much space in the filtration region between respective plates (a total of 2.3177 cm). Thus, the team went with 0.5 cm.
 
+<div class="alert alert-block alert-danger">
+Are these channels inside the sandy area?
+
+Is this a top down view?
+</div>
+
 ![Horfi_channel_notches](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Insert_Assembly_channels.JPG?raw=true)
 
-Below is the inner working of this channel with respect to the entrance or exit plate.  
+<div class="alert alert-block alert-danger">
+What is this figure?
+</div>
+
+Below is the inner working of this channel with respect to the entrance or exit plate.
+
+<div class="alert alert-block alert-danger">
+I am confused about the purpose and fabrication of this channel.
+
+Also still confused about where the sand is.
+</div>
 
 ![Horfi_channel_inner_workings](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Insert_Assembly_channels_inner_workings.JPG?raw=true)
 
@@ -341,6 +483,12 @@ Below is the inner working of this channel with respect to the entrance or exit 
 - $l_{horizontal}$=***L_horizontal***=Length of horizontal component of filter shelf
 - $l_{insert}$=***insert_length***=Length of the filter insert to which the filter shelves are connected
 
+<div class="alert alert-block alert-danger">
+Maybe it would be best to separate out all of the python and put it in one section with these variable definitions.
+
+Consider the usability of the current format.
+</div>
+
 ### Stress and Displacement Analysis
 
 In order to see how plausible this design is, a stress test was performed on the acrylic box with the expected hydrostatic forces in mind.
@@ -353,16 +501,19 @@ This stress analysis could then be translated into an approximate displacement o
 
 Since the walls would only flex a max of 2.88 mm, the design is structurally sound.
 
+<div class="alert alert-block alert-danger">
+How did you do this?
+
+Is this another appendix? Appendices should be referred to in the body of the text, not introduce new ideas.
+
+If you have different topics in an appendix, you should label each separate section with "Appendix A: Stress and Displacement Analysis of the Filter Box"
+</div>
+
 ### Experiments
 
 #### Methods
 
 To determine the initial parameters, the team conducted several experiments with the flow of water in relation to the sand. These experiments were done to verify hypotheses when calculations didn't yield conclusive answers. The experiments focused on determining the length of the filter shelves, the adapted plate settlers, which would allow sand to settle before climbing into the outlet and flowing out of the filter. To do this two tests were run.
-
-<div class="alert alert-block alert-danger">
-~Choose first or third person
-~parallel sentence structure in listd
-</div>
 
 Two similar apparatuses were constructed to determine the length of the filter shelves based on how sand settled in angled tubes of different diameters. The first setup included a 1" diameter pipe as the filter body and 1/8" tube as an angled outlet(Figure 1) Forty-five degrees was chosen as the angle to allow the most sand to fall while not changing the flow too much. Sand, then water were poured in to see if sand would travel into the outlet during startup conditions. It did. From there the pumps were turned on to mimic water flow during filtration and backwash. The speed in the filter body was set to be the speed required for backwash, 9mm/s, and the speed in the angled outlet was set to the speed during operation 1.8mm/s as that is the maximum water velocity that should be experienced within the filter shelves. Upon completion of this test, a new apparatus was constructed.
 
@@ -380,6 +531,11 @@ The original idea for the new apparatus was to have a 1" angled tube stemming fr
 
 ### Filter Shelf Length Tests
   These tests were ran in order to test the upflow reach of sand during backwash. A tube was used to simulate the channel sand would go up a filter shelf so the team could test their hypothesis of required shelf length to prevent sand from going out of the filter holes. For this experiment, a larger side tube diameter was preferable to better simulate the channel size between filter shelves.
+
+<div class="alert alert-block alert-danger">
+Fix "These tests were ran"
+</div>
+
 #### Experiment: 1" and 1/8"
 1. First a mock filter was constructed using a 1" clear PVC pipe; in this pipe an angle hole was drilled at 45 degrees from the vertical around 5 inches from the top of the pipe. Into this hole, a small length of 1/8" tubing cut on one end to an angle of 45 degrees was inserted and glued. See Figure 1 above for an image of the apparatus.
 2. Dry sand was poured from the top into the apparatus to see if dry sand would move up the outlet tube when the sand level was two inches above the angled outlet. It did not.
@@ -387,12 +543,6 @@ The original idea for the new apparatus was to have a 1" angled tube stemming fr
 4. Water was then slowly added into original amount of sand, during this process water carried sand into the first inch of the outlet tube.
 5. Pumps were checked for proper flow rate to get proper water velocity in the outlet tube as corresponding to the outlet diameter and speed required for backwash and operation speed. The water within the body of the filter was moving at a speed required for backwash and the outlet pull was at the speed required during operation as that should be the maximum velocity experienced in the filter shelves.
 6.Water was then pumped through the very wet sand. Sand moved around 3 inches up the length of the outlet tube. Preferential flow paths were observed as the apparatus was tilted.
-
-<div class="alert alert-block alert-danger">
-Check formatting
-
-~In Step 5 it says that the body of the filter was moving, which is probably not what you mean to say.
-</div>
 
 #### Experiment: 1" and 3/4"
 
@@ -403,7 +553,7 @@ Check formatting
 5. The pumps speeds were altered away from what would be useful during operation to develop a sense for what effect that could have on the effectiveness of the filter shelves. Below is a table of the values obtained.
 
 <div class="alert alert-block alert-danger">
-~Unclear what the purpose of a bigger angled part is? What is the modeling - this should probably be put higher or maybe a new section of design considerations should be written
+These two procedures seems similar. Can there just be one set of procedures then simple xplanations about the size differences?
 </div>
 
 #### **Table of  pump speed and sand length in outlet tube**
@@ -421,9 +571,7 @@ Check formatting
 From this data it is apparent that changing the speed that the water is being pulled out affects the height of sand in the filter shelf, but changing the overall flow does not, which makes sense as any water not pulled from the outlet just increases the flow through the unregulated outlet. With the proper pump speeds of 73 RPM influent, and 11.4 RPM pulled out the angled outlet, the length the sand travels into the outlet, 1.1", is a small enough distance to make the actual construction feasible. The influent and effluent speeds differ due to the actual model having multiple holes to create outflow but in this one hole model, the amount that would be measured going into the other holes was just left as waste outflow rather than along with the effluent. The python code below explains the significance of these values and how they were determined.
 
 <div class="alert alert-block alert-danger">
-~First sentence/most of the paragraph is not understandable at this time.
-
-Where are your units? Why are the influent and effluent speeds different (is the flow maintained)? Show that equation
+There is no python code below. Run-on sentences.
 </div>
 
 
