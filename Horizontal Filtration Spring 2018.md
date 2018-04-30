@@ -9,10 +9,12 @@ Please do not delete my comments. On the next submission I will use them to see 
 ## Abstract
 Horizontal filtration is a completely new innovation for the AguaClara team, arising from a desire to make the 1 L/s plants easier to make and ship by eliminating the Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the sedimentation tanks and current filter design will be used, such as the relationship between backwash and operational speed, as well as the design of the plate settlers. Initial experimentation with the settling of sand during upflow is promising for when construction of the filter prototype begins.
 
-<div class="alert alert-block alert-danger">
-Focus on concise writing. Use as few words as possible to get your point across.
+The horizontal filtration team will create a new innovative filtration system to replace the Enclosed Stacked Rapid Sand Filter, making the 1L/s plants easier to make and ship. The new horizontal filter will utilize aspects of the sedimentation tank and current filter for the design and calculations of this system. So far, preliminary experimentation on sand sedimentation in filtration processes shows promising results for this new innovation.
 
-Consider explicitly stating that your goals are to design and build a horizontal filter.
+<div class="alert alert-block alert-danger">
+~Focus on concise writing. Use as few words as possible to get your point across.
+
+~Consider explicitly stating that your goals are to design and build a horizontal filter.
 </div>
 
 ## Introduction
@@ -33,27 +35,27 @@ The goal is that these design innovations will simplify the current design and f
 
 ## Apparatus
 
-  The follow description describes the first iteration of the horizontal filter. Upon it's construction, the team determined it would not be feasible as a final design due to inconsistencies in the fabrication and instability of the filter shelves. To remedy this, the team designed a full Fusion360 model of the filter assembly, on which the next iteration will be based. In this section the explanation of the apparatus will focus on the challenges with this design, so that in the future those mistakes can be avoided, with the updated Fusion360 plan in the Manual of this report.
+  The follow description describes the first iteration of the horizontal filter. Upon it's construction, the team determined that it would not be feasible as a final design due to inconsistencies in the fabrication and instability of the filter shelves. To remedy this, the team designed a full Fusion360 model of the filter assembly, on which the next iteration will be based. This new updated Fusion360 plan has been attached in the Manual of this report. In this section, the explanation of the apparatus will focus on the challenges with this design, so that in the future those mistakes can be avoided.
 
 <div class="alert alert-block alert-danger">
 Minor spelling/grammar issues
 </div>
 
 * Design
-  - As an overview, the horizontal filter consists of 4 main parts: the acrylic box, the entrance/exits plates, filter shelves, and the center plates. In Figure X below, each of those parts are labeled.
-  ![fesf]()
+  - As an overview, the horizontal filter consists of 4 main parts: the acrylic box, the entrance/exits plates, filter shelves, and the center plates. In Figure 1 below, each of those parts are labeled.
+  ![]()
   <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/labeled_real_box.PNG?raw=true" >
 
 <div class="alert alert-block alert-danger">
-fesf?
+~fesf?
 
 Figure X?
 </div>
 
-  -   Acrylic Box: The bow was bought premade from a website (See list of parts below) It has a thickness of 1/4" and it's size is the overarching constraint of the design.
+  -   Acrylic Box: The box was bought premade from a website (See list of parts below) It has a thickness of 1/4" and it's size is the overarching constraint of the design.
 
   <div class="alert alert-block alert-danger">
-bow?
+~bow?
 
 No period at the end of a sentence
   </div>
@@ -74,7 +76,7 @@ center all figures and label them all. Refer to them by their figure #.
 ## Future Work
   Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
-  The team is currently working on creating a Fusion360 model of the entire assembly. Each component has been created separately and are currently being put together. After the model has been created and approved, stencils of the design will be fabricated using a CNC machine. The stencils will then be used to create a more accurate PVC model for testing. This scaled PVC model will be tested for flow and filtration. While the stencils for the center plates are being made, siphon design will be worked on as well as gasket configuration.
+  The team is currently working on creating a Fusion360 model of the entire assembly. Each component has been created separately and are currently being put together. After the model has been created and approved, stencils of the design will be fabricated using a CNC machine. The stencils will then be used to create a more accurate PVC model for testing. This scaled PVC model will be tested for flow and filtration. While the stencils for the center plates are being made, the next challenge to be faced will be the siphon design as well as gasket configuration.
 
   <div class="alert alert-block alert-danger">
   Delete the prompt
@@ -93,7 +95,7 @@ center all figures and label them all. Refer to them by their figure #.
 
 Acrylic Box: An acrylic container of specifications 18x18x24" bought from [Shop Pop Displays](http://www.shoppopdisplays.com/P_PED-ACRYLIC-CLEAR-FLAT/clear-acrylic-pedestal.html) in order to act as an observable smaller model of the designed horizontal filter.
 
-EPDM: Sheets of EPDM will be used as seals to cover the holes in the entrance and exit plates during backwash. EPDM will also be used in maintaining water tightness when potentially using gaskets for sealing.
+Ethylene Propylene Diene Monomer Rubber(EPDM): Sheets of EPDM will be used as seals to cover the holes in the entrance and exit plates during backwash. EPDM will also be used in maintaining water tightness when potentially using gaskets for sealing.
 
 PVC Sheets: Sheets will be cut into the forms of the shelves, entrance/exit plates, and the filter shelf holders.
 
@@ -116,16 +118,16 @@ Last entry is formatted differently from the rest.
 ## Fabrication Details
 Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
 
-#### - Initial Filter design
+####  Initial Filter design
 
 <div class="alert alert-block alert-danger">
-Remove hyphen from the header.
+~Remove hyphen from the header.
 </div>
 
 1. Filter plate-Plate was cut to shape using the band saw with the slits cut by making 1/8" holes using the drill press. Drilling the holes made it possible to keep a fairly straight cut to the proper depth while avoiding the problem of having two cuts and no way to get the middle out. The location of the holes and the angle of the cut was pre-drawn onto the PVC. In future iterations it is recommended that a stencil be cut out, and then the plates be cut using a CNC Router as following the stencil. This will likely provide more control and uniformity between cuts.
-
+<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Hole%20cut.JPG?raw=true" >
 <div class="alert alert-block alert-danger">
-PHotos for these steps? It is hard for me to picture.
+~Photos for these steps? It is hard for me to picture.
 </div>
 
 2. Filter shelf - The filter shelves were cut from a sheet of 1/8" PVC. To cut in the notches into the shelves the same techniques as with the filter plates was used, but varied for the different thickness. First a 1/4" hole was drilled at a predetermined location on the shelf with the drill press, then the notch was cut using the band saw. To get the angled edge of the shelf, a jig was constructed, first by the team and later by Tim Brock, of the machine shop. The jig provided an angled surface to attach the shelf through as it was led through the band saw at an angle. This process required much precision and care. While it works, potential other methods of shelf fabrication should be explored.
