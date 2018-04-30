@@ -17,11 +17,26 @@ The horizontal filtration team will create a new innovative filtration system to
 ~Consider explicitly stating that your goals are to design and build a horizontal filter.
 </div>
 
+## Table of Contents
+**Will it be helpful to have this? I think yes - Clare**
+1. Introduction
+2. Description of Apparatus
+3. Challenges and Future Work
+4. Manual
+  - Special Components
+  - Fabrication Details
+  - Design
+    - Python
+    - Fusion360
+  - Experiments
+      - Methods
+
+
 ## Introduction
 
   The plantita (1 L/s plant) is a difficult apparatus to construct and implement. Finding a way to make fabrication, assembly, and installation simpler, as well as downsize components, will greatly decrease the cost and make the technology more accessible for global communities.
 
-  The concept of an easy to implement, versatile water treatment plant correlates nicely with the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429). OrigamiWaterLab is the concept of creating a easily producible filtration system, built up from easily transportable flat parts. Similar in concept to the creation of origami. Essentially, ingenious engineering is found in simplicity and resiliency. Fabricating a plant that transitions from flat into 3D is a innovative area of study that may become more possible with increased exploration. With more work, this concept could become a new direction for AguaClara plants.
+  The concept of an easy to implement, versatile water treatment plant correlates nicely with the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429). OrigamiWaterLab is the concept of creating a easily producible filtration system, built from easily transportable flat parts. Similar in concept to the creation of origami. Essentially, ingenious engineering is found in simplicity and resiliency. Fabricating a plant that transitions from flat into 3D is a innovative area of study that may become more possible with increased exploration. With more work, this concept could become a new direction for AguaClara plants.
 
   With this idea in mind, one of the most difficult features to construct efficiently is the filter, which is both time and labor intensive to create. Currently, the 1L/s plant’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and cumbersome to ship in addition to having a complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
 
@@ -297,7 +312,98 @@ It was briefly mentioned in the abstract, but where are the actual results of th
 Do not refer to anything as "above" or "below". There are many things above and below. Give it a label and refer to that label.
 </div>
 
-Below is the equation for terminal settling velocity where d is diameter, $\nu$ is kinematic viscosity. This is used for laminar flow.
+
+
+
+
+
+<div class="alert alert-block alert-danger">
+reconsider use of "constructed" in the first sentence.
+
+Somewhere along the line I confused filter plates and filter shelves.
+
+Try not to interrupt thoughts with images. As I read this, I am noticing that I am struggling with comprehensive due to the organization of the report. The text is so fragmented.
+</div>
+
+
+
+
+
+<div class="alert alert-block alert-danger">
+Are these channels inside the sandy area?
+
+Is this a top down view?
+</div>
+
+
+<div class="alert alert-block alert-danger">
+What is this figure?
+</div>
+
+
+<div class="alert alert-block alert-danger">
+I am confused about the purpose and fabrication of this channel.
+
+Also still confused about where the sand is.
+</div>
+
+
+
+# Appendix
+
+### Variables
+
+#####Calculation of Backwash and Flow Area
+- $V_{filter}$=***V_filter***=Velocity of filtration
+- $V_{backwash}$=***V_backwash***=Velocity of water during backwash
+- $Q_{plant}$=***Q_plant***=Water flow through plant
+- $A_{backwash}$=***A_backwash***=Area of backwash
+- $A_{flow}$=***A_flow***=Cross sectional area of sand/area of flow
+
+#####Calculation of Filter Box Dimensions
+- $\pi_{FiBw}$=***PiFiBw***=Volume increase ratio due to sand bed fluidization
+- $l_{filter}$=***filter_length***=Length of filter
+- $w_{filter}$=***filter_width***=Width of filter
+- $h_{filter}$=***filter_height***=Height of entire filter
+- $h_{box}$=***box_height***=Height of utilized box model
+
+#####Calculation of Necessary Filter Shelf Length
+- $\nu$=Kinematic viscosity
+- $\rho_{sand}$=***rho_sand***=Density of particle
+- $\rho_{water}$=***rho_water***=Density of water
+- $\nu_{water}$=***nu_water***=kinematic viscosity of Water
+- $d_{sand}$=***d_sand***=Diameter of sand particles
+- $SF$=***SF***=Safety factor
+- $\theta_{settling}$=***angle_settling***= Angle of filter shelves
+- $V_{setting}$=***V_settling***=Velocity until the sand settles
+- $V_{capture}$=***V_capture***=Safe estimate of velocity needed to capture the sand
+- $V_{\alpha}$=***V_alpha***=Filter speed
+- $V_{actual}$=***V_actual***=Filter speed after filter shelf
+- $\alpha$=***alpha***=angle of shelves
+- $l_{shelf}$=***L***=Length of filter shelf
+
+#####Filter Shelf Dimension and Spacing Calculations
+- $d_{shelf}$=***space_shelf***=Spacing between filter shelves (top to top)
+- $d_{holes}$=***diam_holes***=Diameter of the holes in walls
+- $N_{holes}$=***num_holes***=Number of holes on either side
+- $\pi_{orifice}$=***pi_orifice***=Shrinking coefficient of water through area
+- $h_{hole}$=***headloss_hole***=Headloss through the hole
+- $t_{shelf}$=***thickness_shelf***=The thickness of the shelves
+- $d_{sandlift}$=***space_sandlift***=Safety factor for sand to lift
+- $d_{abovehole}$=***space_above_hole***=The spacing between the hole and the bottom of the Shelf
+- $l_{vert}$=***L_vert***=Spacing between shelves, top to top=***space_shelf***
+- $l_{shelf}$=***L***=Length of filter shelf
+- $l_{notch}$=***L_notch***=Length of the notch into the filter Shelf
+- $l_{horizontal}$=***L_horizontal***=Length of horizontal component of filter shelf
+- $l_{insert}$=***insert_length***=Length of the filter insert to which the filter shelves are connected
+
+<div class="alert alert-block alert-danger">
+Maybe it would be best to separate out all of the python and put it in one section with these variable definitions.
+
+Consider the usability of the current format.
+</div>
+
+elow is the equation for terminal settling velocity where d is diameter, $\nu$ is kinematic viscosity. This is used for laminar flow.
 
 $$ Vt = \frac{d^2g}{18\nu}(\frac{\rho_{particle}-\rho_{H2O}}{\rho_{H2O}}) $$
 
@@ -352,6 +458,14 @@ Please more thoroughly explain this reasoning.
 
 From here, the team worked to calculate and parametrize the filter shelf insert. The following calculations are the steps used in calculating the filter shelf length. That is, how far into the filter they must protrude.
 
+
+
+<div class="alert alert-block alert-danger">
+explain what length of insert is
+
+Is this length perpendicular to the wall or the length of the actually fabricated piece that is then put at an angle?
+</div>
+
 ```python
 #we decided that the diameter of a hole should be 0.25 inches and we worked from there.
 space_shelf = 0.25*filter_length #this relationship was determined by Monroe as a reasonable measure. space_shelf is the total space between respective shelves. It is the same thing as L_vert.
@@ -388,108 +502,7 @@ insert_length = 2*L_horizontal+filter_length
 ```
 From these calculations and the given constraints, the length of the filter shelves is 2.829 cm and the length of the insert is 12.517 cm. With these values, the overall apparatus could be fabricated in Fusion.
 
-<div class="alert alert-block alert-danger">
-explain what length of insert is
-
-Is this length perpendicular to the wall or the length of the actually fabricated piece that is then put at an angle?
-</div>
-
-![filter_shelf_assembly_both_plates](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_assembly1.JPG?raw=true)
-
-![filter_shelf_assembly_no_entrance_plate](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_assembly_no_entrance_plate.JPG?raw=true)
-
-![filter_shelf_assembly2](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_assembly2.JPG?raw=true)
-
-With the main apparatus parametrized and constructed, it is important to revisit an omitted detail. On the filter plate design, some changes needed to be made so filtration can occur evenly and smoothly. Since the filter plates are not evenly distributed in order to provide support to the filter shelves on the far end, a channel system needed to be designed in order for water to freely move along the entrance and exit plates.
-
-<div class="alert alert-block alert-danger">
-reconsider use of "constructed" in the first sentence.
-
-Somewhere along the line I confused filter plates and filter shelves.
-
-Try not to interrupt thoughts with images. As I read this, I am noticing that I am struggling with comprehensive due to the organization of the report. The text is so fragmented.
-</div>
-
-![Horfi_top_view](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_top_view.JPG?raw=true)
-
-To do this, notches were incorporated below the shelves. The height of the channel was arbitrarily determined to be slightly bigger than the space above a hole (0.295 cm) but also not take up too much space in the filtration region between respective plates (a total of 2.3177 cm). Thus, the team went with 0.5 cm.
-
-<div class="alert alert-block alert-danger">
-Are these channels inside the sandy area?
-
-Is this a top down view?
-</div>
-
-![Horfi_channel_notches](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Insert_Assembly_channels.JPG?raw=true)
-
-<div class="alert alert-block alert-danger">
-What is this figure?
-</div>
-
-Below is the inner working of this channel with respect to the entrance or exit plate.
-
-<div class="alert alert-block alert-danger">
-I am confused about the purpose and fabrication of this channel.
-
-Also still confused about where the sand is.
-</div>
-
-![Horfi_channel_inner_workings](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Insert_Assembly_channels_inner_workings.JPG?raw=true)
-
-
-#Appendix
-
-### Variables
-
-#####Calculation of Backwash and Flow Area
-- $V_{filter}$=***V_filter***=Velocity of filtration
-- $V_{backwash}$=***V_backwash***=Velocity of water during backwash
-- $Q_{plant}$=***Q_plant***=Water flow through plant
-- $A_{backwash}$=***A_backwash***=Area of backwash
-- $A_{flow}$=***A_flow***=Cross sectional area of sand/area of flow
-
-#####Calculation of Filter Box Dimensions
-- $\pi_{FiBw}$=***PiFiBw***=Volume increase ratio due to sand bed fluidization
-- $l_{filter}$=***filter_length***=Length of filter
-- $w_{filter}$=***filter_width***=Width of filter
-- $h_{filter}$=***filter_height***=Height of entire filter
-- $h_{box}$=***box_height***=Height of utilized box model
-
-#####Calculation of Necessary Filter Shelf Length
-- $\nu$=Kinematic viscosity
-- $\rho_{sand}$=***rho_sand***=Density of particle
-- $\rho_{water}$=***rho_water***=Density of water
-- $\nu_{water}$=***nu_water***=kinematic viscosity of Water
-- $d_{sand}$=***d_sand***=Diameter of sand particles
-- $SF$=***SF***=Safety factor
-- $\theta_{settling}$=***angle_settling***= Angle of filter shelves
-- $V_{setting}$=***V_settling***=Velocity until the sand settles
-- $V_{capture}$=***V_capture***=Safe estimate of velocity needed to capture the sand
-- $V_{\alpha}$=***V_alpha***=Filter speed
-- $V_{actual}$=***V_actual***=Filter speed after filter shelf
-- $\alpha$=***alpha***=angle of shelves
-- $l_{shelf}$=***L***=Length of filter shelf
-
-#####Filter Shelf Dimension and Spacing Calculations
-- $d_{shelf}$=***space_shelf***=Spacing between filter shelves (top to top)
-- $d_{holes}$=***diam_holes***=Diameter of the holes in walls
-- $N_{holes}$=***num_holes***=Number of holes on either side
-- $\pi_{orifice}$=***pi_orifice***=Shrinking coefficient of water through area
-- $h_{hole}$=***headloss_hole***=Headloss through the hole
-- $t_{shelf}$=***thickness_shelf***=The thickness of the shelves
-- $d_{sandlift}$=***space_sandlift***=Safety factor for sand to lift
-- $d_{abovehole}$=***space_above_hole***=The spacing between the hole and the bottom of the Shelf
-- $l_{vert}$=***L_vert***=Spacing between shelves, top to top=***space_shelf***
-- $l_{shelf}$=***L***=Length of filter shelf
-- $l_{notch}$=***L_notch***=Length of the notch into the filter Shelf
-- $l_{horizontal}$=***L_horizontal***=Length of horizontal component of filter shelf
-- $l_{insert}$=***insert_length***=Length of the filter insert to which the filter shelves are connected
-
-<div class="alert alert-block alert-danger">
-Maybe it would be best to separate out all of the python and put it in one section with these variable definitions.
-
-Consider the usability of the current format.
-</div>
+### Fusion360
 
 ### Stress and Displacement Analysis
 
