@@ -7,7 +7,7 @@ Please do not delete my comments. On the next submission I will use them to see 
 </div>
 
 ## Abstract
-Horizontal filtration is a completely new innovation for the AguaClara team, arising from a desire to make the 1 L/s plants easier to make and ship by eliminating the Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the sedimentation tanks and current filter design will be used, such as the relationship between backwash and operational speed, as well as the design of the plate settlers. Initial experimentation with the settling of sand during upflow is promising for when construction of the filter prototype begins.
+Horizontal filtration is a completely new innovation for the AguaClara team, arising from a desire to make the 1 L/s plants easier to make and ship through replacing the Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the sedimentation tanks and current filter design will be used, such as the relationship between backwash and operational speed, as well as the design of the plate settlers. Initial experimentation with the settling of sand during upflow is promising for when construction of the filter prototype begins.
 
 The horizontal filtration team will create a new innovative filtration system to replace the Enclosed Stacked Rapid Sand Filter, making the 1L/s plants easier to make and ship. The new horizontal filter will utilize aspects of the sedimentation tank and current filter for the design and calculations of this system. So far, preliminary experimentation on sand sedimentation in filtration processes shows promising results for this new innovation.
 
@@ -44,7 +44,7 @@ The horizontal filtration team will create a new innovative filtration system to
 great improvement. For next submission focus on continuing to revise for concise and crisp writing.
 </div>
 
-  To combat these difficulties, the team has proposed a horizontal filter design. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. This design for the horizontal filter will utilize both current filtration techniques and technologies from the plate settle design in the sedimentation tanks. This developed technology could then be adapted to replace the slotted pipes in the current Stacked Rapid Sand Filters in the full-sized plants.
+  To combat these difficulties, the team has proposed a horizontal filter design. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots, work with the horizontal filter could ultimately eliminate the need for slots on the OStaRS (Open Stacked Rapid Sand) filter as well. In the horizontal filter, water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. This design for the horizontal filter will utilize both current filtration techniques and technologies from the plate settle design in the sedimentation tanks. This developed technology could then be adapted to replace the slotted pipes in the current Stacked Rapid Sand Filters in the full-sized plants.
 
 The goal is that these design innovations will simplify the current design and facilitate scaleup and mass production of AguaClara technologies.
 
@@ -58,8 +58,13 @@ Minor spelling/grammar issues
 
 * Design
   - As an overview, the horizontal filter consists of 4 main parts: the acrylic box, the entrance/exits plates, filter shelves, and the center plates. In Figure 1 below, each of those parts are labeled.
-  ![]()
-  <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/labeled_real_box.PNG?raw=true" >
+
+<center>
+
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/labeled_real_box.PNG?raw=true" >|
+|:----:|
+| Figure X: This is a photo of the apparatus as currently constructed.|
+</center>
 
 <div class="alert alert-block alert-danger">
 ~fesf?
@@ -84,7 +89,15 @@ revise for spelling/verb use
 center all figures and label them all. Refer to them by their figure #.
   </div>
 
-  <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/inserting_shelves4.jpeg?raw=true" >
+  <center>
+
+  |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/inserting_shelves4.jpeg?raw=true" >|
+  |:---:|
+  |Figure X: Costruction: fix this caption in future run throughs.|
+
+  </center>
+
+
 
   - Center plates: The center plates support the filter shelves. In the built design two center plates are used separating the filter into three sections. In the new model there will be three center plates, one in the center and two  that are one inch from the edge of the box. Using three plates instead of two will prevent the shelves from warping and developing an uneven spacing as seen in the image. In addition, notches will be cut out to allow water to run between the sections in the filter, in the channels under each shelf. This can be seen with more description in the Manual section.
 
@@ -140,9 +153,15 @@ Include any information related to the fabrication of equipment, experimental ap
 </div>
 
 1. Filter plate-Plate was cut to shape using the band saw with the slits cut by making 1/8" holes using the drill press. Drilling the holes made it possible to keep a fairly straight cut to the proper depth while avoiding the problem of having two cuts and no way to get the middle out. The location of the holes and the angle of the cut was pre-drawn onto the PVC. In future iterations it is recommended that a stencil be cut out, and then the plates be cut using a CNC Router as following the stencil. This will likely provide more control and uniformity between cuts.
-<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Hole%20cut.JPG?raw=true" >
+<center>
+
+|<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Hole%20cut.JPG?raw=true" >|
+|:---:|
+|Figure X: this is a thing we made|
+</center>
 <div class="alert alert-block alert-danger">
 ~Photos for these steps? It is hard for me to picture.
+
 </div>
 
 2. Filter shelf - The filter shelves were cut from a sheet of 1/8" PVC. To cut in the notches into the shelves the same techniques as with the filter plates was used, but varied for the different thickness. First a 1/4" hole was drilled at a predetermined location on the shelf with the drill press, then the notch was cut using the band saw. To get the angled edge of the shelf, a jig was constructed, first by the team and later by Tim Brock, of the machine shop. The jig provided an angled surface to attach the shelf through as it was led through the band saw at an angle. This process required much precision and care. While it works, potential other methods of shelf fabrication should be explored.
@@ -185,7 +204,12 @@ The following will be a combination of calculations and [Fusion](https://cornell
 
 The purpose of this filter assembly is for simplicity and easy fabrication. The filter exists within an acrylic box with an inflow and an outflow as the empty cavities that don't contain the sand filtering section. The sand column section itself exists in the middle of the filter box with a filter shelf insert that can be added or removed. The image below is a cross-sectional view of the overall filter concept. While the filter gates are open, water flows in through one side, experiences sand filtration, and then exits out the other side as clean effluent. The angled pieces in the middle are the filter shelves which serve to keep sand out of the influent/effluent channels.
 
-![filter_assembly](https://github.com/AguaClara/horizontal_filtration/blob/master/images/filter.jpg?raw=true)
+<center>
+
+|![filter_assembly](https://github.com/AguaClara/horizontal_filtration/blob/master/images/filter.jpg?raw=true)|
+|:---:|
+| Figure X: Schematic of the filter: but not the current filter|
+</center>
 
 <div class="alert alert-block alert-danger">
 This section really confused me and I still don't fully understand the apparatus? What part is the sand? Can you add labels to the drawing with the major aspects.
@@ -207,40 +231,6 @@ Also before you referred to yourself as "the team" now you are "HorFi" (Pick one
 
 Since the backwash velocity (V_backwash) is greater than the filter velocity (V_filter), it is the design constraint. With some math, the area of backwash (A_backwash) and area of flow (A_flow) may be calculated.
 
-```python
-from aide_design.play import*
-V_filter = 1.8*(u.mm/u.s)
-V_backwash = 9*(u.mm/u.s)  #the constraining velocity
-Q_plant = .37*(u.L/u.s)  #the scale we are working with for our first iteration of the filter, manipulated to achieve desired width
-A_backwash = Q_plant/V_backwash #plan view area of sand (x,y axis)
-A_flow = Q_plant/V_filter  #cross sectional area of sand (x,z axis)
-```
-From here, the team must incorporate some knowledge on the depth in which water travels through a traditional AguaClara OStaRS filter. The filter backwash ratio is the ratio between settled sand height during filtration and expanded sand height during backwash. Because the filter backwash ratio is 1.3 (PiFiBw), which has been empirically determined, the team must determine a settled sand height first.
-
-<div class="alert alert-block alert-danger">
-I thought you were mostly comparing it to the EStaRS figure. Why the change to OStaRS? (Also I don't think you've defined what the O in OStaRS means)
-</div>
-
-The team decides that with the scale model in mind, 3.65 inches of sand in the flow direction (filter_length) is a fair parameter to start with. With this one measurement, and the ratio between filter velocity and backwash velocity, all other parameters fall into place.
-
-<div class="alert alert-block alert-danger">
-Why is it s fair parameter to start with?
-</div>
-
-```python
-PiFiBw = 1.3
-filter_length = 3.65*u.inch  #manipulated to achieve desired height
-filter_width = A_backwash/filter_length #the filter width is the width for BOTH areas
-filter_height = A_flow/filter_width
-filter_height #height of sand
-box_height = filter_height*PiFiBw #the height the expanded sand bed
-box_height
-#the box we ordered is 18 inch by 18 inch by 24 inch with wall thickness of 0.25 inches
-print(box_height.to(u.inch)) #must be 0.25 less than actual because of thickness of the box floor ordered
-print(filter_width.to(u.inch)) #must be 0.25*2 less than actual because of thickness of walls on either side
-print('The height of the tank should be at least',box_height.to(u.inch),'with a cross-sectional width of',filter_width.to(u.inch),'(thicknesses omitted).')
->>> height is 23.72 inches, cross sectional width of 17.46 inches
-```
 
 With these dimensions calculated, the filter box can then be rendered as seen below.
 
@@ -411,6 +401,42 @@ After consultation with Professor Monroe Weber Shirk, it is necessary to also ma
 
 $$ Vt = \sqrt\frac{4g}{3Cd}\frac{\rho_{sand}-\rho_{H2O}}{\rho_{H2O}}    $$
 
+
+```python
+from aide_design.play import*
+V_filter = 1.8*(u.mm/u.s)
+V_backwash = 9*(u.mm/u.s)  #the constraining velocity
+Q_plant = .37*(u.L/u.s)  #the scale we are working with for our first iteration of the filter, manipulated to achieve desired width
+A_backwash = Q_plant/V_backwash #plan view area of sand (x,y axis)
+A_flow = Q_plant/V_filter  #cross sectional area of sand (x,z axis)
+```
+From here, the team must incorporate some knowledge on the depth in which water travels through a traditional AguaClara OStaRS filter. The filter backwash ratio is the ratio between settled sand height during filtration and expanded sand height during backwash. Because the filter backwash ratio is 1.3 (PiFiBw), which has been empirically determined, the team must determine a settled sand height first.
+
+<div class="alert alert-block alert-danger">
+I thought you were mostly comparing it to the EStaRS figure. Why the change to OStaRS? (Also I don't think you've defined what the O in OStaRS means)
+</div>
+
+The team decides that with the scale model in mind, 3.65 inches of sand in the flow direction (filter_length) is a fair parameter to start with. With this one measurement, and the ratio between filter velocity and backwash velocity, all other parameters fall into place.
+
+<div class="alert alert-block alert-danger">
+Why is it s fair parameter to start with?
+</div>
+
+```python
+PiFiBw = 1.3
+filter_length = 3.65*u.inch  #manipulated to achieve desired height
+filter_width = A_backwash/filter_length #the filter width is the width for BOTH areas
+filter_height = A_flow/filter_width
+filter_height #height of sand
+box_height = filter_height*PiFiBw #the height the expanded sand bed
+box_height
+#the box we ordered is 18 inch by 18 inch by 24 inch with wall thickness of 0.25 inches
+print(box_height.to(u.inch)) #must be 0.25 less than actual because of thickness of the box floor ordered
+print(filter_width.to(u.inch)) #must be 0.25*2 less than actual because of thickness of walls on either side
+print('The height of the tank should be at least',box_height.to(u.inch),'with a cross-sectional width of',filter_width.to(u.inch),'(thicknesses omitted).')
+>>> height is 23.72 inches, cross sectional width of 17.46 inches
+```
+
 ```python
 SF =2 #safety factor suggested by AguaClara Engineer Ethan Keller
 
@@ -507,12 +533,21 @@ From these calculations and the given constraints, the length of the filter shel
 ### Stress and Displacement Analysis
 
 In order to see how plausible this design is, a stress test was performed on the acrylic box with the expected hydrostatic forces in mind.
+<center>
 
-![stress_test](https://github.com/AguaClara/horizontal_filtration/blob/master/images/stress.PNG?raw=true)]
+|![stress_test](https://github.com/AguaClara/horizontal_filtration/blob/master/images/stress.PNG?raw=true)]|
+|:---:|
+|Figure X: Stress calc on box|
+</center>
 
 This stress analysis could then be translated into an approximate displacement of the box itself.
 
-![displacement](https://github.com/AguaClara/horizontal_filtration/blob/master/images/displacement.PNG?raw=true)
+<center>
+
+|![displacement](https://github.com/AguaClara/horizontal_filtration/blob/master/images/displacement.PNG?raw=true)|
+|:---:|
+|Figure X: displacement|
+</center>
 
 Since the walls would only flex a max of 2.88 mm, the design is structurally sound.
 
@@ -531,24 +566,29 @@ If you have different topics in an appendix, you should label each separate sect
 To determine the initial parameters, the team conducted several experiments with the flow of water in relation to the sand. These experiments were done to verify hypotheses when calculations didn't yield conclusive answers. The experiments focused on determining the length of the filter shelves, the adapted plate settlers, which would allow sand to settle before climbing into the outlet and flowing out of the filter. To do this two tests were run.
 
 Two similar apparatuses were constructed to determine the length of the filter shelves based on how sand settled in angled tubes of different diameters. The first setup included a 1" diameter pipe as the filter body and 1/8" tube as an angled outlet(Figure 1) Forty-five degrees was chosen as the angle to allow the most sand to fall while not changing the flow too much. Sand, then water were poured in to see if sand would travel into the outlet during startup conditions. It did. From there the pumps were turned on to mimic water flow during filtration and backwash. The speed in the filter body was set to be the speed required for backwash, 9mm/s, and the speed in the angled outlet was set to the speed during operation 1.8mm/s as that is the maximum water velocity that should be experienced within the filter shelves. Upon completion of this test, a new apparatus was constructed.
+<center>
 
 | ![apparatus for testing length of filter shelves](https://github.com/AguaClara/horizontal_filtration/blob/master/images/small_diameter_outler.jpg?raw=true) |
 |:--:|
 | *Figure 1. First experimental apparatus with 1" diameter filter and 1/8" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
+</center>
 
 The original idea for the new apparatus was to have a 1" angled tube stemming from the 1" filter. This proved nearly impossible to fabricate, so as in Figure 2, a 3/4" angled outlet pipe was used instead. In this test, the same steps were taken, dry sand was poured to determine how sand would travel. Then water was added, which caused sand to move several inches up into the outlet tube. However, the level of sand retreated once the pumps were turned on and operating at backwash and operational speeds. More elaboration on these filter experiments are below in experimental procedures.
+
+<center>
 
 | ![apparatus for testing length of filter shelves](https://github.com/AguaClara/horizontal_filtration/blob/master/images/one_inch_outlet.jpg?raw=true) |
 |:--:|
 | *Figure 2. Second experimental apparatus with 1" diameter filter and 3/4" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
+</center>
 
 ## Experimental Methods
 
 ### Filter Shelf Length Tests
-  These tests were ran in order to test the upflow reach of sand during backwash. A tube was used to simulate the channel sand would go up a filter shelf so the team could test their hypothesis of required shelf length to prevent sand from going out of the filter holes. For this experiment, a larger side tube diameter was preferable to better simulate the channel size between filter shelves.
+  Several tests were run in order to determine the upflow path of sand during backwash. A tube was used to simulate the main body of the filter  with a smaller angled tube branching off the main body. The outlet branch allowed the team to measure how far sand would rise in the outlet, which could inform the length of the filter shelves given the velocities expected in the filter. Additionally, an understanding of the speeds required to drive sand into an outlet could further inform aspects of the OStaRS, specifically the necessity of the slotted pipes.
 
 <div class="alert alert-block alert-danger">
-Fix "These tests were ran"
+~~fix these tests were ran"
 </div>
 
 #### Experiment: 1" and 1/8"
@@ -569,10 +609,14 @@ Fix "These tests were ran"
 
 <div class="alert alert-block alert-danger">
 These two procedures seems similar. Can there just be one set of procedures then simple xplanations about the size differences?
+
+Clare- I considered that thye were very similar but for clarity's sake I though it would be better to have them separately, as they are a bit different. I find that writing parallel procedures as one unit requires the reader to hold too much information at once. I will, however, add a brief sentence to mention the similarity.
 </div>
 
+<center>
+
 #### **Table of  pump speed and sand length in outlet tube**
-|filter speed (rpm)|outlet speed (rpm)|sand length in tube(in)|
+|filter speed (RPM)|outlet speed (RPM)|sand length in tube (in)|
 |:---:|:----:|:----:|
 |73|11.4|1.1|
 |80|11.4|1.1|
@@ -582,6 +626,7 @@ These two procedures seems similar. Can there just be one set of procedures then
 |73|19|1.95|
 |73|23|4|
 |73|11.4|1.1|
+</center>
 
 From this data it is apparent that changing the speed that the water is being pulled out affects the height of sand in the filter shelf, but changing the overall flow does not, which makes sense as any water not pulled from the outlet just increases the flow through the unregulated outlet. With the proper pump speeds of 73 RPM influent, and 11.4 RPM pulled out the angled outlet, the length the sand travels into the outlet, 1.1", is a small enough distance to make the actual construction feasible. The influent and effluent speeds differ due to the actual model having multiple holes to create outflow but in this one hole model, the amount that would be measured going into the other holes was just left as waste outflow rather than along with the effluent. The python code below explains the significance of these values and how they were determined.
 
