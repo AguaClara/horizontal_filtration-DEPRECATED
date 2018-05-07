@@ -26,8 +26,8 @@ Horizontal filtration is a completely new innovation for the AguaClara team, ari
   - Special Components
   - Fabrication Details
   - Design
-    - Python
     - Fusion360
+    - Python
   - Experiments
       - Methods
 
@@ -46,7 +46,63 @@ great improvement. For next submission focus on continuing to revise for concise
 
 To combat these difficulties, the horizontal filtration team has proposed a horizontal filter design. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Additionally, this innovation in the horizontal filter could ultimately eliminate the need for slots on the OStaRS (Open Stacked Rapid Sand) filter, as is used in the full-size AguaClara plants. In the horizontal filter, water will enter and exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. This design for the horizontal filter will utilize both current filtration techniques and technologies from the plate settle design in the sedimentation tanks.
 
-The goal is that these design innovations will simplify the current design and facilitate scaleup and mass production of AguaClara technologies.
+The goal is that these design innovations will simplify the current design and facilitate scale-up and mass production of AguaClara technologies.
+
+## Design of Apparatus
+
+The horizontal filter uses concepts and design from current AguaClara technology in sand filtration. This section will outline the general function of the apparatus in its most current design. This includes the concepts behind specialized components as well as justification for several of the design choices.
+
+The "1st iteration walkthrough" section follows the fabrication of an outdated model of the horizontal filter. New designs were incorporated into the final apparatus in this section as a result of items learned during the 1st iteration process as well as revisiting troubling concepts.
+
+At a basic level, sand filtration involves running water through a bed of sand. Often this is done in the vertical direction; however, the total volume of the filter could be decreased if forward filtration is run horizontally and only backwash is run vertically.  Figure 1 shows the simplest schematic of this process with water flowing horizontally in a bed of sand between two plates.
+
+<center>
+
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/water_movement.JPG?raw=true" >|
+|:----:|
+| Figure 1 : The flow of water through the horizontal filter.|
+</center>
+
+
+To permit the flow of water from the inlet channel to the outlet channel, a series of slits line the body of the plates. See Figure 2 for a Fusion360 rendering of slit placement. The reasoning for the number of slit columns, as well as positioning, will be touched upon later in this section.
+
+<center>
+
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/plates_with_slots.JPG?raw=true" style="width: 350px;" >|
+|:----:|
+| Figure 2: The entrance and exit plates are perforated with slits in order to permit forward filtration.|
+
+</center>
+
+Figure 3 represents a cross-sectional view of horizontal filter functionality. As mentioned before, water enters through the inlet and seeps into the sand bed via the entrance perforated plate. From here, water moves from left to right. Particles are gradually removed from the influent as the fluid experiences forward filtration. Once water reaches the other side, it leaves through the outlet for its distribution.  
+
+Notice the filter gates, colored orange in Figure 3. These will be important during the backwash step mentioned later in this section.
+
+<center>
+
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Overall_function.JPG?raw=true" style="width: 350px;"  >|
+|:----:|
+| Figure 3: The flow of water through the horizontal filter.|
+</center>
+
+
+To stop the escape of sand out of the slits in the entrance and exit plates, sand retainers, referred to as "filter shelves," will be included. The idea behind the filter shelves is to provide and opportunity for the sand to settle should it be lifted during either forward filtration or backwash. As seen in Figure 4 water flows in and subsequently out carrying some sand with it, but the shelves allow a place for the sand to settle and some recirculation of sand happens within the filter. In experiments, which are detailed in the Appendix, the understanding that this is what happens proved true.
+
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/filter_shelf_function.JPG?raw=true" >|
+|:----:|
+| Figure 4: Close-up of the filter shelf|
+</center>
+
+During backwash, the process of cleaning the filter, several other components must be incorporated into the filter. Figure 5 shows the addition of these parts. Firstly is the siphon, which is the shown on the top of the filter. The siphon initiates backwash by creating low pressure within the sand bed. To prevent water from continuing to come in from every slit on the inlet plate, backwash gates close off all the slits except for the one on the bottom on the inlet side, and closes all the
+
+In step 1, water is being filtered in its routine fashion. When the filter becomes saturated with removed particles such as clay, the apparatus experiences an increase in headloss and has difficulty functioning. To solve this, the siphon is activated (Step 2). The filter gates are pulled inward due to this vacuum effect and water can only flow through the bottom. This upflow of water causes the sand bed to fluidize, separating the sand from filtered particles in the process and thus cleaning the filter. These particles leave through a launder pipe (not shown) at the top of the filter box for proper disposal.
+
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Backwash_steps.JPG?raw=true" >|
+|:----:|
+| Figure 5: The schematic of the backwash process.|
+</center>
+
+
 
 ## 1st Iteration walkthrough
 
@@ -65,7 +121,7 @@ Minor spelling/grammar issues
 
 |  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/labeled_real_box.PNG?raw=true" >|
 |:----:|
-| Figure 1: This is a photo of the apparatus as currently constructed.|
+| Figure 6: This is a photo of the apparatus as currently constructed.|
 </center>
 
 <div class="alert alert-block alert-danger">
@@ -95,7 +151,7 @@ center all figures and label them all. Refer to them by their figure #.
 
   |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/inserting_shelves4.jpeg?raw=true" >|
   |:---:|
-  |Figure 2: Construction of the filter insert.|
+  |Figure 7: Construction of the filter insert.|
 
   </center>
 
@@ -162,7 +218,7 @@ Last entry is formatted differently from the rest.
 
 |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Hole%20cut.JPG?raw=true" >|
 |:---:|
-|Figure 3: This sketch illustrates the fabrication method used to cut notches in both the center plates and filter shelves. The blue circle was drilled out first, then two cuts parallel to the outer edges of the hole were made using the band saw. This technique left a rounded notch in the plates, but maintained a decent degree of consistency over made cuts.
+|Figure 8: This sketch illustrates the fabrication method used to cut notches in both the center plates and filter shelves. The blue circle was drilled out first, then two cuts parallel to the outer edges of the hole were made using the band saw. This technique left a rounded notch in the plates, but maintained a decent degree of consistency over made cuts.
 </center>
 <div class="alert alert-block alert-danger">
 ~Photos for these steps? It is hard for me to picture.
@@ -199,7 +255,7 @@ Remember to mention the gasket in the apparatus section above so that we know wh
 </div>
 
 
-## Python Code, Fusion, and Calculations
+## Design
 
 <div class="alert alert-block alert-danger">
 Consider calling this section Design with python code, fusion as subheaders.
@@ -213,7 +269,7 @@ The purpose of this filter assembly is for simplicity and easy fabrication. The 
 
 |![filter_assembly](https://github.com/AguaClara/horizontal_filtration/blob/master/images/filter.jpg?raw=true)|
 |:---:|
-| Figure 4: Schematic of the first iteration of the filter|
+| Figure 9: Schematic of the first iteration of the filter|
 </center>
 
 <div class="alert alert-block alert-danger">
@@ -237,12 +293,12 @@ Since the backwash velocity is necessarily greater than the filter velocity as t
 
 
 With these dimensions calculated, the filter box can then be rendered as seen below.
+
 <center>
 
 |![filter_box](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box.JPG)|
 |:---:|
-|Figure 5: Rendering of the outermost box of the filter. Within this box the filter insert will be placed. This geometry constrains much of the design.|
-
+|Figure 10: Rendering of the outermost box of the filter. Within this box the filter insert will be placed. This geometry constrains much of the design.|
 </center>
 
 
@@ -263,7 +319,7 @@ How big are the perforations?
 
 |![entrance_exit_plates](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_entrance_exit_plates.JPG?raw=true)|
 |:---:|
-|Figure 6: Rendering of entrance plates with hole design. The holes are located with 2 at each filter shelf with the height above the filter shelf defined as 1 cm. The layout of the holes was staggered to prevent too high of a stress at a location where all the holes were lined up.|
+|Figure 11: Rendering of entrance plates with hole design. The holes are located with 2 at each filter shelf with the height above the filter shelf defined as 1 cm. The layout of the holes was staggered to prevent too high of a stress at a location where all the holes were lined up.|
 </center>
 
 <div class="alert alert-block alert-danger">
@@ -282,7 +338,7 @@ What is the filter insert assembly?
 
 |![filter_box_plates](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box_plates.JPG)|
 |:---:|
-|Figure 7: Rendering of the entrance and exit plates placed into the fitler box|
+|Figure 12: Rendering of the entrance and exit plates placed into the fitler box|
 </center>
 
 Between these plates will be the filter shelf insert, a series of suspended, angled shelves that serve to both shelter the holes during routine filtration and also return sand during backwash. Below is a filter plate, a component of the filter shelf insert that keeps the filter shelves rigid and at the correct height.
@@ -291,7 +347,7 @@ Between these plates will be the filter shelf insert, a series of suspended, ang
 
 |![filter_plate](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_plate.JPG?raw=true)|
 |:---:|
-|Figure 8: A filter plate|
+|Figure 13: A filter plate|
 </center>
 
 
@@ -301,11 +357,11 @@ The notches are where the shelves and the bottom plate are placed. The bottom pl
 
 |![filter_shelf](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_shelf.JPG?raw=true)|
 |:---:|
-|Figure 9: A filter shelf|
+|Figure 14: A filter shelf|
 
 |![bottom_plate](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Bottom_plate.JPG?raw=true)|
 |:---:|
-|Figure 10: Replace this
+|Figure 15: Replace this
 
 </center>
 
@@ -316,8 +372,10 @@ I don't see perpendicular plates?
 
 How would that add to the stability?
 </div>
-
-![filter_assembly](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Insert_assembly_front_plate_removed.JPG?raw=true)
+<center>
+|![filter_assembly](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Insert_assembly_front_plate_removed.JPG?raw=true)|
+|:---:|
+|Figure 16: |
 
 The number of filter shelves to add is determined by the distance between respective shelves. This will be optimized by investigating how far sand will travel before settling on the plates due to the velocities of this system. This was performed experimentally as well as theoretically below. The team considered both laminar and turbulent settling velocity situations.
 
