@@ -7,9 +7,9 @@ Please do not delete my comments. On the next submission I will use them to see 
 </div>
 
 ## Abstract
-Horizontal filtration is a completely new innovation for the AguaClara team, arising from a desire to make the 1 L/s plants easier to make and ship through replacing the Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the sedimentation tanks and current filter design will be used, such as the relationship between backwash and operational speed, as well as the design of the plate settlers. Initial experimentation with the settling of sand during upflow is promising for when construction of the filter prototype begins.
+Horizontal filtration is a completely new innovation for the AguaClara team, arising from a desire to make the 1 L/s plants easier to make and ship through replacing the Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the sedimentation tanks and current filter design will be used, such as the relationship between backwash and operational speed, as well as the design of the plate settlers. Initial experimentation with the settling of sand during upflow demonstrated the the feasibility of angled plates as a method of sand retention.
 
-The horizontal filtration team will create a new innovative filtration system to replace the Enclosed Stacked Rapid Sand Filter, making the 1L/s plants easier to make and ship. The new horizontal filter will utilize aspects of the sedimentation tank and current filter for the design and calculations of this system. So far, preliminary experimentation on sand sedimentation in filtration processes shows promising results for this new innovation.
+
 
 <div class="alert alert-block alert-danger">
 ~Focus on concise writing. Use as few words as possible to get your point across.
@@ -34,30 +34,30 @@ The horizontal filtration team will create a new innovative filtration system to
 
 ## Introduction
 
-  The plantita (1 L/s plant) is a difficult apparatus to construct and implement. Finding a way to make fabrication, assembly, and installation simpler, as well as downsize components, will greatly decrease the cost and make the technology more accessible for global communities.
+The AguaClara plantita (1 L/s plant) is a difficult apparatus to construct and implement. Finding a way to make fabrication, assembly, and installation simpler, as well as downsize components, will greatly decrease the cost and make the technology more accessible for global communities.
 
-  The concept of an easy to implement, versatile water treatment plant correlates nicely with the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429). OrigamiWaterLab is the concept of creating a easily producible filtration system, built from easily transportable flat parts. Similar in concept to the creation of origami. Essentially, ingenious engineering is found in simplicity and resiliency. Fabricating a plant that transitions from flat into 3D is a innovative area of study that may become more possible with increased exploration. With more work, this concept could become a new direction for AguaClara plants.
+The concept of an easy to implement, versatile water treatment plant correlates nicely with the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429). OrigamiWaterLab is the concept of creating a easily producible filtration system, built from easily transportable flat parts, similar in concept to the creation of origami. Essentially, ingenious engineering is found in simplicity and resiliency. Fabricating a plant that transitions from flat into 3D is a innovative area of study that may become more possible with increased exploration. With more work, this concept could become a new direction for AguaClara plants.
 
-  With this idea in mind, one of the most difficult features to construct efficiently is the filter, which is both time and labor intensive to create. Currently, the 1L/s plant’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and cumbersome to ship in addition to having a complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
+With this idea in mind, one of the most difficult features to construct efficiently is the filter, which is both time and labor intensive to create. Currently, the 1L/s plant’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and cumbersome to ship in addition to having a complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
 
 <div class="alert alert-block alert-danger">
 great improvement. For next submission focus on continuing to revise for concise and crisp writing.
 </div>
 
-  To combat these difficulties, the team has proposed a horizontal filter design. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots, work with the horizontal filter could ultimately eliminate the need for slots on the OStaRS (Open Stacked Rapid Sand) filter as well. In the horizontal filter, water will exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. This design for the horizontal filter will utilize both current filtration techniques and technologies from the plate settle design in the sedimentation tanks. This developed technology could then be adapted to replace the slotted pipes in the current Stacked Rapid Sand Filters in the full-sized plants.
+To combat these difficulties, the horizontal filtration team has proposed a horizontal filter design. This filter will not be stacked. Instead, it will use horizontal flow for filtration and vertical flow for backwash. The ratio of the horizontal flow area to the vertical flow area will be designed so that the bed will fluidize during backwash. The inlet and outlets will be designed so that sand/water separation doesn’t require slots. Additionally, this innovation in the horizontal filter could ultimately eliminate the need for slots on the OStaRS (Open Stacked Rapid Sand) filter, as is used in the full-size AguaClara plants. In the horizontal filter, water will enter and exit through a geometry that has a plate settler style design to ensure that sand settles out and isn’t carried into the effluent. This design for the horizontal filter will utilize both current filtration techniques and technologies from the plate settle design in the sedimentation tanks.
 
 The goal is that these design innovations will simplify the current design and facilitate scaleup and mass production of AguaClara technologies.
 
 ## Apparatus
 
-  The follow description describes the first iteration of the horizontal filter. Upon it's construction, the team determined that it would not be feasible as a final design due to inconsistencies in the fabrication and instability of the filter shelves. To remedy this, the team designed a full Fusion360 model of the filter assembly, on which the next iteration will be based. This new updated Fusion360 plan has been attached in the Manual of this report. In this section, the explanation of the apparatus will focus on the challenges with this design, so that in the future those mistakes can be avoided.
+The follow section describes the first iteration of the horizontal filter. Upon it's construction, the team determined that further iterations would be needed to build a filter with components that are precise and consistent. In response, the team designed a full Fusion360 model of the filter assembly, on which the next iteration will be based. This Fusion360 plan has been attached in the Manual of this report and includes current and past designs. In this section, the explanation of the apparatus will focus on the challenges with this design, and the changes that were made in the updated design.
 
 <div class="alert alert-block alert-danger">
 Minor spelling/grammar issues
 </div>
 
 * Design
-  - As an overview, the horizontal filter consists of 4 main parts: the acrylic box, the entrance/exits plates, filter shelves, and the center plates. In Figure 1 below, each of those parts are labeled.
+  - As an overview, the horizontal filter consists of 4 main parts: the acrylic box, the entrance/exits plates, filter shelves, and the center plates. In Figure 1 below, each of those parts are labelled.
 
 <center>
 
@@ -72,7 +72,7 @@ Minor spelling/grammar issues
 Figure X?
 </div>
 
-  -   Acrylic Box: The box was bought premade from a website (See list of parts below) It has a thickness of 1/4" and it's size is the overarching constraint of the design.
+  -   Acrylic Box: The box was bought premade from a website (See list of parts below) It has a thickness of 1/4" and its size is the overarching constraint of the design.
 
   <div class="alert alert-block alert-danger">
 ~bow?
@@ -80,8 +80,8 @@ Figure X?
 No period at the end of a sentence
   </div>
 
-  - Entrance and Exit plates: In the side-view image, the entrance and exit plates are only minimally seen. Though not constructed in reality, a thickness of 1/4" will be sufficient for those walls.
-  - Filter Shelves: In the built filter there are 36 filter shelves which act as deterrents from sand exiting the filter, by providing a surface for the sand to settle on to. In the built design they are angles at 60 degrees from the horizontal with an angle cut underneath on the outside edge to help the shelves fit more snugly against the inside walls of the entrance and exit plates. At angles steeper than 60, this additional cut proved impossible to fabricate.  In the updated design the shelf angle was changed to 55 degrees so the additional outside angling would be possible. In addition the space constraint of the shelves changed slightly with the change in angle, so that in total there will be 34 shelves instead of 36. Below is an image of the filter shelves being inserted in to the assembly. Note the acrylic shelves; these will be 1/8" PVC in the next iteration.
+  - Entrance and Exit plates: In the side-view image, the entrance and exit plates are only minimally seen. Though not yet constructed in reality, a thickness of 1/4" will be sufficient for those walls.
+  - Filter Shelves: In the built filter there are 36 filter shelves which act as retaining plates for the sand in the filter by providing a surface for the sand to settle on to, and by blocking the exit holes. As built, the plates are angled at 60 degrees from the horizontal with an angle cut underneath on the outside edge to help the shelves fit more snugly against the inside walls of the entrance and exit plates. At angles steeper than 60, this additional cut proved impossible to fabricate.  In the updated design the shelf angle was changed to 55 degrees so the additional outside angling would be possible. In addition the space constraint of the shelves changed slightly with the change in angle, so that in total there will be fewer shelves on each side. Below is an image of the filter shelves being inserted in to the  insert assembly. Note the acrylic shelves; these will be 1/8" PVC in the next iteration ,as the acrylic was extremely brittle and offered no flexibility if the shelves were not cut perfectly and would snap during insertion and removal.
 
   <div class="alert alert-block alert-danger">
 revise for spelling/verb use
@@ -93,18 +93,21 @@ center all figures and label them all. Refer to them by their figure #.
 
   |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/inserting_shelves4.jpeg?raw=true" >|
   |:---:|
-  |Figure X: Costruction: fix this caption in future run throughs.|
+  |Figure X: Construction: fix this caption in future run throughs.|
 
   </center>
 
 
 
-  - Center plates: The center plates support the filter shelves. In the built design two center plates are used separating the filter into three sections. In the new model there will be three center plates, one in the center and two  that are one inch from the edge of the box. Using three plates instead of two will prevent the shelves from warping and developing an uneven spacing as seen in the image. In addition, notches will be cut out to allow water to run between the sections in the filter, in the channels under each shelf. This can be seen with more description in the Manual section.
+  - Center plates: The center plates support the filter shelves. As built, two center plates are used separating the filter into three sections. In the new model there will be three center plates, one in the center and two  that are one inch from the edge of the box. Notches are cut in the plates to allow the filter shelves, which are also notched, to fit together without coming loose.  Using three plates instead of two will prevent the shelves from warping and developing an uneven spacing as seen in the image. In addition, corners will be cut out to allow water to run between the sections in the filter, in the channels under each shelf. This can be seen with more description in the Manual section.
 
+#### Additonal parts  
+  Several additional parts will be necessary to develop once the filter in forward operation is functional. One of these is the siphon system. The siphon is used to initiate the upward flow in the filter. While designing a siphon isn't difficult on its own, the challenge will come from sealing it into the top of the box while maintaining the ability to adjust the filter insert should maintenance be necessary . This will require a robust gasket system, which is the other major additional component of the system. To seal the edges of the plates within the tank a gasket will be necessary as well, but given that that gasket will be static within the system it should be simpler to design than the top backwash gasket.
 ## Future Work
-  Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
-  The team is currently working on creating a Fusion360 model of the entire assembly. Each component has been created separately and are currently being put together. After the model has been created and approved, stencils of the design will be fabricated using a CNC machine. The stencils will then be used to create a more accurate PVC model for testing. This scaled PVC model will be tested for flow and filtration. While the stencils for the center plates are being made, the next challenge to be faced will be the siphon design as well as gasket configuration.
+
+As the Horizontal filtration team continues, fabricating the update design will be priority. This will include creating a jig, from which the filter shelves and center plates can be constructed, as well as using a CNC machine to make the entrance and exit plates. From there, adding EPDM foam gaskets will allow tests of the system in forward filtration mode. After success in forward filtration, efforts can be made to develop the components for backwash, most importantly the siphon system and the backwash doors. Developing a good seal in the doors is likely to be the largest challenge. Further work beyond backwash could go into constructing the system so that the siphon valve is connected to the backwash doors making it easier to operate.
+
 
   <div class="alert alert-block alert-danger">
   Delete the prompt
@@ -113,7 +116,7 @@ center all figures and label them all. Refer to them by their figure #.
   </div>
 
 # Manual
-  The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
+  This section outlines fabrication and component details not otherwise specified in the body of the report.
 
   <div class="alert alert-block alert-danger">
   Delete te prompt
@@ -125,15 +128,13 @@ Acrylic Box: An acrylic container of specifications 18x18x24" bought from [Shop 
 
 Ethylene Propylene Diene Monomer Rubber(EPDM): Sheets of EPDM will be used as seals to cover the holes in the entrance and exit plates during backwash. EPDM will also be used in maintaining water tightness when potentially using gaskets for sealing.
 
-PVC Sheets: Sheets will be cut into the forms of the shelves, entrance/exit plates, and the filter shelf holders.
+PVC Sheets: Sheets will be cut into the forms of the shelves, entrance/exit plates, and the filter shelf holders. (McMaster-Carr)
 
-Aluminum gaskets: May be used to seal the entrance/exit plates to the acrylic box
+Aluminum Angle Iron: Stabilizer for one version of the gasket system.
 
-1/8" Router Bit: Router will be used to cut holes in PVC
+1/8" Router Bit: Router will be used to cut holes in PVC (McMaster-Carr)
 
-CNC Machine: The machine will be used to create stencils to assist in the fabrication of the PVC filter model.
-
-Stainless Steel Phillips Screw, Washer, Split Lock Washer, Hex Nut- These components will be used to fasten the gasket securely to the tank.
+Stainless Steel Phillips Screw, Washer, Split Lock Washer, Hex Nut: These components will be used to fasten the gasket system securely to the tank. (McMaster-Carr)
 
 <div class="alert alert-block alert-danger">
 Include where to get these from?
@@ -144,7 +145,7 @@ Last entry is formatted differently from the rest.
 </div>
 
 ## Fabrication Details
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
+
 
 ####  Initial Filter design
 
@@ -152,19 +153,19 @@ Include any information related to the fabrication of equipment, experimental ap
 ~Remove hyphen from the header.
 </div>
 
-1. Filter plate-Plate was cut to shape using the band saw with the slits cut by making 1/8" holes using the drill press. Drilling the holes made it possible to keep a fairly straight cut to the proper depth while avoiding the problem of having two cuts and no way to get the middle out. The location of the holes and the angle of the cut was pre-drawn onto the PVC. In future iterations it is recommended that a stencil be cut out, and then the plates be cut using a CNC Router as following the stencil. This will likely provide more control and uniformity between cuts.
+1. Center plates- the center plates were cut to shape using the band saw.  The slits were cut by making 1/8" holes using the drill press, 1/8"  was chosen as it is the thickness of the filter shelves. Drilling the holes made it possible to keep a fairly straight cut to the proper depth while avoiding the problem of having two cuts and no way to get the middle out. The location of the holes and the angle of the cut was pre-drawn onto the PVC. In future iterations it is recommended that a stencil be cut out, and then the plates be cut using a CNC Router as following the stencil. This will likely provide more control and uniformity between cuts.
 <center>
 
 |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Hole%20cut.JPG?raw=true" >|
 |:---:|
-|Figure X: this is a thing we made|
+|Figure X: This sketch illustrates the fabrication method used to cut notches in both the center plates and filter shelves. The blue circle was drilled out first, then two cuts parallel to the outer edges of the hole were made using the band saw. This technique left a rounded notch in the plates, but maintained a decent degree of consistency over made cuts.
 </center>
 <div class="alert alert-block alert-danger">
 ~Photos for these steps? It is hard for me to picture.
 
 </div>
 
-2. Filter shelf - The filter shelves were cut from a sheet of 1/8" PVC. To cut in the notches into the shelves the same techniques as with the filter plates was used, but varied for the different thickness. First a 1/4" hole was drilled at a predetermined location on the shelf with the drill press, then the notch was cut using the band saw. To get the angled edge of the shelf, a jig was constructed, first by the team and later by Tim Brock, of the machine shop. The jig provided an angled surface to attach the shelf through as it was led through the band saw at an angle. This process required much precision and care. While it works, potential other methods of shelf fabrication should be explored.
+2. Filter shelf - The filter shelves were cut from a sheet of 1/8" PVC. To cut in the notches into the shelves the same techniques as with the filter plates was used, but varied for the different thickness. First a 1/4" hole (for the thickness of the center plates) was drilled at a measured location on the shelf with the drill press. The location of the notches depends on the number and location of the center plates. In the built model this was chosen to be at the 1/3 and 2/3 distances along the width of the shelf, to create 3 even sections. The update design, however, uses 3 plates.  Upon drilling the holes, the notch was cut using the band saw. To get the angled edge of the shelf, a jig was constructed, first by the team and later by Tim Brock, of the machine shop. The jig provided an angled surface to attach the shelf through as it was led through the band saw at an angle. This process required much precision and care. While it works, potential other methods of shelf fabrication should be explored. One option is to cut the shelves at an angle as a first step, to avoid needing to shave thin strips after holes have been drilled. this would save time and be less wasteful of the plastic. 
 
 <div class="alert alert-block alert-danger">
 How did you predetermine the location for the 1/4" hole?
@@ -174,7 +175,7 @@ Revise the sentence "This process required much precious and care"
 Why should other options be explored? What were the problems?
 </div>
 
-3. Entrance/Exit Plates - At this phase the entrance and exit plates are only fabricated so they fit into the acrylic box. They were cut in the machine shop using the larger bandsaw and sanded so they would sit flush in the box. No holes have been drilled yet.
+3. Entrance/Exit Plates - Currently, the entrance and exit plates are only fabricated so they fit into the acrylic box. The main plates were cut in the machine shop using the large bandsaw and sanded so they would sit flush in the box. The team expected a change in methods and decided not to proceed with cutting the holes.
 
 <div class="alert alert-block alert-danger">
 Again - be consistent with formatting
@@ -183,7 +184,7 @@ Please use full sentences
 </div>
 
 ##### Preliminary Gasket work
-  Some work was started on designing the gasket system for the filter. Aluminim Angle Iron was cut and drilled, as was EPDM rubber. This process proved unreliable as a fabrication method for several reasons including: inexperience with the materials, incomplete Fusion360 design, and imprecision with the methods, once of which involved freehanding a cut in the EPDM while it was held down by several clamps. More exploration in this area will be done.
+  Some work was started on designing the gasket system for the filter. Aluminum Angle Iron was cut and drilled, as was EPDM rubber. This process proved unreliable as a fabrication method for several reasons including: inexperience with the materials, incomplete Fusion360 design, and imprecision with the methods, once of which involved freehanding a cut in the EPDM while it was held down by several clamps. More exploration in this area will be done. One potential option is to use EPDM foam rather than EPDM. EPDM foam is a rubbery foam that may compress more evening with fewer components, though it will need to be purchased and tested for ease of use as well as water tightness.
 
 <div class="alert alert-block alert-danger">
 Revise for spelling.
@@ -272,11 +273,7 @@ Between these plates will be the filter shelf insert, a series of suspended, ang
 
 ![filter_plate](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_plate.JPG?raw=true)
 
-<div class="alert alert-block alert-danger">
-Add link to the actual fusion drawing so I can check scale in the future.
 
-^^Unresolved
-</div>
 
 The notches are where the shelves and the bottom plate are placed. The bottom plate serves as a recirculator. During backwash, there is the possibility that dead zones in the far side of the filter will occur. To remedy this, the angled bottom plate provides an upward path for incoming water to ensure all sand is cleaned. Below is a filter shelf followed by the bottom plate. The angle was set at a minimum of 15 degrees.
 
