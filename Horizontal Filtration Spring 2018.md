@@ -1,13 +1,13 @@
 ### Horizontal Filtration, Spring 2018
 #### Clare O'Connor, Corson Chao, and Christopher Galantino
-#### 4/20/2018
+#### 5/7/2018
 
 <div class="alert alert-block alert-danger">
 Please do not delete my comments. On the next submission I will use them to see if the issues were addressed and then I will delete them. If you disagree with a comment, just add your own underneath it.
 </div>
 
 ## Abstract
-Horizontal filtration is a completely new innovation for the AguaClara team, arising from a desire to make the 1 L/s plants easier to make and ship through replacing the Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the sedimentation tanks and current filter design will be used, such as the relationship between backwash and operational speed, as well as the design of the plate settlers. Initial experimentation with the settling of sand during upflow demonstrated the the feasibility of angled plates as a method of sand retention.
+Horizontal filtration is a completely new innovation for the AguaClara team, arising from a desire to make the 1 L/s plants easier to make and ship through replacing the Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the sedimentation tanks and current filter design will be used, such as the relationship between backwash and operational speed, as well as the design of the plate settlers. Initial experimentation with the settling of sand during upflow demonstrated the feasibility of angled plates as a method of sand retention.
 
 
 
@@ -18,7 +18,6 @@ Horizontal filtration is a completely new innovation for the AguaClara team, ari
 </div>
 
 ## Table of Contents
-**Will it be helpful to have this? I think yes - Clare**
 1. Introduction
 2. Description of Apparatus
 3. Challenges and Future Work
@@ -63,7 +62,7 @@ Minor spelling/grammar issues
 
 |  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/labeled_real_box.PNG?raw=true" >|
 |:----:|
-| Figure X: This is a photo of the apparatus as currently constructed.|
+| Figure 1: This is a photo of the apparatus as currently constructed.|
 </center>
 
 <div class="alert alert-block alert-danger">
@@ -93,7 +92,7 @@ center all figures and label them all. Refer to them by their figure #.
 
   |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/inserting_shelves4.jpeg?raw=true" >|
   |:---:|
-  |Figure X: Construction: fix this caption in future run throughs.|
+  |Figure 2: Construction of the filter insert.|
 
   </center>
 
@@ -126,11 +125,11 @@ As the Horizontal filtration team continues, fabricating the update design will 
 
 Acrylic Box: An acrylic container of specifications 18x18x24" bought from [Shop Pop Displays](http://www.shoppopdisplays.com/P_PED-ACRYLIC-CLEAR-FLAT/clear-acrylic-pedestal.html) in order to act as an observable smaller model of the designed horizontal filter.
 
-Ethylene Propylene Diene Monomer Rubber(EPDM): Sheets of EPDM will be used as seals to cover the holes in the entrance and exit plates during backwash. EPDM will also be used in maintaining water tightness when potentially using gaskets for sealing.
+Ethylene Propylene Diene Monomer Rubber(EPDM): Sheets of EPDM will be used as seals to cover the holes in the entrance and exit plates during backwash. EPDM will also be used in maintaining water tightness when potentially using gaskets for sealing. (McMaster-Carr)
 
 PVC Sheets: Sheets will be cut into the forms of the shelves, entrance/exit plates, and the filter shelf holders. (McMaster-Carr)
 
-Aluminum Angle Iron: Stabilizer for one version of the gasket system.
+Aluminum Angle Iron: Stabilizer for one version of the gasket system. (McMaster-Carr)
 
 1/8" Router Bit: Router will be used to cut holes in PVC (McMaster-Carr)
 
@@ -158,14 +157,14 @@ Last entry is formatted differently from the rest.
 
 |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Hole%20cut.JPG?raw=true" >|
 |:---:|
-|Figure X: This sketch illustrates the fabrication method used to cut notches in both the center plates and filter shelves. The blue circle was drilled out first, then two cuts parallel to the outer edges of the hole were made using the band saw. This technique left a rounded notch in the plates, but maintained a decent degree of consistency over made cuts.
+|Figure 3: This sketch illustrates the fabrication method used to cut notches in both the center plates and filter shelves. The blue circle was drilled out first, then two cuts parallel to the outer edges of the hole were made using the band saw. This technique left a rounded notch in the plates, but maintained a decent degree of consistency over made cuts.
 </center>
 <div class="alert alert-block alert-danger">
 ~Photos for these steps? It is hard for me to picture.
 
 </div>
 
-2. Filter shelf - The filter shelves were cut from a sheet of 1/8" PVC. To cut in the notches into the shelves the same techniques as with the filter plates was used, but varied for the different thickness. First a 1/4" hole (for the thickness of the center plates) was drilled at a measured location on the shelf with the drill press. The location of the notches depends on the number and location of the center plates. In the built model this was chosen to be at the 1/3 and 2/3 distances along the width of the shelf, to create 3 even sections. The update design, however, uses 3 plates.  Upon drilling the holes, the notch was cut using the band saw. To get the angled edge of the shelf, a jig was constructed, first by the team and later by Tim Brock, of the machine shop. The jig provided an angled surface to attach the shelf through as it was led through the band saw at an angle. This process required much precision and care. While it works, potential other methods of shelf fabrication should be explored. One option is to cut the shelves at an angle as a first step, to avoid needing to shave thin strips after holes have been drilled. this would save time and be less wasteful of the plastic. 
+2. Filter shelf - The filter shelves were cut from a sheet of 1/8" PVC. To cut in the notches into the shelves the same techniques as with the filter plates was used, but varied for the different thickness. First a 1/4" hole (for the thickness of the center plates) was drilled at a measured location on the shelf with the drill press. The location of the notches depends on the number and location of the center plates. In the built model this was chosen to be at the 1/3 and 2/3 distances along the width of the shelf, to create 3 even sections. The update design, however, uses 3 plates.  Upon drilling the holes, the notch was cut using the band saw. To get the angled edge of the shelf, a jig was constructed, first by the team and later by Tim Brock, of the machine shop. The jig provided an angled surface to attach the shelf through as it was led through the band saw at an angle. This process required much precision and care. While it works, potential other methods of shelf fabrication should be explored. One option is to cut the shelves at an angle as a first step, to avoid needing to shave thin strips after holes have been drilled. this would save time and be less wasteful of the plastic.
 
 <div class="alert alert-block alert-danger">
 How did you predetermine the location for the 1/4" hole?
@@ -209,7 +208,7 @@ The purpose of this filter assembly is for simplicity and easy fabrication. The 
 
 |![filter_assembly](https://github.com/AguaClara/horizontal_filtration/blob/master/images/filter.jpg?raw=true)|
 |:---:|
-| Figure X: Schematic of the filter: but not the current filter|
+| Figure 4: Schematic of the first iteration of the filter|
 </center>
 
 <div class="alert alert-block alert-danger">
@@ -220,8 +219,7 @@ Also please label all figures with numbers and captions!
 Also thoroughly revise the paragraph description for clarity and understanding.
 </div>
 
-The team must first calculate the dimensions of the sand filter space which will make up a section of the overall apparatus. To do this, HorFi (Horizontal Filtration Team) takes into account the velocity at which water moves through a sand filter and the desired flow rate of the system. Since creating a 1 L/s apparatus would take all semester, the team begins with a scale model at 0.1 L/s.
-
+The team first calculated the dimensions of the sand filter space which will make up a section of the overall apparatus. To do this, HorFi (Horizontal Filtration Team) took into account the velocity at which water moves through a sand filter and the desired flow rate of the system. As the goal was to create a model, the size constraint on the filter was determined by what size box would be easy to use. This constraint resulted in a filter with a 0.37 L/s flow capacity.
 <div class="alert alert-block alert-danger">
 Change of verb tense.
 
@@ -230,14 +228,18 @@ Be consistent throughout
 Also before you referred to yourself as "the team" now you are "HorFi" (Pick one or the other)
 </div>
 
-Since the backwash velocity (V_backwash) is greater than the filter velocity (V_filter), it is the design constraint. With some math, the area of backwash (A_backwash) and area of flow (A_flow) may be calculated.
+Since the backwash velocity (V_backwash) is necessarily greater than the filter velocity (V_filter) as the volumetric flow is the same while cross-sectional area is less, it is the principal design constraint. With some math, the area of backwash (A_backwash) and area of flow (A_flow) may be calculated.
 
 
 With these dimensions calculated, the filter box can then be rendered as seen below.
+<center>
 
-![filter_box](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box.JPG)
+|![filter_box](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box.JPG)|
+|:---:|
+|Figure 5: Rendering of the outermost box of the filter. Within this box the filter insert will be placed. This geometry constrains much of the design.|
 
-Notice the blue line on the filter box floor. Depending on the sand filter length determined and length needed between filter shelves, this will be the location for the entrance and exit plates with the filter shelf insert the appropriate width to ensure a snug fit.
+</center>
+
 
 <div class="alert alert-block alert-danger">
 Technical writing errors.
@@ -245,21 +247,25 @@ Technical writing errors.
 I'm confused by the blue lines? Will they be placed across the middle one? Inconsistent with later figures.
 </div>
 
-The entrance and exit plates are what separate the inflow and outflow from the body of the sand filter as well as confien the filter shelf assembly. They are perforated to allow the flow of water.
+The entrance and exit plates are what separate the inflow and outflow from the body of the sand filter as well as confine the filter shelf assembly. They are perforated to allow the flow of water.
 
 <div class="alert alert-block alert-danger">
 fix "confien"
 
 How big are the perforations?
 </div>
+<center>
 
-![entrance_exit_plates](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_entrance_exit_plates.JPG?raw=true)
+|![entrance_exit_plates](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_entrance_exit_plates.JPG?raw=true)|
+|:---:|
+|Figure 6: Rendering of entrance plates with hole design. The holes are located with 2 at each filter shelf with the height above the filter shelf defined as 1 cm. The layout of the holes was staggered to prevent too high of a stress at a location where all the holes were lined up.|
+</center>
 
 <div class="alert alert-block alert-danger">
 How did you decide how many holes and where to put them?
 </div>
 
-These plates may then be placed within the filter box, as seen below. Depending on the width of the filter insert assembly, the spacing of the plates will be adjusted accordingly.
+These plates may then be placed within the filter box, as seen below. Depending on the length of the filter insert assembly, the spacing of the plates will be adjusted accordingly, as the length of the filter insert, as set by the length of the filer and flow constraints, determines how far apart the entrance and exit plates need to be. The idea is that they would be fully secured once the apparatus is in use and only the insert would remain removable.
 
 <div class="alert alert-block alert-danger">
 How does the width of the filter insert assembly affect the spacing of the plates?
@@ -267,19 +273,36 @@ How does the width of the filter insert assembly affect the spacing of the plate
 What is the filter insert assembly?
 </div>
 
-![filter_box_plates](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box_plates.JPG)
+<center>
+
+|![filter_box_plates](https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/images/filter_box_plates.JPG)|
+|:---:|
+|Figure 7: Rendering of the entrance and exit plates placed into the fitler box|
+</center>
 
 Between these plates will be the filter shelf insert, a series of suspended, angled shelves that serve to both shelter the holes during routine filtration and also return sand during backwash. Below is a filter plate, a component of the filter shelf insert that keeps the filter shelves rigid and at the correct height.
 
-![filter_plate](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_plate.JPG?raw=true)
+<center>
+
+|![filter_plate](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_plate.JPG?raw=true)|
+|:---:|
+|Figure 8: A center plate|
+</center>
 
 
 
 The notches are where the shelves and the bottom plate are placed. The bottom plate serves as a recirculator. During backwash, there is the possibility that dead zones in the far side of the filter will occur. To remedy this, the angled bottom plate provides an upward path for incoming water to ensure all sand is cleaned. Below is a filter shelf followed by the bottom plate. The angle was set at a minimum of 15 degrees.
+<center?
 
-![filter_shelf](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_shelf.JPG?raw=true)
+|![filter_shelf](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_shelf.JPG?raw=true)|
+|:---:|
+|Figure 9: A filter shelf|
 
-![bottom_plate](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Bottom_plate.JPG?raw=true)
+|![bottom_plate](https://github.com/AguaClara/horizontal_filtration/blob/master/images/Bottom_plate.JPG?raw=true)|
+|:---:|
+|Figure 10: Replace this
+
+</center>
 
 The current plan is to have 3 of the plates perpendicularly oriented with respect to the entrance and exit plates to provide support for the long filter shelf pieces. This following image depicts this concept.
 
@@ -338,23 +361,100 @@ Also still confused about where the sand is.
 
 # Appendix
 
-### Variables
+### Experiments
 
-#####Calculation of Backwash and Flow Area
+#### Methods
+
+To determine the initial parameters, the team conducted several experiments with the flow of water in relation to the sand. These experiments were done to verify hypotheses when calculations didn't yield conclusive answers. The experiments focused on determining the length of the filter shelves, the adapted plate settlers, which would allow sand to settle before climbing into the outlet and flowing out of the filter. To do this two tests were run.
+
+Two similar apparatuses were constructed to determine the length of the filter shelves based on how sand settled in angled tubes of different diameters. The first setup included a 1" diameter pipe as the filter body and 1/8" tube as an angled outlet(Figure 1) Forty-five degrees was chosen as the angle to allow the most sand to fall while not changing the flow too much. Sand, then water were poured in to see if sand would travel into the outlet during startup conditions. It did. From there the pumps were turned on to mimic water flow during filtration and backwash. The speed in the filter body was set to be the speed required for backwash, 9mm/s, and the speed in the angled outlet was set to the speed during operation 1.8mm/s as that is the maximum water velocity that should be experienced within the filter shelves. Upon completion of this test, a new apparatus was constructed.
+<center>
+
+| ![apparatus for testing length of filter shelves](https://github.com/AguaClara/horizontal_filtration/blob/master/images/small_diameter_outler.jpg?raw=true) |
+|:--:|
+| *Figure 1. First experimental apparatus with 1" diameter filter and 1/8" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
+</center>
+
+The original idea for the new apparatus was to have a 1" angled tube stemming from the 1" filter. This proved nearly impossible to fabricate, so as in Figure 2, a 3/4" angled outlet pipe was used instead. In this test, the same steps were taken, dry sand was poured to determine how sand would travel. Then water was added, which caused sand to move several inches up into the outlet tube. However, the level of sand retreated once the pumps were turned on and operating at backwash and operational speeds. More elaboration on these filter experiments are below in experimental procedures.
+
+<center>
+
+| ![apparatus for testing length of filter shelves](https://github.com/AguaClara/horizontal_filtration/blob/master/images/one_inch_outlet.jpg?raw=true) |
+|:--:|
+| *Figure 2. Second experimental apparatus with 1" diameter filter and 3/4" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
+</center>
+
+## Experimental Methods
+
+### Filter Shelf Length Tests
+  Several tests were run in order to determine the upflow path of sand during backwash. A tube was used to simulate the main body of the filter  with a smaller angled tube branching off the main body. The outlet branch allowed the team to measure how far sand would rise in the outlet, which could inform the length of the filter shelves given the velocities expected in the filter. Additionally, an understanding of the speeds required to drive sand into an outlet could further inform aspects of the OStaRS, specifically the necessity of the slotted pipes.
+
+<div class="alert alert-block alert-danger">
+~~fix these tests were ran"
+</div>
+
+#### Experiment: 1" and 1/8"
+1. First a mock filter was constructed using a 1" clear PVC pipe; in this pipe an angle hole was drilled at 45 degrees from the vertical around 5 inches from the top of the pipe. Into this hole, a small length of 1/8" tubing cut on one end to an angle of 45 degrees was inserted and glued. See Figure 1 above for an image of the apparatus.
+2. Dry sand was poured from the top into the apparatus to see if dry sand would move up the outlet tube when the sand level was two inches above the angled outlet. It did not.
+3. An additional 500g of sand were poured in increments of 100g, this corresponded with an additional height of about 1.5ft in the 1" pipe. At no point did dry sand enter into the outlet tube.
+4. Water was then slowly added into original amount of sand, during this process water carried sand into the first inch of the outlet tube.
+5. Pumps were checked for proper flow rate to get proper water velocity in the outlet tube as corresponding to the outlet diameter and speed required for backwash and operation speed. The water within the body of the filter was moving at a speed required for backwash and the outlet pull was at the speed required during operation as that should be the maximum velocity experienced in the filter shelves.
+6.Water was then pumped through the very wet sand. Sand moved around 3 inches up the length of the outlet tube. Preferential flow paths were observed as the apparatus was tilted.
+
+#### Experiment: 1" and 3/4"
+
+1. Originally, the plan had been to use 1" and 1" but fabrication of the experimental apparatus was extraordinarily challenging, so the outlet tube dimension was changed to reflect what was possible to construct. Because of this a 3/4" inch pipe was used instead. Using a hole saw an angled hole was drilled in to the main 1" tube. The 3/4" pipe was then also cut on one end with the same size hole saw bit. This meant that the curvature of each piece fit together more snugly than had the 3/4" pipe been sliced flat. Then the two pieces were welded together.
+2. Sand was poured into the container to a level of around 4 inches above the opening of the angled outlet. Sand settled slightly into the angled tube.
+3. The apparatus was filled with water, and the inlets and outlets were hooked up to their respective pumps and waste lines. At this point the sand rose in the outlet column to a length of around 3 inches.
+4. The pumps were reset to work at the new speeds needed to pull water through the outlet at 1.8mm/s and through the main filter at 9mm/s. As the sand in the main column fluidized the sand dropped in the outlet column down to a length of 1.1" which remained constant over the several minutes the pumps were on.
+5. The pumps speeds were altered away from what would be useful during operation to develop a sense for what effect that could have on the effectiveness of the filter shelves. Below is a table of the values obtained.
+
+<div class="alert alert-block alert-danger">
+These two procedures seems similar. Can there just be one set of procedures then simple xplanations about the size differences?
+
+Clare- I considered that thye were very similar but for clarity's sake I though it would be better to have them separately, as they are a bit different. I find that writing parallel procedures as one unit requires the reader to hold too much information at once. I will, however, add a brief sentence to mention the similarity.
+</div>
+
+<center>
+
+#### **Table of  pump speed and sand length in outlet tube**
+|filter speed (RPM)|outlet speed (RPM)|sand length in tube (in)|
+|:---:|:----:|:----:|
+|73|11.4|1.1|
+|80|11.4|1.1|
+|50|11.4|1.1|
+|87|11.4|1.05|
+|73|15|1.5|
+|73|19|1.95|
+|73|23|4|
+|73|11.4|1.1|
+</center>
+
+From this data it is apparent that changing the speed that the water is being pulled out affects the height of sand in the filter shelf, but changing the overall flow does not, which makes sense as any water not pulled from the outlet just increases the flow through the unregulated outlet. With the proper pump speeds of 73 RPM influent, and 11.4 RPM pulled out the angled outlet, the length the sand travels into the outlet, 1.1", is a small enough distance to make the actual construction feasible. The influent and effluent speeds differ due to the actual model having multiple holes to create outflow but in this one hole model, the amount that would be measured going into the other holes was just left as waste outflow rather than along with the effluent. The python code below explains the significance of these values and how they were determined.
+
+<div class="alert alert-block alert-danger">
+There is no python code below. Run-on sentences.
+</div>
+
+
+### Variables
+- **A note on the coordinate system**: length is used to mean parallel to flow direction, so filter length is the horizontal distance the water flows within the sand section of the filter. Width the direction perpendicular to flow direction; center plates are spaced along the width of the filter. Height is the vertical direction.
+
+##### Calculation of Backwash and Flow Area
 - $V_{filter}$=***V_filter***=Velocity of filtration
 - $V_{backwash}$=***V_backwash***=Velocity of water during backwash
 - $Q_{plant}$=***Q_plant***=Water flow through plant
 - $A_{backwash}$=***A_backwash***=Area of backwash
 - $A_{flow}$=***A_flow***=Cross sectional area of sand/area of flow
 
-#####Calculation of Filter Box Dimensions
+##### Calculation of Filter Box Dimensions
 - $\pi_{FiBw}$=***PiFiBw***=Volume increase ratio due to sand bed fluidization
 - $l_{filter}$=***filter_length***=Length of filter
 - $w_{filter}$=***filter_width***=Width of filter
 - $h_{filter}$=***filter_height***=Height of entire filter
 - $h_{box}$=***box_height***=Height of utilized box model
 
-#####Calculation of Necessary Filter Shelf Length
+##### Calculation of Necessary Filter Shelf Length
 - $\nu$=Kinematic viscosity
 - $\rho_{sand}$=***rho_sand***=Density of particle
 - $\rho_{water}$=***rho_water***=Density of water
@@ -369,7 +469,7 @@ Also still confused about where the sand is.
 - $\alpha$=***alpha***=angle of shelves
 - $l_{shelf}$=***L***=Length of filter shelf
 
-#####Filter Shelf Dimension and Spacing Calculations
+##### Filter Shelf Dimension and Spacing Calculations
 - $d_{shelf}$=***space_shelf***=Spacing between filter shelves (top to top)
 - $d_{holes}$=***diam_holes***=Diameter of the holes in walls
 - $N_{holes}$=***num_holes***=Number of holes on either side
@@ -390,7 +490,7 @@ Maybe it would be best to separate out all of the python and put it in one secti
 Consider the usability of the current format.
 </div>
 
-elow is the equation for terminal settling velocity where d is diameter, $\nu$ is kinematic viscosity. This is used for laminar flow.
+Below is the equation for terminal settling velocity where d is diameter, $\nu$ is kinematic viscosity. This is used for laminar flow.
 
 $$ Vt = \frac{d^2g}{18\nu}(\frac{\rho_{particle}-\rho_{H2O}}{\rho_{H2O}}) $$
 
@@ -407,13 +507,13 @@ Q_plant = .37*(u.L/u.s)  #the scale we are working with for our first iteration 
 A_backwash = Q_plant/V_backwash #plan view area of sand (x,y axis)
 A_flow = Q_plant/V_filter  #cross sectional area of sand (x,z axis)
 ```
-From here, the team must incorporate some knowledge on the depth in which water travels through a traditional AguaClara OStaRS filter. The filter backwash ratio is the ratio between settled sand height during filtration and expanded sand height during backwash. Because the filter backwash ratio is 1.3 (PiFiBw), which has been empirically determined, the team must determine a settled sand height first.
+From here, the team incorporated some knowledge on the depth in which water travels through a traditional AguaClara  Open Stacked Rapid Sand (OStaRS) filter. The filter backwash ratio is the ratio between settled sand height during filtration and expanded sand height during backwash. Because the filter backwash ratio is 1.3 (PiFiBw), which has been empirically determined, the team determined a settled sand height first.
 
 <div class="alert alert-block alert-danger">
 I thought you were mostly comparing it to the EStaRS figure. Why the change to OStaRS? (Also I don't think you've defined what the O in OStaRS means)
 </div>
 
-The team decides that with the scale model in mind, 3.65 inches of sand in the flow direction (filter_length) is a fair parameter to start with. With this one measurement, and the ratio between filter velocity and backwash velocity, all other parameters fall into place.
+The team decided that with the scale model in mind, 3.65 inches of sand in the flow direction (filter_length) is a fair parameter to start with. With this one measurement, and the ratio between filter velocity and backwash velocity, all other parameters fall into place.
 
 <div class="alert alert-block alert-danger">
 Why is it s fair parameter to start with?
@@ -556,80 +656,6 @@ Is this another appendix? Appendices should be referred to in the body of the te
 If you have different topics in an appendix, you should label each separate section with "Appendix A: Stress and Displacement Analysis of the Filter Box"
 </div>
 
-### Experiments
-
-#### Methods
-
-To determine the initial parameters, the team conducted several experiments with the flow of water in relation to the sand. These experiments were done to verify hypotheses when calculations didn't yield conclusive answers. The experiments focused on determining the length of the filter shelves, the adapted plate settlers, which would allow sand to settle before climbing into the outlet and flowing out of the filter. To do this two tests were run.
-
-Two similar apparatuses were constructed to determine the length of the filter shelves based on how sand settled in angled tubes of different diameters. The first setup included a 1" diameter pipe as the filter body and 1/8" tube as an angled outlet(Figure 1) Forty-five degrees was chosen as the angle to allow the most sand to fall while not changing the flow too much. Sand, then water were poured in to see if sand would travel into the outlet during startup conditions. It did. From there the pumps were turned on to mimic water flow during filtration and backwash. The speed in the filter body was set to be the speed required for backwash, 9mm/s, and the speed in the angled outlet was set to the speed during operation 1.8mm/s as that is the maximum water velocity that should be experienced within the filter shelves. Upon completion of this test, a new apparatus was constructed.
-<center>
-
-| ![apparatus for testing length of filter shelves](https://github.com/AguaClara/horizontal_filtration/blob/master/images/small_diameter_outler.jpg?raw=true) |
-|:--:|
-| *Figure 1. First experimental apparatus with 1" diameter filter and 1/8" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
-</center>
-
-The original idea for the new apparatus was to have a 1" angled tube stemming from the 1" filter. This proved nearly impossible to fabricate, so as in Figure 2, a 3/4" angled outlet pipe was used instead. In this test, the same steps were taken, dry sand was poured to determine how sand would travel. Then water was added, which caused sand to move several inches up into the outlet tube. However, the level of sand retreated once the pumps were turned on and operating at backwash and operational speeds. More elaboration on these filter experiments are below in experimental procedures.
-
-<center>
-
-| ![apparatus for testing length of filter shelves](https://github.com/AguaClara/horizontal_filtration/blob/master/images/one_inch_outlet.jpg?raw=true) |
-|:--:|
-| *Figure 2. Second experimental apparatus with 1" diameter filter and 3/4" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
-</center>
-
-## Experimental Methods
-
-### Filter Shelf Length Tests
-  Several tests were run in order to determine the upflow path of sand during backwash. A tube was used to simulate the main body of the filter  with a smaller angled tube branching off the main body. The outlet branch allowed the team to measure how far sand would rise in the outlet, which could inform the length of the filter shelves given the velocities expected in the filter. Additionally, an understanding of the speeds required to drive sand into an outlet could further inform aspects of the OStaRS, specifically the necessity of the slotted pipes.
-
-<div class="alert alert-block alert-danger">
-~~fix these tests were ran"
-</div>
-
-#### Experiment: 1" and 1/8"
-1. First a mock filter was constructed using a 1" clear PVC pipe; in this pipe an angle hole was drilled at 45 degrees from the vertical around 5 inches from the top of the pipe. Into this hole, a small length of 1/8" tubing cut on one end to an angle of 45 degrees was inserted and glued. See Figure 1 above for an image of the apparatus.
-2. Dry sand was poured from the top into the apparatus to see if dry sand would move up the outlet tube when the sand level was two inches above the angled outlet. It did not.
-3. An additional 500g of sand were poured in increments of 100g, this corresponded with an additional height of about 1.5ft in the 1" pipe. At no point did dry sand enter into the outlet tube.
-4. Water was then slowly added into original amount of sand, during this process water carried sand into the first inch of the outlet tube.
-5. Pumps were checked for proper flow rate to get proper water velocity in the outlet tube as corresponding to the outlet diameter and speed required for backwash and operation speed. The water within the body of the filter was moving at a speed required for backwash and the outlet pull was at the speed required during operation as that should be the maximum velocity experienced in the filter shelves.
-6.Water was then pumped through the very wet sand. Sand moved around 3 inches up the length of the outlet tube. Preferential flow paths were observed as the apparatus was tilted.
-
-#### Experiment: 1" and 3/4"
-
-1. Originally, the plan had been to use 1" and 1" but fabrication of the experimental apparatus was extraordinarily challenging, so the outlet tube dimension was changed to reflect what was possible to construct. Because of this a 3/4" inch pipe was used instead. Using a hole saw an angled hole was drilled in to the main 1" tube. The 3/4" pipe was then also cut on one end with the same size hole saw bit. This meant that the curvature of each piece fit together more snugly than had the 3/4" pipe been sliced flat. Then the two pieces were welded together.
-2. Sand was poured into the container to a level of around 4 inches above the opening of the angled outlet. Sand settled slightly into the angled tube.
-3. The apparatus was filled with water, and the inlets and outlets were hooked up to their respective pumps and waste lines. At this point the sand rose in the outlet column to a length of around 3 inches.
-4. The pumps were reset to work at the new speeds needed to pull water through the outlet at 1.8mm/s and through the main filter at 9mm/s. As the sand in the main column fluidized the sand dropped in the outlet column down to a length of 1.1" which remained constant over the several minutes the pumps were on.
-5. The pumps speeds were altered away from what would be useful during operation to develop a sense for what effect that could have on the effectiveness of the filter shelves. Below is a table of the values obtained.
-
-<div class="alert alert-block alert-danger">
-These two procedures seems similar. Can there just be one set of procedures then simple xplanations about the size differences?
-
-Clare- I considered that thye were very similar but for clarity's sake I though it would be better to have them separately, as they are a bit different. I find that writing parallel procedures as one unit requires the reader to hold too much information at once. I will, however, add a brief sentence to mention the similarity.
-</div>
-
-<center>
-
-#### **Table of  pump speed and sand length in outlet tube**
-|filter speed (RPM)|outlet speed (RPM)|sand length in tube (in)|
-|:---:|:----:|:----:|
-|73|11.4|1.1|
-|80|11.4|1.1|
-|50|11.4|1.1|
-|87|11.4|1.05|
-|73|15|1.5|
-|73|19|1.95|
-|73|23|4|
-|73|11.4|1.1|
-</center>
-
-From this data it is apparent that changing the speed that the water is being pulled out affects the height of sand in the filter shelf, but changing the overall flow does not, which makes sense as any water not pulled from the outlet just increases the flow through the unregulated outlet. With the proper pump speeds of 73 RPM influent, and 11.4 RPM pulled out the angled outlet, the length the sand travels into the outlet, 1.1", is a small enough distance to make the actual construction feasible. The influent and effluent speeds differ due to the actual model having multiple holes to create outflow but in this one hole model, the amount that would be measured going into the other holes was just left as waste outflow rather than along with the effluent. The python code below explains the significance of these values and how they were determined.
-
-<div class="alert alert-block alert-danger">
-There is no python code below. Run-on sentences.
-</div>
 
 
 # To convert the document from markdown to pdf
