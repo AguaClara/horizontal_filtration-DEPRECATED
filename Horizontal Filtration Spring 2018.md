@@ -100,6 +100,12 @@ The center plate is the structure that supports the filter shelf, it has notches
 |:------------:|
 |                     Figure 2: The entrance and exit plates are perforated with slits in order to permit forward filtration. |
 
+<center>
+
+| ![apparatus for testing length of filter shelves](https://github.com/AguaClara/horizontal_filtration/blob/master/images/slanted_shelf.jpg?raw=true) |
+|:--:|
+| *Figure 2. Second experimental apparatus with 1" diameter filter and 3/4" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.* |
+</center>
 
 | ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/3shelf.JPG?raw=true" style="width: 350px;" > |
 |:------------:|
