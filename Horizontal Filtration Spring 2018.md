@@ -29,7 +29,7 @@ Horizontal filtration is a new innovation for the AguaClara team, arising from a
 
 The AguaClara plantita (1 L/s plant) is a difficult apparatus to construct and implement. Finding a way to make fabrication, assembly, and installation simpler, as well as downsize components, will greatly decrease the cost and make the technology more accessible for global communities.
 
-The concept of an easy to implement, versatile water treatment plant correlates nicely with the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429). OrigamiWaterLab is the concept of creating a easily producible filtration system, built from easily transportable flat parts, similar creation of origami. Essentially, ingenious engineering is found in simplicity and resiliency. Fabricating a plant that transitions from flat into 3D is a innovative area of study that may become more possible with increased exploration. With more work, this concept could become a new direction for AguaClara plants.
+The concept of an easy to implement, versatile water treatment plant correlates nicely with the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429). OrigamiWaterLab is the concept of creating an easily producible filtration system, built from easily transportable flat parts, similar creation of origami. Essentially, ingenious engineering is found in simplicity and resiliency. Fabricating a plant that transitions from flat into 3D is a innovative area of study that may become more possible with increased exploration. With more work, this concept could become a new direction for AguaClara plants.
 
 With this idea in mind, one of the most difficult features to construct efficiently is the filter, which is both time and labor intensive to create. Currently, the 1L/s plant’s filter is characterized by a vertical, enclosed stacked rapid sand filter (EStaRS) which is tall and cumbersome to ship in addition to having a complicated geometry of 4 inlet manifolds and 3 outlet manifolds.
 
@@ -173,7 +173,7 @@ The components and relationships discussed in this section is the extent in whic
 *The following section describes the first iteration of the horizontal filter. Upon it's construction, the team determined that further iterations would be needed to build a filter with components that are more precise and consistent. In response, the team designed a full Fusion360 model of the filter assembly, on which the next iteration will be based. This Fusion360 link has been attached in the Manual of this report and includes current and past designs. This section is meant to be stand alone and tells the story of how the explanation of the apparatus will focus on the challenges with this design and the changes that were made in the updated design.*
 
 
-####Design
+#### Design
 
 As an overview, the horizontal filter consists of 4 main parts: the acrylic box, the entrance/exits plates, filter shelves, and the center plates. In Figure 15 below, each of those parts are labelled.
 
