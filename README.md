@@ -13,4 +13,6 @@ Our goals for the semester are to begin design and fabrication of a horizontal f
 
 [Research Report](https://github.com/AguaClara/horizontal_filtration/blob/master/Horizontal%20Filtration%20Spring%202018.md)
 
-[Symposium Presentation](https://docs.google.com/presentation/d/1B9jeUxj_URgCusryeDDZGmVc9bsAd1W1RHVjx0p9nFQ/edit#slide=id.g34e219705f_0_67)
+[Mid-Semester Symposium Presentation](https://docs.google.com/presentation/d/1B9jeUxj_URgCusryeDDZGmVc9bsAd1W1RHVjx0p9nFQ/edit#slide=id.g34e219705f_0_67)
+
+[Final Symposium Presentation](https://docs.google.com/presentation/d/1Qsn9ZRb5EKVNXGPBFjYfc4VulfgdpfBvkzE2R9nUej0/edit?ts=5afdf1f7#slide=id.g37cb3990d4_0_113)
