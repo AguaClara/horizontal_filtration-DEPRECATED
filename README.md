@@ -3,6 +3,7 @@
 
 ### Current Team Members
 Emily Gibson (erg95) 
+
 Nicole Wang (new45)  
 
 ### Semester Goals
