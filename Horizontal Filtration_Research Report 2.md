@@ -1,4 +1,5 @@
-##Horizontal Filtration
+## Horizontal Filtration
+
 Emily Gibson, Nicole Wang
 
 October 26, 2018
@@ -11,16 +12,16 @@ The goal of Horizontal Filtration is to develop a horizontal filtration system t
 
 The horizontal filtration system stems from the OrigamiWaterLab proposed by AguaClara engineer Ethan Keller. The idea is to fabricate a plant that is able to transition from flat into a 3D plant, much like origami. Currently, the EStaRS filter is unwieldy to ship because of its vertical design. The team of Spring 2018 then proposed a horizontal filtration design that uses horizontal flow for filtration and vertical flow for backwash. This greatly decreases the amount of space that is occupied by the filter and the various parts that detach and attach cleanly makes transportation of the system far easier. The current design, consisting of an entrance and exit plate with a filter insert in between is shown in Figure 1. The goal this semester is to continue fabrication of the horizontal filtration model, to test the model to ensure that it functions as designed and make any necessary changes to the design.
 
-| ![Horfi_updated](/images/Horfi_updated.JPG)|
-| --- |
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_updated.JPG" > |
+| :---: |
 |**Figure 1:** This image shows the placement of the filter insert within the filter box, specifically between the entrance and exit plates. The top image shows this system complete, while the bottom images shows the filter with the entrance plate removed to better show configuration of the shelves in relation to the rest of the box.|
 
 #### **Previous Work**
 
 The team started the semester by reading through reviewing the manual from last year’s team. During the Spring 2018 semester, the team designed a horizontal filtration system in which the ratio of the horizontal flow area and vertical area is designed such that backwash will fluidize the bed. The apparatus consists of a series of slits and a filter shelf insert. The slits allowed for water to flow from the inlet to the outlet. Between was a filter insert that consists of a center plate and filter shelves. The filter shelves serve as a place for the sand to settle instead of being carried out with the effluent. The siphon is then able to begin backwash by creating low pressure in the sandbed. Backwash gates are closed except for the bottom ones, requiring a higher velocity of water that rinses away any smaller particles from the sand. A crucial part of the design also lies in the carved channels of the center plate design. These channels allow for the free flow of water along the entrance and exit, as shown in Figure 2 below.
 
-| ![carved_channels](/images/carved_channels.JPG) |
-| --- |
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/carved_channels.JPG"> |
+| :---: |
 |**Figure 2:**  Channels in the filter allow lateral flow of water.|
 
 
@@ -52,8 +53,8 @@ Before we fabricate the filter, the team plans to fabricate a few apparatuses to
 1. We cut a ¾” PVC pipe at a 55-degree angle using a bandsaw, as seen in Figure 3 on the left. The angle was chosen based on last year’s findings -- the filter shelves should be at as steep an angle as possible to minimize sand loss, but the team found it impractical to fabricate cuts at angles steeper than 55 degrees. If we decide to substantially alter their design, we may perform additional tests to measure sand rise at steeper angles.  
 2. We then drilled a ¾” hole in a 1” pipe using a hole saw. The 1’’ pipe with the ¾’’ hole is shown on the right in Figure 3.
 
-| ![3/4'' and 1'' pipes](/images/Fall 2018/exp1_0.75_1 inch_pipes.JPG) |
-| --- |
-|**Figure 3:**  On the left is the ¾’’ pipe that was cut at a 55 degree angle. On the right is the 1’’ pipe that had a ¾’’ hole cut from it. The ¾’’ pipe will be welded to the 1’’ pipe.|
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Fall%202018/exp1_0.75_1%20inch_pipes.JPG">|
+| :---: |
+|**Figure 3:**  On top is the ¾’’ pipe that was cut at a 55 degree angle. On bottom is the 1’’ pipe that had a ¾’’ hole cut from it. The ¾’’ pipe will be welded to the 1’’ pipe.|
 
 3. Our next step will be to weld the pipes together in a similar fashion to last semester’s experiment, and connect the apparatus to pumps so that water will flow in from the bottom, and out through the angled pipe as seen in Figure 3.
