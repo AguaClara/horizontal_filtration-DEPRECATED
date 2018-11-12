@@ -118,7 +118,7 @@ This section is meant to be stand alone and tells the story of how the explanati
 
   <center>
 
-  |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/inserting_shelves4.jpeg?raw=true" >|
+  |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/inserting_shelves4.jpeg?raw=true">|
   |:---:|
   |Figure 7: Construction of the filter insert.|
 
