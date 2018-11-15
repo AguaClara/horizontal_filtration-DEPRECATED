@@ -14,7 +14,7 @@ The goal of Horizontal Filtration is to develop a horizontal filtration system t
 
 The horizontal filtration system stems from the OrigamiWaterLab proposed by AguaClara engineer Ethan Keller. [**You can link the repository if you think that could be useful to an industrious reader**] The idea is to fabricate a plant that is able to transition from flat into a 3D plant, much like origami. Currently, the EStaRS filter is unwieldy to ship because of its vertical design. The team of Spring 2018 then proposed a horizontal filtration design that uses horizontal flow for filtration and vertical flow for backwash. This design greatly decreases the amount of space that is occupied by the filter and the various parts that detach and attach cleanly makes transportation of the system far easier. The current design, consisting of an entrance and exit plate with a filter insert in between is shown in Figure 1. The goal this semester is to continue fabrication of the horizontal filtration model, to test the model to ensure that it functions as designed and make any necessary changes to the design.
 
-| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_updated.JPG" > |
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_updated.JPG?raw=true" > |
 | :---: |
 |**Figure 1:** This image shows the placement of the filter insert within the filter box, specifically between the entrance and exit plates. The top image shows this system complete, while the bottom images shows the filter with the entrance plate removed to better show configuration of the shelves in relation to the rest of the box.|
 
@@ -64,7 +64,7 @@ Before we [**avoid using first person pronuns**]fabricate the filter, the team p
 1. We cut a ¾” PVC pipe at a 55-degree angle using a bandsaw, as seen in Figure 3 on the left. The angle was chosen based on last year’s findings -- the filter shelves should be at as steep an angle as possible to minimize sand loss, but the team found it impractical to fabricate cuts at angles steeper than 55 degrees. If we decide to substantially alter their design, we may perform additional tests to measure sand rise at steeper angles.  
 2. We then drilled a ¾” hole in a 1” pipe using a hole saw. The 1’’ pipe with the ¾’’ hole is shown on the right in Figure 3.
 
-| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Fall%202018/exp1_0.75_1%20inch_pipes.JPG">|
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Fall%202018/exp1_0.75_1%20inch_pipes.JPG?raw=true">|
 | :---: |
 |**Figure 3:**  On top is the ¾’’ pipe that was cut at a 55 degree angle. On bottom is the 1’’ pipe that had a ¾’’ hole cut from it. The ¾’’ pipe will be welded to the 1’’ pipe.|
 
