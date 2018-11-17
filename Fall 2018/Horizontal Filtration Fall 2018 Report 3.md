@@ -48,7 +48,7 @@ Before fabrication of the filter, the team plans to fabricate a few apparatuses 
 
 With first attempt of experiment, it was discovered that the inlet fitting was not properly sized and that the apparatus was not water tight, As a result, these issues will have to be corrected before proceeding with the experiment. However, when the pump was turned on, the entire bed of sand was shifted upward in the pipe. Additionally, with the first attempt of setting the flow rate, the peristaltic pump reached its maximum speed of 100 RPM, without actually reaching the flow rate set. As a result, a more powerful pump will also have to be found.
 
-|https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/exp1_setup.JPG?raw=true|
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/exp1_setup.JPG?raw=true">|
 | :---: |
 |**Figure 3:** Inlet (bottom of pipe apparatus) connected to peristaltic pump (seen on left). Outlet (top of pipe apparatus) on left led to empty out in the bottle. Outlet on right side connected to waste pipe (red).|
 
