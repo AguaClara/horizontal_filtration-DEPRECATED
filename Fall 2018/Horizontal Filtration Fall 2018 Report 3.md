@@ -50,6 +50,8 @@ Before fabrication of the filter, the team plans to fabricate a few apparatuses 
 4. Inlet and outlet are connected to a peristaltic pump and a flow accumulator to maintain a constant flow rate. Full set up seen in Figure 3.
 5. The pumps are set to a certain speed (which will later be determined). The amount of sand that travels into outlet is measured.
 
+[EM: More information needs to be included. What are the lengths of the pipes being used? How are you cutting the pipes at a specified angle? Make sure to include enough information so that this could be recreated by someone with no connection to AguaClara, or someone brand new to the team. Include additional figures if necessary.]
+
 With first attempt of experiment, it was discovered that the inlet fitting was not properly sized and that the apparatus was not water tight, As a result, these issues will have to be corrected before proceeding with the experiment. However, when the pump was turned on, the entire bed of sand was shifted upward in the pipe. Additionally, with the first attempt of setting the flow rate, the peristaltic pump reached its maximum speed of 100 RPM, without actually reaching the flow rate set. As a result, a more powerful pump will also have to be found.
 
 | <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/exp1_setup.JPG?raw=true">|
