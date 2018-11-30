@@ -77,7 +77,7 @@ On the first run of the experiment, as water was pumped into the inlet of the ap
 
 The feasibility of the filter shelf design depends on the sand’s behavior after multiple on/off cycles of the plant. If the total sand rise is the same each time the plant is restarted, then the filter shelf design is likely feasible, provided that the sand does not rise to more than a few inches. However, if the sand rise increases over multiple runs, then the sand will escape from the filter over time and the design is not feasible.
 
-| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/air%20bubbles.JPG" width=70% height=70%>  |
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/air%20bubbles.JPG" width="70%" height="70%">  |
 | :---: |
 |**Figure 6:** As seen near the bottom of the apparatus, a large air bubble had formed. As the air bubble was pushed upwards, the bed of sand was pushed upwards as well. After air bubbles such as the one seen were removed, the sand was able to successfully fluidize.|
 
