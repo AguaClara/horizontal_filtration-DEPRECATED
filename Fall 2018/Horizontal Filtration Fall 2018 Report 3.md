@@ -6,11 +6,13 @@ November 16, 2018
 
 #### **Abstract**
 
-The goal of Horizontal Filtration is to develop a horizontal filtration system that is more compact and easier to build than AguaClara’s current, Enclosed Stacked Rapid Sand Filter model.The Spring 2018 team developed a design that utilized the relationship between backwash and operational speed and angled plate settlers. The main goals this semester are to test the plate settler concept in filtration and backwash conditions, and then fabricate the design. In the coming weeks, the primary objective is to test whether the plate design is sufficient to keep sand inside the filter.
+The goal of Horizontal Filtration is to develop a horizontal filtration system that is more compact and easier to build than AguaClara’s current Enclosed Stacked Rapid Sand Filter model. The Spring 2018 team developed a design that utilized the relationship between backwash and operational speed and angled plate settlers. The main goals this semester are to test the plate settler concept in filtration and backwash conditions, and then fabricate the design. In the coming weeks, the primary objective is to test whether the plate design is sufficient to keep sand inside the filter.
+
+[EM: Before submitting the final report, remember to change the last sentence.]
 
 #### **Introduction**
 
-The horizontal filtration system stems from the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429) The idea is to fabricate a plant that is able to transition from flat into a 3D plant, much like origami. Currently, the EStaRS filter is unwieldy to ship because of its vertical design. The team of Spring 2018 then proposed a horizontal filtration design that uses horizontal flow for filtration and vertical flow for backwash. This design greatly decreases the amount of space that is occupied by the filter and the various parts that detach and attach cleanly makes transportation of the system far easier. The current design, consisting of an entrance and exit plate with a filter insert in between is shown in Figure 1. The goal this semester is to continue fabrication of the horizontal filtration model, to test the model to ensure that it functions as designed and make any necessary changes to the design.
+The horizontal filtration system stems from the [OrigamiWaterLab](https://github.com/OrigamiWaterLab) proposed by AguaClara engineer [Ethan Keller](https://github.com/ethan92429) The idea is to fabricate a plant that is able to transition from flat into a 3D plant, much like origami. Currently, the EStaRS filter is unwieldy to ship because of its vertical design. The team of Spring 2018 then proposed a horizontal filtration design that uses horizontal flow for filtration and vertical flow for backwash. This design greatly decreases the amount of space that is occupied by the filter and the various parts that detach and attach cleanly makes transportation of the system far easier. The current design, consisting of an entrance and exit plate with a filter insert in between is shown in Figure 1. The goal this semester is to continue fabrication of the horizontal filtration model, to test the model to ensure that it functions as designed, and make any necessary changes to the design.
 
 | <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/Horfi_updated.JPG?raw=true" > |
 | :---: |
@@ -29,6 +31,8 @@ The Fall 2018 team started the semester by reading through reviewing the manual 
 
 The team will continue tests done in the previous year to determine the feasibility and optimal geometry for the filter slats. Last semester, the team performed an experiment to test the functionality of the filter shelves.
 
+[EM: Filter slats? Slots? Slits?]
+
 Based on what was done by the Spring 2018 team, the Fall 2018 team will recreate the experimental apparatus used with the angled pipe to model the filter shelves. Using this apparatus, the experiment will be done again to confirm similar results are able to be achieved. Then, in order to create a model more similar to the actual filter shelves to be used, a flat shelf will be inserted into the apparatus’ outlet and the same testing would be done again.
 
 
@@ -46,9 +50,11 @@ Before fabrication of the filter, the team plans to fabricate a few apparatuses 
 4. Inlet and outlet are connected to a peristaltic pump and a flow accumulator to maintain a constant flow rate. Full set up seen in Figure 3.
 5. The pumps are set to a certain speed (which will later be determined). The amount of sand that travels into outlet is measured.
 
+[EM: More information needs to be included. What are the lengths of the pipes being used? How are you cutting the pipes at a specified angle? Make sure to include enough information so that this could be recreated by someone with no connection to AguaClara, or someone brand new to the team. Include additional figures if necessary.]
+
 With first attempt of experiment, it was discovered that the inlet fitting was not properly sized and that the apparatus was not water tight, As a result, these issues will have to be corrected before proceeding with the experiment. However, when the pump was turned on, the entire bed of sand was shifted upward in the pipe. Additionally, with the first attempt of setting the flow rate, the peristaltic pump reached its maximum speed of 100 RPM, without actually reaching the flow rate set. As a result, a more powerful pump will also have to be found.
 
-|https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/exp1_setup.JPG?raw=true|
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/exp1_setup.JPG?raw=true">|
 | :---: |
 |**Figure 3:** Inlet (bottom of pipe apparatus) connected to peristaltic pump (seen on left). Outlet (top of pipe apparatus) on left led to empty out in the bottle. Outlet on right side connected to waste pipe (red).|
 

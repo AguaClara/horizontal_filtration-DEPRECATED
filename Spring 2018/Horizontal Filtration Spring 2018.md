@@ -47,7 +47,7 @@ At a basic level, sand filtration involves running water through a bed of sand. 
 
 <center>
 
-| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/water_movement.JPG?raw=true" size = 400px >|
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/water_movement.JPG?raw=true" size = 400px >|
 |:----:|
 | Figure 1 : The flow of water through the horizontal filter. Water enters through the inlet and travels across the sand bed toward the outlet. This is forward filtration.|
 
@@ -57,7 +57,7 @@ To permit the flow of water from the inlet channel to the outlet channel, a seri
 
 <center>
 
-|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/plates_with_slots.JPG?raw=true" style="width: 350px;" >|
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/plates_with_slots.JPG?raw=true" style="width: 350px;" >|
 |:----:|
 | Figure 2: The entrance and exit plates are perforated with slits in order to permit forward filtration.|
 
@@ -66,31 +66,31 @@ To permit the flow of water from the inlet channel to the outlet channel, a seri
 Also within the entrance and exit plates is a part of the apparatus referred to as the filter insert. The filter insert consists of two components: center plates and filter shelves. As a whole, the filter insert acts to keep the sand within the main body of the filter.
 
 
-| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_shelf_labelled.JPG?raw=true" style="width: 450px;" > |
+| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/Filter_shelf_labelled.JPG?raw=true" style="width: 450px;" > |
 |:------------:|
 |Figure 3: The filter insert serves to keep sand within the main body of the filter. It is composed of three center plates and filter shelves.|
 
 
 Similar to the design of the AguaClara sedimentation plate settlers, the filter shelves exist to provide a place for any sand that has been lifted to settle rather than being carried out of the filter. The shelves are narrow strips of acrylic which are notched, as shown in Figure 4. They are placed at an angle and slanted by 60 degrees on the top lip to fit flush along the faces of the entrance and exit plates. The lip serves as a precautionary measure for the trapping of sand in the frame of the filter if sand were to reach this area. The spacing of the filter shelves was determined from an allowable headloss as well as allowable sand lift (see "Python"). To avoid issues with the flow, shelf spacing needed to be much less than the distance across the filter.
 
-| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Filter_shelf.JPG?raw=true" style="width: 350px;" > |
+| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/Filter_shelf.JPG?raw=true" style="width: 350px;" > |
 |:------------:|
 |Figure 4: A filter shelf. The component is notched for a snug fit within the center plates without the need for glue or welding. |
 
 The center plate is the structure that supports the filter shelf. It has notches which complement the notches on the filter shelves. This ensures the shelves and the center plates fit together well and will not wiggle during operation. Three center plates, as seen in Figure 6, are in the design to provide the most stability for the shelves.
 
-| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/filter%20shelf.JPG?raw=true" style="width: 300px;" > |
+| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/filter%20shelf.JPG?raw=true" style="width: 300px;" > |
 |:------------:|
 |                     Figure 5: The center plate component. It contains notches to complement the filter shelves.|
 
 
-| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/3shelf.JPG?raw=true" style="width: 350px;" > |
+| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/3shelf.JPG?raw=true" style="width: 350px;" > |
 |:------------:|
 |                     Figure 6: Three center plates characterize the filter shelf insert. This provides optimal stability for the filter shelves. |
 
 When combined, the filter shelves and center plates form a removable component known as the filter insert which can be easily put in and taken out of the filter box. This is a beneficial quality for maintenance purposes. A rendering of the insert location can be seen in Figure 7, first complete and then with the entrance plate removed so the configuration of the shelves is visible.
 
-| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Horfi_updated.JPG?raw=true" style="width: 300px;" > |
+| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/Horfi_updated.JPG?raw=true" style="width: 300px;" > |
 |:------------:|
 | Figure 7: This image shows the placement of the filter insert within the filter box, specifically between the entrance and exit plates. The top image shows this system complete, while the bottom images shows the filter with the entrance plate removed to better show configuration of the shelves in relation to the rest of the box. |
 
@@ -100,14 +100,14 @@ Notice the filter gates, colored orange in Figure 8. These will be important dur
 
 <center>
 
-|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Overall_function.JPG?raw=true" style="width: 350px;"  >|
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/Overall_function.JPG?raw=true" style="width: 350px;"  >|
 |:----:|
 | Figure 8: A cross-sectional view of the flow of water through the horizontal filter. The horizontal filter is composed of entrance and exit filter gates, entrance and exit plates, an internal filter insert with filter shelves, and a siphon/gasket system.|
 </center>
 
 To stop the escape of sand out of the slits in the entrance and exit plates, the filter shelves serve their intended function. The idea behind the filter shelves is to provide an opportunity for the sand to settle should it be lifted during either forward filtration or backwash. As seen in Figure 9, water flows in and out while carrying some sand with it. To combat this, the shelves allow a surface for the sand to settle and promote the recirculation of sand within the filter. In experiments, which are detailed in the Appendix, the understanding that this is what happens was confirmed.
 
-|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/filter_shelf_function.JPG?raw=true" style="width: 500px;">|
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/filter_shelf_function.JPG?raw=true" style="width: 500px;">|
 |:----:|
 | Figure 9: A close-up of the filter shelf in action. The routine movement of water through the filter has the potential to bring sand with it. In turn, the filter shelf provides an area for the sand to settle and be returned back into the sand bed.|
 
@@ -117,7 +117,7 @@ During backwash, the process of cleaning the filter, several other components mu
 
 <center>
 
-|  <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Backwash_steps.JPG?raw=true" >|
+|  <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/Backwash_steps.JPG?raw=true" >|
 |:----:|
 | Figure 10: In Step 1, water is being filtered in its routine fashion. When the filter becomes saturated with removed particles, the apparatus experiences an increase in headloss and has difficulty functioning. To solve this, the siphon is activated (Step 2). The filter gates are pulled inward due to this vacuum effect and water can only flow through the bottom. This upflow of water causes the sand bed to fluidize, separating the sand from filtered particles in the process and thus cleaning the filter. These particles leave through a launder pipe (not shown) at the top of the filter box for proper disposal. Forward filtration may then resume.|
 
@@ -127,7 +127,7 @@ As seen in step 2 of Figure 10, water flows from an uncovered bottom inlet slit 
 
 <center>
 
-|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/bottom_shelf_function.JPG?raw=true" style="width: 350px;" >|
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/bottom_shelf_function.JPG?raw=true" style="width: 350px;" >|
 |:----:|
 | Figure 11: The bottom shelf creates a gap for influent to surge through a predetermined point.   |
 
@@ -138,7 +138,7 @@ The bottom shelf stretches across the entire width of the filter. It serves to c
 Like the filter shelves, the bottom shelf also has an angled lip that rests against the entrance plate. This can be seen in Figure 12.
 <center>
 
-|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/bottom_shelf.JPG?raw=true" style="width: 350px;" >|
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/bottom_shelf.JPG?raw=true" style="width: 350px;" >|
 |:----:|
 | Figure 12: The bottom shelf follows the same notching scheme as the filter shelves. It acts as the bottom most inserted component of the filter shelf.|
 
@@ -150,7 +150,7 @@ Another important aspect of the current design (May 2018) are carved channels in
 
 <center>
 
-|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Insert_Assembly_channels.JPG?raw=true" style="width: 350px;" >|
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/Insert_Assembly_channels.JPG?raw=true" style="width: 350px;" >|
 |:----:|
 | Figure 13: The location of the carved channels along the filter insert. These channels allow the free flow of water along the entrance and exit plates.|
 
@@ -160,7 +160,7 @@ It is important for water to be able to flow freely during routine forward filtr
 
 <center>
 
-|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/carved_channels.JPG?raw=true" style="width: 550px;" >|
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/carved_channels.JPG?raw=true" style="width: 550px;" >|
 |:----:|
 | Figure 14: Carved channels in the center plates located against the entrance and exit plates allow the free flow of water during routine forward filtration.|
 
@@ -179,7 +179,7 @@ As an overview, the horizontal filter consists of 4 main parts: the acrylic box,
 
 <center>
 
-|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/labeled_real_box.PNG?raw=true" style="width: 450px;" >|
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/labeled_real_box.PNG?raw=true" style="width: 450px;" >|
 |:----:|
 | Figure 15: This is a photo of the apparatus as currently constructed. Notice the differences between this fabricated model and the modifications that have been made in the current design as of May 2018.|
 
@@ -191,7 +191,7 @@ As an overview, the horizontal filter consists of 4 main parts: the acrylic box,
 
 <center>
 
-|<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Shelf_creation_combined_photo.JPG?raw=true" >|
+|<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/Shelf_creation_combined_photo.JPG?raw=true" >|
 |:---:|
 |Figure 16:  See Manual for more details on the drilling and cutting method|
 
@@ -201,7 +201,7 @@ As an overview, the horizontal filter consists of 4 main parts: the acrylic box,
 
 <center>
 
-|<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/shelf_holder_construction.jpeg?raw=true" >|
+|<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/shelf_holder_construction.jpeg?raw=true" >|
 |:---:|
 |Figure 17: The construction of the center plates. With the measurements drawn onto one center plate template, the other could be clamped underneath to ensure a consistent cut.
 
@@ -211,7 +211,7 @@ As an overview, the horizontal filter consists of 4 main parts: the acrylic box,
 
   <center>
 
-  |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/inserting_shelves4.jpeg?raw=true" >|
+  |<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/inserting_shelves4.jpeg?raw=true" >|
   |:---:|
   |Figure 18: Construction of the filter insert. The filter shelves were inserted into the notches of the center plates.|
 
@@ -263,7 +263,7 @@ A tube was used to simulate the main body of the filter with a smaller, angled t
 
 <center>
 
-|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/small_diameter_outler.jpg?raw=true" style="width: 300px;" >|
+|  ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/small_diameter_outler.jpg?raw=true" style="width: 300px;" >|
 |:--:|
 | Figure 19. The first experimental apparatus with 1" diameter filter and 1/8" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top. |
 
@@ -279,7 +279,7 @@ A tube was used to simulate the main body of the filter with a smaller, angled t
 
 <center>
 
-| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/one_inch_outlet.jpg?raw=true" style="width: 300px;" >|
+| ![]()<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/one_inch_outlet.jpg?raw=true" style="width: 300px;" >|
 |:---:|
 | Figure 20. The second experimental apparatus with 1" diameter filter and 3/4" outlet tube. Influent water comes in through the bottom and out through the angled outlet and the top.|
 </center>
@@ -310,7 +310,7 @@ From this data, it is apparent that changing the speed that the water is being p
 1. **Center plates:** the center plates were cut to shape using the band saw. The slits were cut by making 1/8" holes using the drill press, with the 1/8" chosen as it is the thickness of the filter shelves. Drilling the holes made it possible to keep a fairly straight cut to the proper depth while avoiding the problem of having two cuts and no way to get the middle out. The location of the holes and the angle of the cut was pre-drawn onto the PVC. In future iterations, it is recommended that a stencil be cut out and the plates be cut using a CNC Router to follow the stencil. This will likely provide more control and uniformity between cuts.
 <center>
 
-|<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/Hole%20cut.JPG?raw=true" >|
+|<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/Hole%20cut.JPG?raw=true" >|
 |:---:|
 |Figure 21: This sketch illustrates the fabrication method used to cut notches in both the center plates and filter shelves. The blue circle was drilled out first, then two cuts parallel to the outer edges of the hole were made using the band saw. This technique left a rounded notch in the plates, but maintained a decent degree of consistency over made cuts.
 </center>
@@ -318,7 +318,7 @@ From this data, it is apparent that changing the speed that the water is being p
 
 2. **Filter shelf:** The filter shelves were cut from a sheet of 1/8" acrylic. To cut the notches into the shelves, the same technique used for the center plates was used but varied for the difference in thickness. First, a 1/4" hole (corresponding to center plate thickness) was drilled at a measured location on the shelf with the drill press. The location of the notches depends on the number and location of the center plates. In the built model, this was chosen to be at the 1/3 and 2/3 distances along the width of the shelf to create 3 even sections. Upon drilling the holes, the notch was cut using the band saw. To get the angled lip of the filter shelf, a jig was constructed first by the team and later by Tim Brock of the machine shop. The jig provided an angled surface to attach the shelf to as it was fed through the band saw. This process required much precision and care. While it worked, potential other methods of shelf fabrication should be explored. One option is to cut the shelves at an angle as a first step to avoid needing to shave thin strips after holes have been drilled. This would save time, would be less wasteful, and ensure better safety for team members.
 
-|<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/images/jig.JPG?raw=true" >|
+|<img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/jig.JPG?raw=true" >|
 |:---:|
 |Figure 22: This picture shows the convenience and added accuracy of using a jjig to cut the slanted edge on the filter shelves. Cuts were made smoother and more consistent along with streamlining the process. For the next iteration, more jigs will be made for faster, better fabrication
 
@@ -517,7 +517,7 @@ In order to see how plausible this design is, a stress test was performed on the
 
 <center>
 
-|![stress_test](https://github.com/AguaClara/horizontal_filtration/blob/master/images/stress.PNG?raw=true)|
+|![stress_test](https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/stress.PNG?raw=true)|
 |:---:|
 |Figure 23: Stress forces on the acrylic box during operation.|
 
@@ -527,7 +527,7 @@ This stress analysis could then be translated into an approximate displacement o
 
 <center>
 
-|![displacement](https://github.com/AguaClara/horizontal_filtration/blob/master/images/displacement.PNG?raw=true)|
+|![displacement](https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/displacement.PNG?raw=true)|
 |:---:|
 |Figure 24: The displacement of the box walls during operation.|
 
