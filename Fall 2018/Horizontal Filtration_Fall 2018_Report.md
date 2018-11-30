@@ -94,7 +94,7 @@ Though the team was unable to begin Filter Shelf Experiment 2, a possible future
 
 One future topic to investigate is alternatives to the angled slats, such as mesh. If the slat design is impractical, then alternatives would have to be found that work with the present design and are easy to assemble.
 
-#### **Appendix**
+### **Appendix**
 
 
 **Materials**
