@@ -93,3 +93,14 @@ Though the team was unable to begin Filter Shelf Experiment 2, a possible future
 4. Once flat shelf is inserted, the same procedures as Filter Shelf Experiment 1 will be followed.
 
 One future topic to investigate is alternatives to the angled slats, such as mesh. If the slat design is impractical, then alternatives would have to be found that work with the present design and are easy to assemble.
+
+#### **Appendix**
+
+
+**Materials**
+- PVC pipes
+- flex tubing
+- flow accumulator bottle
+- MasterFlex L/S peristaltic pump
+- push-to-connect connecters
+- reducers
