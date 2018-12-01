@@ -55,8 +55,8 @@ With first attempt of experiment, it was discovered that the inlet fitting was n
 
 
 **Fabrication Method:**
-1. We cut a ¾” PVC pipe at a 55-degree angle using a bandsaw, as seen in Figure 4 on the left. The angle was chosen based on last year’s findings -- the filter shelves should be at as steep an angle as possible to minimize sand loss, but the team found it impractical to fabricate cuts at angles steeper than 55 degrees. If we decide to substantially alter their design, we may perform additional tests to measure sand rise at steeper angles.
-2. We then drilled a ¾” hole in a 1” pipe using a hole saw. The 1’’ pipe with the ¾’’ hole is shown on the right in Figure 3.
+1. We cut a ¾” PVC pipe at a 55-degree angle using a bandsaw, as seen in Figure 4 on the top. The angle was chosen based on last year’s findings -- the filter shelves should be at as steep an angle as possible to minimize sand loss, but the team found it impractical to fabricate cuts at angles steeper than 55 degrees. If we decide to substantially alter their design, we may perform additional tests to measure sand rise at steeper angles.
+2. We then drilled a ¾” hole in a 1” pipe using a hole saw. The 1’’ pipe with the ¾’’ hole is shown on the bottom in Figure 4.
 
 | <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/exp1_0.75_1%20inch_pipes.JPG?raw=true">|
 | :---: |
