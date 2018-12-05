@@ -1,5 +1,6 @@
 ## Horizontal Filtration
-###Final Research Report Fall 2018
+### Final Research Report Fall 2018
+
 Emily Gibson, Nicole Wang
 
 November 30, 2018
@@ -21,7 +22,7 @@ The horizontal filtration system stems from the [OrigamiWaterLab](https://github
 
 #### **Previous Work**
 
-During the Spring 2018 semester, the team designed a horizontal filtration system in which the ratio of the horizontal flow area and vertical area is designed such that backwash will fluidize the bed of sand. The bed of sand will act as if it were a liquid, allowing the lower density contaminant particles to rise up to the surface.  The apparatus consists of a series of slits and a filter shelf insert. The slits allowed for water to flow from the inlet to the outlet. Between the inlet and outlet plates is a filter insert that consists of a center plate and filter shelves. The filter shelves served as a place for the sand to settle instead of being carried out with the effluent. The siphon is then able to begin backwash by creating low pressure in the sand bed. Backwash gates are closed except for the bottom slits, requiring a higher velocity of water that rinses away any smaller particles from the sand. A crucial part of the design also lies in the carved channels of the center plate design. These channels allow for the free flow of water along the entrance and exit, as shown in Figure 2 below.
+During the Spring 2018 semester, the team designed a horizontal filtration system in which the ratio of the horizontal flow area and vertical area is designed such that backwash will fluidize the bed of sand. The fluidization of the sand will cause the sand to act like a fluid allowing the lower density contaminant particles to rise up. The apparatus consists of a series of slits and a filter shelf insert. The slits allowed for water to flow from the inlet to the outlet. Between the inlet and outlet plates is a filter insert that consists of a center plate and filter shelves. The filter shelves served as a place for the sand to settle instead of being carried out with the effluent. The siphon is then able to begin backwash by creating low pressure in the sand bed. Backwash gates are closed except for the bottom slits, requiring a higher velocity of water that rinses away any smaller particles from the sand. A crucial part of the design also lies in the carved channels of the center plate design. These channels allow for the free flow of water along the entrance and exit, as shown in Figure 2 below.
 
 | <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202018/images/carved_channels.JPG?raw=true"> |
 | :---: |
@@ -31,32 +32,31 @@ During the Spring 2018 semester, the team designed a horizontal filtration syste
 The team will continue tests done in the previous year to determine the feasibility and optimal geometry for the filter slats. The Spring 2018 team performed an experiment to test the functionality of the filter shelves. This experiment determined that the level of sand rise is dependent on the outflow velocity of the water, increasing sharply with increased flow.
 
 
-Based on what was done by the Spring 2018 team, the Fall 2018 team recreated the experimental apparatus used with the angled pipe to model the filter shelves. Using this apparatus, the experiment was repeated to confirm similar results are able to be achieved. Then, in order to create a model more similar to the actual filter shelves to be used, another experiment involving a flat shelf being inserted into the apparatus’ outlet was planned and will be tested in the future.
-
+Based on what was done by the Spring 2018 team, the Fall 2018 team recreated the experimental apparatus used with the angled pipe to model the filter shelves. Using this apparatus, the experiment was repeated to confirm similar results are able to be achieved. Then, in order to create a model more similar to the actual filter shelves to be used, an experiment involving flat shelf being inserted into the apparatus’ outlet was planned.
 
 #### **Experimentation**
 
-Before fabrication of the filter, the team planned to fabricate multiple apparatuses to test certain components of the filter system. The first is to continue last semester’s experiment of testing the filter shelves.
+Before fabrication of the filter, the team plans to fabricate multiple apparatuses to test certain components of the filter system. The first is to continue last semester’s experiment of testing the filter shelves.
 
 
 *Filter Shelf Experiment 1:*
-1. A 1” pipe (of a length of approximately 52 cm) was used for the inlet and a ¾ “ pipe (of a length of approximately 32cm) for the outlet. A ¾’’ hole was drilled into 1” pipe about halfway up the pipe. The ¾ “ pipe was cut on one end at an angle of 55 degrees. This was done using the bandsaw and an angle setter set to a 55 degree angle.  More specific details regarding fabrication of the apparatus can be found below in section titled “Fabrication Methods”. The final setup can be seen in Figure 4.  
-2. Dry sand was added until  about 4’’ above the opening to the outlet. The amount of sand that entered the outlet is measured.
+1. A 1” pipe (of a length of approximately 52 cm) was used for the inlet and a ¾ “ pipe (of a length of approximately 32cm) for the outlet. A ¾’’ hole is drilled into 1” pipe about halfway up the pipe. The ¾ “ pipe was cut on one end at an angle of 55 degrees. This was done using the bandsaw and an angle setter set to a 55 degree angle.  More specific details regarding fabrication of the apparatus can be found below in section titled “Fabrication Methods”. The final setup can be seen in Figure 4.  
+2. Dry sand was added until  about 4’’ above the opening to the outlet. The amount of sand that enters the outlet was measured.
 3. Ends of inlet and outlet pipes were fitted with the appropriately sized couplings and push-to-connect fittings.
 4. Inlet and outlet were connected to a peristaltic pump and a flow accumulator to maintain a constant flow rate. Full set up seen in Figure 3.
-5. The pumps were set to a certain speed 100 RPM (maximum reached by peristaltic pump available). The amount of sand that travels into outlet was measured.
+5. The pumps were set to a speed of 100 RPM (maximum reached by peristaltic pump available). The amount of sand that travels into outlet was measured.
 
-With first attempt of experiment, the team discovered that the inlet fitting was not properly sized and that the apparatus was not water tight, As a result, these issues will have to be corrected before proceeding with the experiment. However, when the pump was turned on, the entire bed of sand was shifted upward in the pipe. Additionally, with the first attempt of setting the flow rate, the peristaltic pump reached its maximum speed of 100 RPM, without actually reaching the flow rate set. As a result, a more powerful pump will also have to be found.
+With first attempt of experiment, the team discovered that the inlet fitting was not properly sized and that the apparatus was not water tight, As a result, these issues will have to be corrected before proceeding with the experiment. However, when the pump was turned on, the entire bed of sand was shifted upward in the pipe. Additionally, with the first attempt of setting the flow rate, the peristaltic pump reached its maximum speed of 100 RPM, without actually reaching the flow rate set. As a result, a more powerful pump will also have to be utilized.
 
-| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/exp1_setup.JPG?raw=true">|
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/exp1_setup_labelled.JPG?raw=true">|
 | :---: |
-|**Figure 3:** Inlet (bottom of pipe apparatus) connected to peristaltic pump (seen on left). Outlet (top of pipe apparatus) on left led to empty out in the accumulator. Outlet on right side connected to waste pipe (red).|
-**above figure - labels might be helpful**
+|**Figure 3:** Inlet (bottom of pipe apparatus) connected to peristaltic pump (seen on left). Outlet (top of pipe apparatus) on left led to empty out in the bottle. Outlet on right side connected to waste pipe (red).|
+
 
 
 **Fabrication Method:**
-1. The team cut a ¾” PVC pipe at a 55-degree angle using a bandsaw, as seen in Figure 4 on the left. The angle was chosen based on last year’s findings -- the filter shelves should be at as steep an angle as possible to minimize sand loss, but the team found it impractical to fabricate cuts at angles steeper than 55 degrees. If we decide to substantially alter their design, we may perform additional tests to measure sand rise at steeper angles.
-2. The team then drilled a ¾” hole in a 1” pipe using a hole saw. The 1’’ pipe with the ¾’’ hole is shown on the right in Figure 3.
+1. The team cut a ¾” PVC pipe at a 55-degree angle using a bandsaw, as seen in Figure 4 on the top. The angle was chosen based on last year’s findings -- the filter shelves should be at as steep an angle as possible to minimize sand loss, but the team found it impractical to fabricate cuts at angles steeper than 55 degrees. If we decide to substantially alter their design, we may perform additional tests to measure sand rise at steeper angles.
+2. The team then drilled a ¾” hole in a 1” pipe using a hole saw. The 1’’ pipe with the ¾’’ hole is shown on the bottom in Figure 4.
 
 | <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/images/exp1_0.75_1%20inch_pipes.JPG?raw=true">|
 | :---: |
@@ -73,7 +73,7 @@ With first attempt of experiment, the team discovered that the inlet fitting was
 
 **Results**
 
-On the first run of the experiment, as water was pumped into the inlet of the apparatus, the entire bed of sand rose. It was then discovered that the cause of this were the air bubbles forming within the sand as seen in Figure 6. To combat this issue, the apparatus was lightly tapped with a hammer to loosen up the sand and remove the air bubbles. However, when a second attempt of running the experiment was done, the air bubbles returned and presented the same issue as before despite the air bubbles having been successfully removed originally. After the air bubbles were successfully removed by lightly tapping the sand inside the apparatus, the sand began to fluidize. At first, the sand rose in the outlet pipe to a height difference ranging from 3-5 cm, which in turn caused the sand height in the inlet to decrease. But it soon stopped rising as the sand settled and the heights remained constant despite the pump still running.
+On the first run of the experiment, as water was pumped into the inlet of the apparatus, the entire bed of sand rose. It was then discovered that the cause of this were the air bubbles forming within the sand as seen in Figure 6. To combat this issue, the apparatus was lightly tapped with a hammer to loosen up the sand and remove the air bubbles. However, when a second attempt of running the experiment was done, the air bubbles returned and presented the same issue as before despite the air bubbles having been successfully removed originally. After the air bubbles were successfully removed by lightly tapping the bed of sand, the sand began to fluidize. At first, the sand rose in the outlet pipe to a height difference ranging from 3-5 cm, which in turn caused the sand height in the inlet to decrease. But it soon stopped rising as the sand settled and the heights remained constant despite the pump still running.
 
 The feasibility of the filter shelf design depends on the sand’s behavior after multiple on/off cycles of the plant. If the total sand rise is the same each time the plant is restarted, then the filter shelf design is likely feasible, provided that the sand does not rise to more than a few inches. However, if the sand rise increases over multiple runs, then the sand will escape from the filter over time and the design is not feasible.
 
@@ -84,25 +84,23 @@ The feasibility of the filter shelf design depends on the sand’s behavior afte
 
 #### **Future Work**
 
-Though the team was unable to begin Filter Shelf Experiment 2, a possible future experiment is detailed below. This experiment would provide a more accurate model of the shape of the actual filter shelves as seen in the design. The flat shelves (modeled by a flat piece of PVC inserted into the outlet) may potentially result in different results as opposed to the curved surface of the pipes being used in Filter Shelf Experiment 1.
+Though the team was unable to begin Filter Shelf Experiment 2, a possible future experiment is detailed below. This experiment would produce a more accurate model of the shape of the actual filter shelves as seen in the design. The flat shelves (modeled by a flat piece of PVC inserted into the outlet) may potentially result in different results as opposed to the curved surface of the pipes being used in Filter Shelf Experiment 1.
 
 *Filter Shelf Experiment 2: Change Geometry*
 The apparatus from Filter Shelf Experiment 1 will be used. A flat shelf with the a width of 1’’ is used.
-1. Insert the flat shelf into the 1’’ pipe horizontally.
-2. Glue the flat shelf or secure in another way at either end to ensure that it does not rotate or move as water is pumped through.
+1. The flat shelf is then inserted into the 1’’ pipe horizontally.
+2. The flat shelf will be glued or secured in another way at either end to ensure that it does not rotate or move as water is pumped through. Fabrication method elaborated on below.
 3. Once flat shelf is inserted, the same procedures as Filter Shelf Experiment 1 will be followed.
 
-One future topic to investigate is alternatives to the angled slats, such as mesh **[describe how this would be perferable in one or 2 sentences]**. If the slat design is impractical, then alternatives would have to be found that work with the present design and are easy to assemble.
+One future topic to investigate is alternatives to the angled slats, such as mesh.A mesh alternative would be easier to ensure sand does not travel into the outlet. However, it may result in a slower filtration process.If the slat design is impractical, then alternatives would have to be found that work with the present design and are easy to assemble.
 
 ### **Appendix**
 
 
 **Materials**
-- PVC pipes
-- flex tubing
-- flow accumulator bottle
-- MasterFlex L/S peristaltic pump
-- push-to-connect connecters
-- reducers
-
-**what are these materials for? explain what list is**
+- PVC pipes: Used to create experiment apparatus.
+- flex tubing: Used to connect inlet and outlets to peristaltic pump, waste pipe, and accumulator.
+- flow accumulator bottle: Acts as storage reservoir.
+- MasterFlex L/S peristaltic pump: Used to pump water into apparatus at set speed.
+- push-to-connect connecters: Used to connect tubing to inlet and outlets.
+- reducers: Used to connect larger pipe to smaller pipe.

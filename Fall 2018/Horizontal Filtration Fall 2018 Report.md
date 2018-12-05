@@ -1,5 +1,5 @@
 ## Horizontal Filtration
-###Final Research Report Fall 2018
+### Final Research Report Fall 2018
 
 Emily Gibson, Nicole Wang
 
