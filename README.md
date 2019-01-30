@@ -3,8 +3,8 @@
 
 ### Current Team Members
 Emily Gibson (erg95) 
-
 Nicole Wang (new45)  
+Jessie Powell (jep355)
 
 ### Semester Goals
 Our goals this semester are to fabricate their design, test it in the forward filtration and backwash stages, and then make improvements. In the coming weeks, our primary objectives are to fabricate the updated design of the system and to develop the necessary components for backwash after forward filtration succeeds. 
