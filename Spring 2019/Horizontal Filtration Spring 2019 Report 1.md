@@ -24,7 +24,7 @@ During the Fall 2018 semester, the team primarily worked on an experimental appa
 | :---: |
 |**Figure 2:** Inlet (bottom of pipe apparatus) connected to peristaltic pump (seen on left). Outlet (top of pipe apparatus) on left led to empty out in the bottle. Outlet on right side connected to waste pipe (red).|
 
-### **Experimental Apparatus**
+## **Experimental Apparatus**
 
 Given that the experimental apparatus design from Fall 2018 involves a curved pipe, the experimental apparatus for this semester's team has been developed to better resemble the actual shelves of the horizontal filtration design. The experimental apparatus essentially consists of a box, with two flat shelves welded onto the side. In between these two shelves and above the top shelf is a slit that allows water to flow out into the pipes attached horizontally to the slits. On the opposite side of the outlet is an inlet hole where water will be pumped in. The CAD drawing of the design is seen below in Figure 3. (still need to finish CAD drawing).
 
@@ -33,7 +33,7 @@ Given that the experimental apparatus design from Fall 2018 involves a curved pi
 |**Figure 3:** This image shows the design of the experimental apparatus that better mimics the flat selves of the plate settler concept of the horizontal filtration design. On one end of the box is an inlet hole, the other end has the two flat shelves attached along with slits that are connected to outlet pipes.|
 
 
-### **Procedure**
+## **Procedure**
 After completion of the experimental apparatus, the following procedure will be followed to test the effectiveness of the plate settler concept.
 
 1. Box filled with dry sand, enough to cover both shelves.
