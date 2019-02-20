@@ -45,7 +45,7 @@ After completion of the experimental apparatus, the following procedure will be 
 
 
 ## **Fabrication Details**
-1. A box was found with a previously inserted push-to-connect connector on one side of the box.
+1. A box (width and length of 20.3cm, height of 17.5cm) was found with a previously inserted push-to-connect connector on one side of the box.
 2. From a sheet of PVC, two sheets measuring 10.5 cm x 19.5 cm were cut using the bandsaw.
 3. The shelves are welded on at a 55 degree angle, as the original design recommended.
 4. A 12 cm x 80 cm rectangular slit will be cut above each shelf for water flow.
