@@ -40,7 +40,7 @@ After completion of the experimental apparatus, the following procedure will be 
 2. Inlet connected to peristaltic pump via flexible tubing.
 3. Outlet pipes, fitted with appropriately sized couplings, is connected to waste line.
 4. Initial sand height measured.
-5. Peristaltic pump set to varying flow rates.
+5. Peristaltic pump set to varying flow rates ranging around 5.5 mL/sec.
 6. For each flow rate set, the amount of sand that rises up the shelves is measured and recorded.
 
 
