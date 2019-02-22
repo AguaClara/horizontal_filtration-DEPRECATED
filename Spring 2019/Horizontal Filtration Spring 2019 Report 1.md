@@ -28,9 +28,9 @@ During the Fall 2018 semester, the team primarily worked on an experimental appa
 
 Given that the experimental apparatus design from Fall 2018 involves a curved pipe, the experimental apparatus for this semester's team has been developed to better resemble the actual shelves of the horizontal filtration design. The experimental apparatus essentially consists of a box, with two flat shelves welded onto the side. In between these two shelves and above the top shelf is a slit that allows water to flow out into the pipes attached horizontally to the slits. On the opposite side of the outlet is an inlet hole where water will be pumped in. The CAD drawing of the design is seen below in Figure 3. (still need to finish CAD drawing, CAD is missing second outlet pipe, will add this weekend).
 
-| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202019/images/horfi_exp_apparatus.png">|
+| <img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202019/images/horfi_expapparatus_labelled.png">|
 | :---: |
-|**Figure 3:** This image shows the design of the experimental apparatus that better mimics the flat selves of the plate settler concept of the horizontal filtration design. On one end of the box is an inlet hole, the other end has the two flat shelves attached along with slits that are connected to outlet pipes.|
+|**Figure 3:** This image shows the design of the experimental apparatus that better mimics the flat selves of the plate settler concept of the horizontal filtration design. On one end of the box is an inlet hole, the other end has the two flat shelves attached along with slits in between the shelves that are connected to outlet pipes.|
 
 
 ## **Procedure**
