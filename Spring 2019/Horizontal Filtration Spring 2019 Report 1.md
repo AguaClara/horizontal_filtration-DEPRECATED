@@ -4,7 +4,7 @@
 
 **[Sidney: I will be using bolded square brackets to comment on your manual.]**
 
-## **Abstract**
+## **Abstract** 
 
 The goal of Horizontal Filtration is to develop a horizontal filtration system that is more compact and easier to build than AguaClara’s current, Enclosed Stacked Rapid Sand Filter model.   The Spring 2018 team developed a design that utilized the relationship between backwash and operational speed and angled plate settlers. The main goals this semester are to test the plate settler concept in filtration and backwash conditions, and then fabricate the design. Experimentation was modified from the Fall 2018 team to better emulate the flat shelves of the plate settler concept. **[Please refrain from mentioning previous teams' work and try to use this space to summarize your own work (I know you have just started the semester but keep this in mind for your next manual). That is what the Previous Work section is for.]**
 
