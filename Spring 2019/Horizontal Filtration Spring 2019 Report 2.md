@@ -33,7 +33,6 @@ Given that the experimental apparatus design from Fall 2018 involved cylindrical
 <p align="center"><img src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202019/images/horfi_expapparatus_labelled.png" height=400> </p> <p align="center">
 <b>Figure 3:</b> This image shows the design of the experimental apparatus that better mimics the flat selves of the plate settler concept of the horizontal filtration design. On one end of the box is an inlet hole, the other end has the two flat shelves attached along with slits in between the shelves that are connected to outlet pipes.</p>
 
-**[The image does not show up on preview or in Github. Please check that your figures are not broken before submission.]**
 
 ## **Procedure**
 After completion of the experimental apparatus, the following procedure will be followed to test the effectiveness of the plate settler concept:
