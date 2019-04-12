@@ -97,7 +97,7 @@ The objectives of the coming weeks include creating a new CAD model to 3D print,
 
 ### **3D Printed Experimental Apparatus**
 
-<p align="center"><img src="https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/Spring%202019/images/horfi_3dapparatus_labelled.png> </p> <p align="center">
+<p align="center"><img src="https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/Spring%202019/images/horfi_3dapparatus_labelled.png"> </p> <p align="center">
 <b>Figure 7:</b> The 3D printed model consists of a box (on left), and two detachable shelves (middle), with the fully assembled apparatus seen on the right. It consists of a slit in between the two shelves as well as a slit on the other wall to allow for uniform inlet flow.
 </p>
 
