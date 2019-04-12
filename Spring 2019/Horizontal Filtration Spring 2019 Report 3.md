@@ -97,7 +97,7 @@ The objectives of the coming weeks include creating a new CAD model to 3D print,
 
 ### **3D Printed Experimental Apparatus**
 
-<p align="center"><img src="https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/Spring%202019/images/horfi_3dapparatus_labelled.pngheight=400> </p> <p align="center">
+<p align="center"><img src="https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/Spring%202019/images/horfi_3dapparatus_labelled.png> </p> <p align="center">
 <b>Figure 7:</b> The 3D printed model consists of a box (on left), and two detachable shelves (middle), with the fully assembled apparatus seen on the right. It consists of a slit in between the two shelves as well as a slit on the other wall to allow for uniform inlet flow.
 </p>
 
@@ -110,9 +110,9 @@ The new 3D printed model was adjusted from the fabricated apparatus, as seen abo
 3. Fill out Cornell RPL printing form [here]((https://docs.google.com/forms/d/e/1FAIpQLSekgNHvlycu1CMCRbkuIaekTqQv8CXMj6_1WWr8VHEtZIcxqw/viewform) and attach the .STL file.
 
 
-### **Appendix**
+## **Appendix**
 
-## **Materials**
+### **Materials**
 
 - Polycarbonate box (20.3 cm x 20.3 cm x 17.5 cm): container for apparatus
 - Two PVC sheets (10.5 cm x 19.5 cm x 0.5 cm): mimic shelves
@@ -124,7 +124,7 @@ The new 3D printed model was adjusted from the fabricated apparatus, as seen abo
 
 
 
-## **ProCoDa**
+### **ProCoDa**
 
 The ProCoDa used controlled the turning on and off of the pumps and adjusted the flow rates of the pump.
 
@@ -144,7 +144,7 @@ The “Waiting” state was used while experiments were not being run and the pu
 
 **“Ejection Tubing Size”**: unitless; constant; value of 18
 
-## **Python Code**
+### **Python Code**
 
 The code below was used to convert the given approach velocity to the flow rate needed based on the surface area of the sand between the shelves. The approach velocity was chosen to be the velocity at which sand begins to fluidize. Since forward filtration should not have fluidized sand, the maximum velocity needed for the forward filtration experiment would be the approach velocity of 5 mm/s.
 
