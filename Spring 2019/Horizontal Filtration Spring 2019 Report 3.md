@@ -107,7 +107,7 @@ The new 3D printed model was adjusted from the fabricated apparatus, as seen abo
 1. Draw apparatus using CAD software, such as OnShape.
 2. Save file(s) in the .STL format. Name file with a part name and your Net ID.
   - On OnShape, to export file: right-click on tab of desired file near the bottom of screen. Choose “Export…”, rename part, and change format from ParaSolid to STL. Choose appropriate STL Format, units, and resolution and click “OK” to download.
-3. Fill out Cornell RPL printing form [here]((https://docs.google.com/forms/d/e/1FAIpQLSekgNHvlycu1CMCRbkuIaekTqQv8CXMj6_1WWr8VHEtZIcxqw/viewform) and attach the .STL file.
+3. Fill out Cornell RPL printing form [here](https://docs.google.com/forms/d/e/1FAIpQLSekgNHvlycu1CMCRbkuIaekTqQv8CXMj6_1WWr8VHEtZIcxqw/viewform) and attach the .STL file.
 
 
 ## **Appendix**
