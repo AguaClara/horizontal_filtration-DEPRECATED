@@ -2,7 +2,8 @@
 #### Emily Gibson, Jessie Powell, Nicole Wang
 #### April 12, 2019
 
-[Please do not delete comments made by graders unless they are simple grammar errors or additions/deletions. Content questions/suggestions must be kept so that we can see if you have addressed them in the next report.]
+**[Please do not delete comments made by graders unless they are simple grammar errors or additions/deletions. Content questions/suggestions must be kept so that we can see if you have addressed them in the next report.]**
+
 ## **Abstract**
 
 The goal of Horizontal Filtration is to develop a horizontal filtration system that is more compact and easier to build than AguaClara’s current, Enclosed Stacked Rapid Sand Filter model. Our proposed filter design included a column of sand enclosed by angled shelves to enable water flow. The main goals this semester were to test the plate settler concept in filtration and backwash operations, and then fabricate the design. Our objective so far this semester has been to design an experiment that more closely models the filter’s geometry by using a flat-bottomed box and two angled,flat filter shelves.
@@ -34,7 +35,7 @@ Given that the experimental apparatus design from Fall 2018 involved cylindrical
 
 <p align="center"><img src="https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/Spring%202019/images/horfi_expapparatus_labelled.png" height=400> </p> <p align="center">
 <b>Figure 3:</b> This image shows the design of the experimental apparatus that better mimics the flat selves of the plate settler concept of the horizontal filtration design. On one end of the box is an inlet hole, the other end has the two flat shelves attached along with slits in between the shelves that are connected to outlet pipes.</p>
-[Same problem as Fig 2]
+**[Same problem as Fig 2]**
 
 
 ## **Fabrication Details**
@@ -79,7 +80,7 @@ For the initial test, there were several technical problems that arose. There we
 <b>Figure 5:</b> This image shows the new configuration for the apparatus and experiment based on reasons discussed above. The tap water and waste pipes were removed from the design, and instead water recirculates through the experiment by use of the pump (left).
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/Spring%202019/images/reddye.png height=400> </p> <p align="center">
+<p align="center"><img src="https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/Spring%202019/images/reddye.png" height=400> </p> <p align="center">
 <b>Figure 6:</b> A team member added dye to the water at the top of the apparatus in order to track if water was flowing from the top of the sand, though the filter, and into the outlet pipe.
 </p>
 
