@@ -4,7 +4,7 @@
 
 **[Please do not delete comments made by graders unless they are simple grammar errors or additions/deletions. Content questions/suggestions must be kept so that we can see if you have addressed them in the next report.]**
 
-**[Overall: There are some grammar/tense issues. Go back and proofread thoroughly for the final submission. There are some comments from last time that were not addressed, including the issues with the photos not showing up. Separate the sections in your report about the welded apparatus and the 3D printed apparatus more, but keep both before the Future Work section which should be the last section before your Appendix. I don't see a bibliography? That is required. You have a Previous Work section so you do have sources to cite.]**
+**[Overall: There are some grammar/tense issues. Go back and proofread thoroughly for the final submission. There are some comments from last time that were not addressed, including the issues with the photos not showing up. Separate the sections in your report about the welded apparatus and the 3D printed apparatus more, but keep both before the Future Work section which should be the last section before your Appendix. I don't see a bibliography? That is required. You have a Previous Work section so you do have sources to cite. Also, don't forget to link your OnShape drawings in the report.]**
 
 ## **Abstract**
 
