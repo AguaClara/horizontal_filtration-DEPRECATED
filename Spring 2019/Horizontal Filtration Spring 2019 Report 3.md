@@ -35,6 +35,11 @@ Given that the experimental apparatus design from Fall 2018 involved cylindrical
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/Spring%202019/images/horfi_expapparatus_labelled.png" height=400> </p> <p align="center">
+
+<embed src="https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202019/HorFi%203d%20Printed%20Design%20Drawing.pdf" width="500" height="375" 
+ type="application/pdf">
+
+
 <b>Figure 3:</b> This image shows the design of the experimental apparatus that better mimics the flat selves of the plate settler concept of the horizontal filtration design. On one end of the box is an inlet hole, the other end has the two flat shelves attached along with slits in between the shelves that are connected to outlet pipes.</p>
 **[Same problem as Fig 2]**
 
@@ -93,7 +98,7 @@ One of the larger conclusions of the experiment using the fabricated box **[Name
 <b>Figure 7:</b> The 3D printed model consists of a box (on left), and two detachable shelves (middle), with the fully assembled apparatus seen on the right. It consists of a slit in between the two shelves as well as a slit on the other wall to allow for uniform inlet flow.
 </p>
 
-The new 3D printed model was adjusted from the fabricated apparatus, as seen above in Figure 7. 3D printing was pursued as an option for making an experimental apparatus because it would be a much faster process than refabricating a new, entirely water tight, box from scratch. Overall, it was primarily used to save time and allow for easier adjustments in the design as the CAD could easily be edited and reprinted again. The dimensions of the model was based off of the model built by the Spring 2018 team, essentially the shelves were scaled down to a 1:2 ratio. The scaled-down model would theoretically behave in the same way as the original design. It was necessary to scale down the model in order to fit the dimensions of the 3D printers available in RPL. 
+The new 3D printed model was adjusted from the fabricated apparatus, as seen above in Figure 7. 3D printing was pursued as an option for making an experimental apparatus because it would be a much faster process than refabricating a new, entirely water tight, box from scratch. Overall, it was primarily used to save time and allow for easier adjustments in the design as the CAD could easily be edited and reprinted again. The dimensions of the model was based off of the model built by the Spring 2018 team, essentially the shelves were scaled down to a 1:2 ratio. The scaled-down model would theoretically behave in the same way as the original design. It was necessary to scale down the model in order to fit the dimensions of the 3D printers available in RPL.
 
 In addition, instead of having two slits on the wall with the shelves, only one slit was used. The top slit was determined to be not very necessary to focus on; instead, a slit was added on the wall opposite the shelves to allow for a uniform inlet flow, as was done in the experiment with the fabricated box. These slits would have a pipe, with holes drilled along the length attached, as it was for the original fabricated apparatus. These pipes would be attached to the necessary pumps and allow for controlled circulation of water at various flow rates through the apparatus. Additionally, the shelves were made to be of a more modular style where the shelves can be taken on and off a small shelf on the box of the apparatus. This was done due to a concern of potential drooping of the long shelves when 3D printing, additionally, it would make for easier cleaning of sand in the apparatus after testing. Another major change is that the empty space was narrowed considerably. Originally, the excess empty space was primarily because a premade box was used, however it was assumed that this extra space where only sand would be did not need to be so large.
 
@@ -108,18 +113,18 @@ Using the experimental apparatus from the Fall 2018 team, backwash was tested us
 1. FIll the straight pipe with sand until nearly full.
 2. Plug the angled pipe in order to simulate the closing of the filter outlets during the backwash stage.
 3. Due to plant velocity at 11 mm/s, and a pipe diameter of 2.5 cm, the flow rate was calculated to be approximately 5.4 mL/s. Input this into ProCoDa.
-4. Run the pump and observe whether or not fluidization takes place. 
+4. Run the pump and observe whether or not fluidization takes place.
 
 Backwash is used to clean out the filter bed in the filtration system. During backwash, the flow rate of the water pumped through flows at a fast enough rate that the sand becomes fluidized. The fluidization of the sand allows the small contaminant particles to float to the top and become siphoned out, as seen in Figure 8.
 
 <p align="center"><img src="https://raw.githubusercontent.com/AguaClara/horizontal_filtration/master/Spring%202018/images/Backwash_steps.JPG"> </p> <p align="center">
 <b>Figure 8:</b> In Step 1, water is being filtered in its routine fashion. When the filter becomes saturated with removed particles such as clay, the apparatus experiences an increase in headloss and has difficulty functioning. To solve this, the siphon is activated (Step 2). The filter gates are pulled inward due to this vacuum effect and water can only flow through the bottom. This upflow of water causes the sand bed to fluidize, separating the sand from filtered particles in the process and thus cleaning the filter. These particles leave through a launder pipe (not shown) at the top of the filter box for proper disposal.
-  
+
 ###**Conclusions**
 
-As mentioned above, with a given plant velocity of 11 mm/s, and a pipe diameter of 2.5 cm, the flow rate was calculated to be approximately 5.4 mL/s. The pump flow rate was set to this, the pump was turned on, and water began to flow into the pipe. Some water flowed partially up the angled pipe, but stopped approximately 13 cm diagonally upward. The sand began to successfully fluidize without traveling up the angled pipe, and instead began to move and circulate through the length of the straight pipe. Additionally, it was noted that no sand moved up and out of the outlet tube. 
+As mentioned above, with a given plant velocity of 11 mm/s, and a pipe diameter of 2.5 cm, the flow rate was calculated to be approximately 5.4 mL/s. The pump flow rate was set to this, the pump was turned on, and water began to flow into the pipe. Some water flowed partially up the angled pipe, but stopped approximately 13 cm diagonally upward. The sand began to successfully fluidize without traveling up the angled pipe, and instead began to move and circulate through the length of the straight pipe. Additionally, it was noted that no sand moved up and out of the outlet tube.
 
-This experiment offered encouraging results as to the potential and feasibility of the horizontal filtration design. Because it was observed that the water did not continue to travel up the angled pipe due to the plug, and the sand within the straight pipe successfully fluidized without seeping into the angled one, it indicated that a real horizontal filter’s design provides ideal functions and would not malfunction during backwash. With a successful backwash stage, the filter and it’s sand can be cleansed properly for future use. 
+This experiment offered encouraging results as to the potential and feasibility of the horizontal filtration design. Because it was observed that the water did not continue to travel up the angled pipe due to the plug, and the sand within the straight pipe successfully fluidized without seeping into the angled one, it indicated that a real horizontal filter’s design provides ideal functions and would not malfunction during backwash. With a successful backwash stage, the filter and it’s sand can be cleansed properly for future use.
 
 ## **Future Work**
 
