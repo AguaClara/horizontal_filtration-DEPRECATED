@@ -15,7 +15,7 @@ Our goals this semester are to fabricate their design, test it in the forward fi
 * Spring 2019
   - [Research Report](https://github.com/AguaClara/horizontal_filtration/blob/master/Spring%202019/Horizontal%20Filtration%20Spring%202019%20Final%20Report.md)
   - [Mid-Semester Symposium Presentation](https://docs.google.com/presentation/d/1sdHRN-ZkQkSQeXGqwsCPbEfrJIE5cXcQYc1OS7yDFkk/edit?usp=sharing)
-  - Final Symposium [Presentation](https://docs.google.com/presentation/d/1aELP30ksfuitrkcnib4EKDXnb8M7z89KxpDpxh3TDWE/edit?usp=sharing)
+  - Final Symposium [Presentation](https://docs.google.com/presentation/d/1aELP30ksfuitrkcnib4EKDXnb8M7z89KxpDpxh3TDWE/edit?usp=sharing) and [Video](https://www.youtube.com/watch?v=Kf7ykYeq88E&list=PLhsGtpY8ipdZL4lExJA8KC0zCkaxwfs8R&index=8&t=0s)
   
 * Fall 2018
   - [Research Report](https://github.com/AguaClara/horizontal_filtration/blob/master/Fall%202018/Horizontal%20Filtration%20Fall%202018%20Report.md)
